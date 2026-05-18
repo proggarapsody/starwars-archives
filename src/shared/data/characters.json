@@ -1,0 +1,3794 @@
+[
+  {
+    "id": "ackbar",
+    "name": "Ackbar",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/2/29/Admiral_Ackbar_RH.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 50,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 34,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 180
+    },
+    "mass": {
+      "kg": 83
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "orange",
+      "skinColor": "brown mottle"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "mon-cala",
+      "name": "Mon Cala",
+      "type": "planet",
+      "href": "/api/v1/planets/mon-cala"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Mon Cala monarchy",
+      "Mon Calamari Guard",
+      "Galactic Republic",
+      "Galactic Empire",
+      "Alliance to Restore the Republic",
+      "Alliance Fleet",
+      "Alliance High Command",
+      "New Republic",
+      "New Republic Defense Fleet",
+      "Resistance",
+      "Resistance High Command",
+      "Resistance Fleet Command",
+      "Resistance navy"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "adi-gallia",
+    "name": "Adi Gallia",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/b/ba/AdiGallia.jpg",
+    "side": "none",
+    "gender": "female",
+    "birthYear": null,
+    "deathYear": {
+      "value": 20,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 184
+    },
+    "mass": {
+      "kg": 50
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "blue",
+      "skinColor": "dark (with blue patches)"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "coruscant",
+      "name": "Coruscant",
+      "type": "planet",
+      "href": "/api/v1/planets/coruscant"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Jedi assault team",
+      "Galactic Republic",
+      "Grand Army of the Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "anakin-skywalker",
+    "name": "Anakin Skywalker",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/6f/Anakin_Skywalker_RotS.png",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 41,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 4,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 203
+    },
+    "mass": {
+      "kg": 120
+    },
+    "appearance": {
+      "hairColor": "blond",
+      "eyeColor": "blue, yellow (dark side)",
+      "skinColor": "light, later pale"
+    },
+    "cybernetics": "Cybernetic right arm; later prosthetic arms and legs, and a life-support system",
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "501st Legion",
+      "Sith",
+      "Galactic Empire",
+      "Imperial High Command"
+    ],
+    "masters": [
+      "Qui-Gon Jinn (informal Jedi Master)",
+      "Obi-Wan Kenobi (Jedi Master)",
+      "Darth Sidious (Sith Master)",
+      "Yoda (Force spirit teacher)"
+    ],
+    "apprentices": [
+      "Ahsoka Tano (Padawan)",
+      "Inquisitorius"
+    ]
+  },
+  {
+    "id": "arvel-crynyd",
+    "name": "Arvel Crynyd",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/de/Arvel-crynyd.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 4,
+      "era": "ABY"
+    },
+    "height": null,
+    "mass": null,
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "brown",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": null,
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Alliance to Restore the Republic",
+      "Green Squadron"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "ayla-secura",
+    "name": "Ayla Secura",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/f9/Aayla.jpg",
+    "side": "none",
+    "gender": "female",
+    "birthYear": {
+      "value": 48,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 170
+    },
+    "mass": {
+      "kg": 55
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "hazel",
+      "skinColor": "blue"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "ryloth",
+      "name": "Ryloth",
+      "type": "planet",
+      "href": "/api/v1/planets/ryloth"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Galactic Republic"
+    ],
+    "masters": [
+      "Quinlan Vos (Jedi Master)",
+      "Volfe Karkko (Dark Jedi master) (briefly)",
+      "Tholme (Jedi Master)"
+    ],
+    "apprentices": []
+  },
+  {
+    "id": "bail-prestor-organa",
+    "name": "Bail Prestor Organa",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/50/Bail_Organa_Mug.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 67,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 0,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 191
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "brown",
+      "skinColor": "tan"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "alderaan",
+      "name": "Alderaan",
+      "type": "planet",
+      "href": "/api/v1/planets/alderaan"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "House of Organa",
+      "High Court of Alderaan",
+      "Galactic Republic",
+      "Galactic Senate",
+      "Loyalist Committee",
+      "Security Committee",
+      "Delegation of 2000",
+      "Galactic Empire",
+      "Imperial Senate",
+      "Finance Committee",
+      "Appropriations Committee",
+      "Intelligence Oversight Committee",
+      "Military Oversight Committee",
+      "Alderaanian Resistance",
+      "Kota's Militia",
+      "Alliance to Restore the Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "barriss-offee",
+    "name": "Barriss Offee",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/37/Barrisprofile2.jpg",
+    "side": "none",
+    "gender": "female",
+    "birthYear": {
+      "value": 40,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 166
+    },
+    "mass": {
+      "kg": 50
+    },
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "blue",
+      "skinColor": "yellow (with black tattoos)"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "mirial",
+      "name": "Mirial",
+      "type": "planet",
+      "href": "/api/v1/planets/mirial"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi assault team",
+      "Galactic Republic",
+      "Grand Army of the Republic"
+    ],
+    "masters": [
+      "Luminara Unduli"
+    ],
+    "apprentices": []
+  },
+  {
+    "id": "bb8",
+    "name": "BB8",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/68/BB8-Fathead.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 67
+    },
+    "mass": {
+      "kg": 18
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black",
+      "skinColor": null
+    },
+    "cybernetics": null,
+    "homeworld": null,
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "New Republic",
+      "Rapier Squadron",
+      "Resistance",
+      "Black Squadron"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "ben-quadinaros",
+    "name": "Ben Quadinaros",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/7f/Cropped_Quadinaros.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 163
+    },
+    "mass": {
+      "kg": 65
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "orange",
+      "skinColor": "yellow"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "tund",
+      "name": "Tund",
+      "type": "planet",
+      "href": "/api/v1/planets/tund"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "beru-whitesun-lars",
+    "name": "Beru Whitesun lars",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/cc/BeruCardTrader.png",
+    "side": "none",
+    "gender": "female",
+    "birthYear": {
+      "value": 47,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 0,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 165
+    },
+    "mass": {
+      "kg": 75
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "blue",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "bib-fortuna",
+    "name": "Bib Fortuna",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/33/BibFortunaHS-ROTJ.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 4,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 200
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "pink",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "ryloth",
+      "name": "Ryloth",
+      "type": "planet",
+      "href": "/api/v1/planets/ryloth"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Fortuna family",
+      "Jabba Desilijic Tiure's criminal empire"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "biggs-darklighter",
+    "name": "Biggs Darklighter",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/0/00/BiggsHS-ANH.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 24,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 0,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 183
+    },
+    "mass": {
+      "kg": 84
+    },
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "hazel",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Empire",
+      "Prefsbelt Fleet Camp",
+      "Alliance to Restore the Republic",
+      "Red Squadron",
+      "Massassi Group"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "boba-fett",
+    "name": "Boba Fett",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/79/Boba_Fett_HS_Fathead.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 183
+    },
+    "mass": {
+      "kg": 78
+    },
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "brown",
+      "skinColor": "tan"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "kamino",
+      "name": "Kamino",
+      "type": "planet",
+      "href": "/api/v1/planets/kamino"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Confederacy of Independent Systems",
+      "Boba Fett's syndicate",
+      "Jabba Desilijic Tiure's criminal empire",
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "bossk",
+    "name": "Bossk",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/1d/Bossk.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 53,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 190
+    },
+    "mass": {
+      "kg": 113
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "orange",
+      "skinColor": "green"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "trandosha",
+      "name": "Trandosha",
+      "type": "planet",
+      "href": "/api/v1/planets/trandosha"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Bounty Hunters' Guild",
+      "Boba Fett's syndicate",
+      "Galactic Empire",
+      "Chelli Aphra's crew"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "c-3po",
+    "name": "C-3PO",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/3f/C-3PO_TLJ_Card_Trader_Award_Card.png",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 112,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 171
+    },
+    "mass": {
+      "kg": 75
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "yellow",
+      "skinColor": "gold"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Skywalker family",
+      "Confederacy of Independent Systems",
+      "Royal House of Naboo",
+      "Galactic Republic",
+      "House of Organa",
+      "Galactic Empire",
+      "Alliance to Restore the Republic",
+      "Massassi Group",
+      "Leia Organa's team",
+      "Pathfinders",
+      "Endor strike team",
+      "Bright Tree tribe",
+      "New Republic",
+      "Resistance",
+      "Resistance spy droid network"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "captain-phasma",
+    "name": "Captain Phasma",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/0/02/Phasma.png",
+    "side": "dark",
+    "gender": "female",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 200
+    },
+    "mass": {
+      "kg": 76
+    },
+    "appearance": {
+      "hairColor": "gold",
+      "eyeColor": "blue",
+      "skinColor": "pale"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "parnassos",
+      "name": "Parnassos",
+      "type": "planet",
+      "href": "/api/v1/planets/parnassos"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Unidentified clan",
+      "Scyre",
+      "First Order",
+      "First Order military"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "chewbacca",
+    "name": "Chewbacca",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/48/Chewbacca_TLJ.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 200,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 228
+    },
+    "mass": {
+      "kg": 112
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "blue",
+      "skinColor": null
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "kashyyyk",
+      "name": "Kashyyyk",
+      "type": "planet",
+      "href": "/api/v1/planets/kashyyyk"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Republic",
+      "Alliance to Restore the Republic",
+      "Leia Organa's team",
+      "Pathfinders",
+      "Endor strike team",
+      "Bright Tree tribe",
+      "New Republic",
+      "Resistance"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "cliegg-lars",
+    "name": "Cliegg Lars",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/36/ClieggLarsHS-SWE.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 82,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 22,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 183
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "light brown",
+      "eyeColor": "blue",
+      "skinColor": "fair"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Lars family"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "corde",
+    "name": "Cordé",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/b/b6/Cord%C3%A9_-_SW_Card_Trader.png",
+    "side": "none",
+    "gender": "female",
+    "birthYear": null,
+    "deathYear": {
+      "value": 22,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 157
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "brown",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Royal House of Naboo",
+      "Naboo Royal Handmaidens",
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "darth-maul",
+    "name": "Darth Maul",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/50/Darth_Maul_profile.png",
+    "side": "dark",
+    "gender": "male",
+    "birthYear": {
+      "value": 54,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 2,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 175
+    },
+    "mass": {
+      "kg": 80
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "yellow and red",
+      "skinColor": "red (black tattoos)"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "dathomir",
+      "name": "Dathomir",
+      "type": "planet",
+      "href": "/api/v1/planets/dathomir"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Nightbrothers",
+      "Sith",
+      "Cad Bane's group",
+      "Death Watch",
+      "Shadow Collective"
+    ],
+    "masters": [
+      "Darth Sidious"
+    ],
+    "apprentices": [
+      "Savage Opress"
+    ]
+  },
+  {
+    "id": "darth-vader",
+    "name": "Darth Vader",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/fr.starwars/images/3/32/Dark_Vador.jpg",
+    "side": "dark",
+    "gender": "male",
+    "birthYear": {
+      "value": 41,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 4,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 203
+    },
+    "mass": {
+      "kg": 120
+    },
+    "appearance": {
+      "hairColor": "blond",
+      "eyeColor": "blue, yellow (dark side)",
+      "skinColor": "light, later pale"
+    },
+    "cybernetics": "Cybernetic right arm; later prosthetic arms and legs, and a life-support system",
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "501st Legion",
+      "Sith",
+      "Galactic Empire",
+      "Imperial High Command"
+    ],
+    "masters": [
+      "Qui-Gon Jinn (informal Jedi Master)",
+      "Obi-Wan Kenobi (Jedi Master)",
+      "Darth Sidious (Sith Master)",
+      "Yoda (Force spirit teacher)"
+    ],
+    "apprentices": [
+      "Ahsoka Tano (Padawan)",
+      "Inquisitorius"
+    ]
+  },
+  {
+    "id": "dexter-jettster",
+    "name": "Dexter Jettster",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/6c/DexterHS-SWE.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 188
+    },
+    "mass": {
+      "kg": 102
+    },
+    "appearance": {
+      "hairColor": "brown-black",
+      "eyeColor": "yellow",
+      "skinColor": "tan-brown"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "ojom",
+      "name": "Ojom",
+      "type": "planet",
+      "href": "/api/v1/planets/ojom"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Dex's Diner"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "dooku",
+    "name": "Dooku",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/b/b8/Dooku_Headshot.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 102,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 193
+    },
+    "mass": {
+      "kg": 86
+    },
+    "appearance": {
+      "hairColor": "white",
+      "eyeColor": "brown, yellowred (vision dark side)",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "serenno",
+      "name": "Serenno",
+      "type": "planet",
+      "href": "/api/v1/planets/serenno"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "House of Dooku",
+      "Lost Twenty",
+      "Sith",
+      "Independent Movement for Self-Determination",
+      "Confederacy of Independent Systems"
+    ],
+    "masters": [
+      "Yoda (Jedi)",
+      "Darth Sidious (Sith)"
+    ],
+    "apprentices": [
+      "Qui-Gon Jinn (Jedi)",
+      "Grievous (lightsaber trainee)",
+      "Asajj Ventress",
+      "Savage Opress (Sith)",
+      "Quinlan Vos (Sith)"
+    ]
+  },
+  {
+    "id": "dorme",
+    "name": "Dormé",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/18/Dormesenate.jpg",
+    "side": "none",
+    "gender": "female",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 165
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "brown",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Royal House of Naboo",
+      "Naboo Royal Handmaidens",
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "dud-bolt",
+    "name": "Dud Bolt",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/73/Dud_Bolt_Podracer_Cockpit.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 94
+    },
+    "mass": {
+      "kg": 45
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "yellow",
+      "skinColor": "blue-gray, yellow, white"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "vulpter",
+      "name": "Vulpter",
+      "type": "planet",
+      "href": "/api/v1/planets/vulpter"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "eeth-koth",
+    "name": "Eeth Koth",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4e/EethKothCardTrader.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 171
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "brown",
+      "skinColor": "tan"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "nar-shaddaa",
+      "name": "Nar Shaddaa",
+      "type": "planet",
+      "href": "/api/v1/planets/nar-shaddaa"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Jedi assault team",
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "finis-valorum",
+    "name": "Finis Valorum",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/51/ValorumPortrait-SWE.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 91,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 170
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "white",
+      "eyeColor": "blue",
+      "skinColor": "fair"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "coruscant",
+      "name": "Coruscant",
+      "type": "planet",
+      "href": "/api/v1/planets/coruscant"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "House Valorum",
+      "Galactic Republic",
+      "Galactic Senate"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "finn",
+    "name": "Finn",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/a/af/Finn_TLJ_Collector%27s_Edition.png",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 11,
+      "era": "ABY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 178
+    },
+    "mass": {
+      "kg": 73
+    },
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "brown",
+      "skinColor": "dark"
+    },
+    "cybernetics": null,
+    "homeworld": null,
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "First Order",
+      "FN Corps",
+      "Resistance"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "gasgano",
+    "name": "Gasgano",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/57/GasganoHS-SWE.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 122
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black",
+      "skinColor": "white, brown, purple"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "troiken",
+      "name": "Troiken",
+      "type": "planet",
+      "href": "/api/v1/planets/troiken"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "greedo",
+    "name": "Greedo",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/c6/Greedo.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 44,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 0,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 174
+    },
+    "mass": {
+      "kg": 74
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "purple",
+      "skinColor": "green"
+    },
+    "cybernetics": null,
+    "homeworld": null,
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Trade Federation"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "gregar-typho",
+    "name": "Gregar Typho",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/52/Gregar_Typho.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 185
+    },
+    "mass": {
+      "kg": 85
+    },
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "brown",
+      "skinColor": "dark"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Royal House of Naboo",
+      "Royal Naboo Security Forces",
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "grievous",
+    "name": "Grievous",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/de/Grievoushead.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 216
+    },
+    "mass": {
+      "kg": 159
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "gold",
+      "skinColor": "red"
+    },
+    "cybernetics": "Completely cybernetic except for brain, some vital organs, and parts of his head",
+    "homeworld": {
+      "id": "kalee",
+      "name": "Kalee",
+      "type": "planet",
+      "href": "/api/v1/planets/kalee"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Confederacy of Independent Systems",
+      "Separatist Droid Army"
+    ],
+    "masters": [
+      "Dooku (lightsaber combat)"
+    ],
+    "apprentices": []
+  },
+  {
+    "id": "han-solo",
+    "name": "Han Solo",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/e2/TFAHanSolo.png",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 29,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 34,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 180
+    },
+    "mass": {
+      "kg": 80
+    },
+    "appearance": {
+      "hairColor": "brown, later gray",
+      "eyeColor": "hazel",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "corellia",
+      "name": "Corellia",
+      "type": "planet",
+      "href": "/api/v1/planets/corellia"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Empire",
+      "Jabba Desilijic Tiure's criminal empire",
+      "Alliance to Restore the Republic",
+      "Leia Organa's team",
+      "Endor strike team",
+      "Kingdom of Han",
+      "Bright Tree tribe",
+      "New Republic",
+      "New Republic Pilots Commission",
+      "Han Solo's shipping company",
+      "Resistance"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "ig-88",
+    "name": "IG-88",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/f2/IG-88.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 15,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 196
+    },
+    "mass": {
+      "kg": 140
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "red",
+      "skinColor": "metal"
+    },
+    "cybernetics": null,
+    "homeworld": null,
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "jabba-desilijic-tiure",
+    "name": "Jabba Desilijic Tiure",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/7f/Jabba_SWSB.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 600,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 4,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 390
+    },
+    "mass": {
+      "kg": 1358
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "orange",
+      "skinColor": "green and tan"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Hutt Clan",
+      "Grand Hutt Council",
+      "Jabba Desilijic Tiure's criminal empire",
+      "Galactic Republic",
+      "Shadow Collective",
+      "Crymorah syndicate",
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "jango-fett",
+    "name": "Jango Fett",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/56/JangoInfobox.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 66,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 22,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 183
+    },
+    "mass": {
+      "kg": 79
+    },
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "brown",
+      "skinColor": "tan"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "concord-dawn",
+      "name": "Concord Dawn",
+      "type": "planet",
+      "href": "/api/v1/planets/concord-dawn"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Confederacy of Independent Systems",
+      "Tyranus"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "jar-jar-binks",
+    "name": "Jar Jar Binks",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/d2/Jar_Jar_aotc.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 52,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 196
+    },
+    "mass": {
+      "kg": 66
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "yellow",
+      "skinColor": "orange and white"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Gungan High Council",
+      "Officer corps",
+      "Galactic Republic",
+      "Naboo delegation",
+      "Galactic Empire",
+      "Imperial Senate"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "jek-tono-porkins",
+    "name": "Jek Tono Porkins",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/JekPorkins-DB.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 0,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 180
+    },
+    "mass": {
+      "kg": 110
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "blue",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "bestine",
+      "name": "Bestine",
+      "type": "planet",
+      "href": "/api/v1/planets/bestine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Alliance to Restore the Republic",
+      "Tierfon Yellow Aces",
+      "Red Squadron",
+      "Massassi Group"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "jocasta-nu",
+    "name": "Jocasta Nu",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/15/Jocasta_Nu_SWE.png",
+    "side": "none",
+    "gender": "female",
+    "birthYear": null,
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 169
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "white",
+      "eyeColor": "blue",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "coruscant",
+      "name": "Coruscant",
+      "type": "planet",
+      "href": "/api/v1/planets/coruscant"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "ki-adi-mundi",
+    "name": "Ki-Adi-Mundi",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/9/9e/KiAdiMundi.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 92,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 198
+    },
+    "mass": {
+      "kg": 82
+    },
+    "appearance": {
+      "hairColor": "white",
+      "eyeColor": "yellow",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "cerea",
+      "name": "Cerea",
+      "type": "planet",
+      "href": "/api/v1/planets/cerea"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Jedi assault team",
+      "Galactic Republic",
+      "Galactic Marines"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "kit-fisto",
+    "name": "Kit Fisto",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4c/Kit_Fisto_Card_Trader.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 196
+    },
+    "mass": {
+      "kg": 87
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black",
+      "skinColor": "green"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "glee-anselm",
+      "name": "Glee Anselm",
+      "type": "planet",
+      "href": "/api/v1/planets/glee-anselm"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Jedi assault team",
+      "Mace Windu's squad",
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": [
+      "Nahdar Vebb"
+    ]
+  },
+  {
+    "id": "lama-su",
+    "name": "Lama Su",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/73/Lama_Su.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 229
+    },
+    "mass": {
+      "kg": 88
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black with white pupils",
+      "skinColor": "white"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "kamino",
+      "name": "Kamino",
+      "type": "planet",
+      "href": "/api/v1/planets/kamino"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "lando-calrissian",
+    "name": "Lando Calrissian",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/8/8f/Lando_ROTJ.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 30,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 177
+    },
+    "mass": {
+      "kg": 79
+    },
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "brown",
+      "skinColor": "dark"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "socorro",
+      "name": "Socorro",
+      "type": "planet",
+      "href": "/api/v1/planets/socorro"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Cloud City colony",
+      "Galactic Empire",
+      "Alliance to Restore the Republic",
+      "Gold Squadron",
+      "New Republic",
+      "New Republic military",
+      "Uprising",
+      "Calrissian Enterprises"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "leia-organa",
+    "name": "Leia Organa",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/fc/Leia_Organa_TLJ.png",
+    "side": "light",
+    "gender": "female",
+    "birthYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 150
+    },
+    "mass": {
+      "kg": 51
+    },
+    "appearance": {
+      "hairColor": "brown, later graying",
+      "eyeColor": "brown",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "alderaan",
+      "name": "Alderaan",
+      "type": "planet",
+      "href": "/api/v1/planets/alderaan"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Elder Houses",
+      "House of Organa",
+      "Galactic Empire",
+      "Imperial Senate",
+      "Alliance to Restore the Republic",
+      "Massassi Group",
+      "Leia Organa's team",
+      "Endor strike team",
+      "Alliance High Command",
+      "Bright Tree tribe",
+      "New Republic",
+      "Populists",
+      "Resistance"
+    ],
+    "masters": [
+      "Luke Skywalker"
+    ],
+    "apprentices": []
+  },
+  {
+    "id": "lobot",
+    "name": "Lobot",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/9/96/SWE_Lobot.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 37,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 175
+    },
+    "mass": {
+      "kg": 79
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "blue",
+      "skinColor": "light"
+    },
+    "cybernetics": "AJ^6 cyborg construct",
+    "homeworld": {
+      "id": "bespin",
+      "name": "Bespin",
+      "type": "planet",
+      "href": "/api/v1/planets/bespin"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Empire",
+      "Imperial Military",
+      "Cloud City",
+      "Alliance to Restore the Republic",
+      "New Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "luke-skywalker",
+    "name": "Luke Skywalker",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 34,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 172
+    },
+    "mass": {
+      "kg": 73
+    },
+    "appearance": {
+      "hairColor": "blond",
+      "eyeColor": "blue",
+      "skinColor": "light"
+    },
+    "cybernetics": "Prosthetic right hand",
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Alliance to Restore the Republic",
+      "Red Squadron",
+      "Rogue Squadron",
+      "Massassi Group",
+      "Leia Organa's team",
+      "Endor strike team",
+      "Jedi Order",
+      "Bright Tree tribe",
+      "New Republic",
+      "Resistance"
+    ],
+    "masters": [
+      "Obi-Wan Kenobi",
+      "Yoda"
+    ],
+    "apprentices": [
+      "Leia Organa",
+      "Ben Solo (along with a dozen apprentices)",
+      "Rey"
+    ]
+  },
+  {
+    "id": "luminara-unduli",
+    "name": "Luminara Unduli",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/2/21/LuminaraHS-SWE_%28new%29.png",
+    "side": "none",
+    "gender": "female",
+    "birthYear": {
+      "value": 58,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 66,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 176
+    },
+    "mass": {
+      "kg": 56.2
+    },
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "royal-blue",
+      "skinColor": "green (with black tattoos)"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "mirial",
+      "name": "Mirial",
+      "type": "planet",
+      "href": "/api/v1/planets/mirial"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi assault team",
+      "Galactic Republic",
+      "41st Elite Corps"
+    ],
+    "masters": [],
+    "apprentices": [
+      "Barriss Offee"
+    ]
+  },
+  {
+    "id": "mace-windu",
+    "name": "Mace Windu",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/5/58/Mace_ROTS.png",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 72,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 192
+    },
+    "mass": {
+      "kg": 84
+    },
+    "appearance": {
+      "hairColor": "black; later none",
+      "eyeColor": "brown",
+      "skinColor": "dark"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "haruun-kal",
+      "name": "Haruun Kal",
+      "type": "planet",
+      "href": "/api/v1/planets/haruun-kal"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Jedi assault team",
+      "Mace Windu's squad",
+      "Galactic Republic",
+      "Grand Army of the Republic"
+    ],
+    "masters": [
+      "Cyslin Myr"
+    ],
+    "apprentices": [
+      "Depa Billaba"
+    ]
+  },
+  {
+    "id": "mas-amedda",
+    "name": "Mas Amedda",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/37/Mas_Amedda_SWCT.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 196
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "blue",
+      "skinColor": "blue"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "champala",
+      "name": "Champala",
+      "type": "planet",
+      "href": "/api/v1/planets/champala"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Republic",
+      "Galactic Senate",
+      "Office of the Chancellor",
+      "Strategic Advisory Cell",
+      "Galactic Empire",
+      "Imperial Ruling Council",
+      "Coruscant provisional government"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "mon-mothma",
+    "name": "Mon Mothma",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/b/b7/MP-MonMothma.png",
+    "side": "none",
+    "gender": "female",
+    "birthYear": {
+      "value": 46,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 173
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "auburn",
+      "eyeColor": "pale blue-green",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "chandrila",
+      "name": "Chandrila",
+      "type": "planet",
+      "href": "/api/v1/planets/chandrila"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Republic",
+      "Loyalist Committee",
+      "Delegation of 2,000",
+      "Galactic Empire",
+      "Imperial Senate",
+      "Mon Mothma's rebel cell",
+      "Alliance to Restore the Republic",
+      "New Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "nien-nunb",
+    "name": "Nien Nunb",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/14/Old_nien_nunb_-_profile.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 160
+    },
+    "mass": {
+      "kg": 68
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "sullust",
+      "name": "Sullust",
+      "type": "planet",
+      "href": "/api/v1/planets/sullust"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "House of Organa",
+      "Alliance to Restore the Republic",
+      "Gold Squadron",
+      "New Republic",
+      "Resistance",
+      "Red Squadron"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "nute-gunray",
+    "name": "Nute Gunray",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/fd/Nute_Gunray_SWE.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 191
+    },
+    "mass": {
+      "kg": 90
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "red",
+      "skinColor": "green"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "neimoidia",
+      "name": "Neimoidia",
+      "type": "planet",
+      "href": "/api/v1/planets/neimoidia"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Trade Federation",
+      "Confederacy of Independent Systems",
+      "Separatist Council"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "obi-wan-kenobi",
+    "name": "Obi-Wan Kenobi",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4e/ObiWanHS-SWE.jpg",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 57,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 0,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 182
+    },
+    "mass": {
+      "kg": 81
+    },
+    "appearance": {
+      "hairColor": "light brown, later white",
+      "eyeColor": "gray-blue",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "stewjon",
+      "name": "Stewjon",
+      "type": "planet",
+      "href": "/api/v1/planets/stewjon"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Galactic Republic",
+      "212th Attack Battalion",
+      "Alliance to Restore the Republic"
+    ],
+    "masters": [
+      "Qui-Gon Jinn",
+      "Yoda"
+    ],
+    "apprentices": [
+      "Anakin Skywalker",
+      "Luke Skywalker"
+    ]
+  },
+  {
+    "id": "owen-lars",
+    "name": "Owen Lars",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/OwenCardTrader.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 52,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 0,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 170
+    },
+    "mass": {
+      "kg": 120
+    },
+    "appearance": {
+      "hairColor": "brown, later gray",
+      "eyeColor": "blue",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Lars family"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "padme-amidala",
+    "name": "Padmé Amidala",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/b/b2/Padmegreenscrshot.jpg",
+    "side": "light",
+    "gender": "female",
+    "birthYear": {
+      "value": 46,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 165
+    },
+    "mass": {
+      "kg": 45
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "light brown",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Apprentice Legislators",
+      "Legislative Youth Program",
+      "Royal House of Naboo",
+      "Galactic Republic",
+      "Loyalist Committee",
+      "Delegation of 2,000",
+      "Galactic Empire",
+      "Imperial Senate"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "palpatine",
+    "name": "Palpatine",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/d8/Emperor_Sidious.png",
+    "side": "dark",
+    "gender": "male",
+    "birthYear": {
+      "value": 82,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 4,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 178
+    },
+    "mass": {
+      "kg": 75
+    },
+    "appearance": {
+      "hairColor": "red, later gray and white",
+      "eyeColor": "blue; yellow/red (dark side)",
+      "skinColor": "fair, later pale"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "House Palpatine",
+      "Damask Holdings",
+      "Royal House of Naboo",
+      "Sith",
+      "Order of the Sith Lords",
+      "Naboo Diplomatic Corps",
+      "Galactic Republic",
+      "Galactic Senate",
+      "Trade Federation",
+      "Confederacy of Independent Systems",
+      "Galactic Empire",
+      "Dark Empire"
+    ],
+    "masters": [
+      "Darth Plagueis"
+    ],
+    "apprentices": [
+      "Darth Maul",
+      "A Nikto",
+      "Vergere",
+      "Darth Tyranus",
+      "Garth Ezzar",
+      "Darth Vader",
+      "Ferus Olin (informal)",
+      "Mara Jade",
+      "Cronal",
+      "Lumiya",
+      "Luke Skywalker (briefly)"
+    ]
+  },
+  {
+    "id": "plo-koon",
+    "name": "Plo Koon",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/b/bf/PloKoonCardTrader.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 22,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 188
+    },
+    "mass": {
+      "kg": 80
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black",
+      "skinColor": "orange"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "dorin",
+      "name": "Dorin",
+      "type": "planet",
+      "href": "/api/v1/planets/dorin"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Jedi assault team",
+      "Galactic Republic",
+      "104th Battalion"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "poe-dameron",
+    "name": "Poe Dameron",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/79/Poe_Dameron_TLJ.png",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 2,
+      "era": "ABY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 172
+    },
+    "mass": {
+      "kg": 80
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "brown",
+      "skinColor": "tan"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "yavin-4",
+      "name": "Yavin 4",
+      "type": "planet",
+      "href": "/api/v1/planets/yavin-4"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "New Republic",
+      "Rapier Squadron",
+      "Resistance",
+      "Squadron",
+      "Black Squadron",
+      "Blue Squadron",
+      "Red Squadron",
+      "\"Reb\" Squadron"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "poggle-the-lesser",
+    "name": "Poggle the Lesser",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/9/93/Poggle_the_lesser_-_sw_card_trader.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 175
+    },
+    "mass": {
+      "kg": 80
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "yellow",
+      "skinColor": "green"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "geonosis",
+      "name": "Geonosis",
+      "type": "planet",
+      "href": "/api/v1/planets/geonosis"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Stalgasin hive",
+      "Karina the Great's empire",
+      "Techno Union",
+      "Confederacy of Independent Systems",
+      "Separatist Council",
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "quarsh-panaka",
+    "name": "Quarsh Panaka",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/72/PanakaHS-TPM.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 62,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 3,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 183
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "black, later with flecks of gray",
+      "eyeColor": "brown",
+      "skinColor": "dark"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Royal House of Naboo",
+      "Royal Naboo Security Forces",
+      "Galactic Republic",
+      "Republic Special Task Force",
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "qui-gon-jinn",
+    "name": "Qui-Gon Jinn",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/f6/Qui-Gon_Jinn_Headshot_TPM.jpg",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 92,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 32,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 193
+    },
+    "mass": {
+      "kg": 89
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "blue",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "coruscant",
+      "name": "Coruscant",
+      "type": "planet",
+      "href": "/api/v1/planets/coruscant"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Galactic Republic"
+    ],
+    "masters": [
+      "Dooku"
+    ],
+    "apprentices": [
+      "Obi-Wan Kenobi",
+      "Anakin Skywalker (informally)",
+      "Yoda (as Force spirit)"
+    ]
+  },
+  {
+    "id": "r2-d2",
+    "name": "R2-D2",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/ArtooTFA2-Fathead.png",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 33,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 109
+    },
+    "mass": {
+      "kg": 32
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "red",
+      "skinColor": "white, blue"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Royal House of Naboo",
+      "Galactic Republic",
+      "501st Legion",
+      "R2-D2's battle droid squadron",
+      "D-Squad",
+      "House of Organa",
+      "Galactic Empire",
+      "Alliance to Restore the Republic",
+      "Massassi Group",
+      "Red Squadron",
+      "Leia Organa's team",
+      "Endor strike team",
+      "Bright Tree tribe",
+      "Resistance"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "r4-p17",
+    "name": "R4-P17",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/6b/R4-P17.jpg",
+    "side": "none",
+    "gender": "female",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 109
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "red, blue",
+      "skinColor": "silver, red"
+    },
+    "cybernetics": null,
+    "homeworld": null,
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "r5-d4",
+    "name": "R5-D4",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/cb/R5-D4_Sideshow.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 97
+    },
+    "mass": {
+      "kg": 32
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "red",
+      "skinColor": "white, red"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Alliance to Restore the Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "ratts-tyerell",
+    "name": "Ratts Tyerell",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/68/RattsHS.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 32,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 79
+    },
+    "mass": {
+      "kg": 15
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black",
+      "skinColor": "blue, white"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "aleen",
+      "name": "Aleen",
+      "type": "planet",
+      "href": "/api/v1/planets/aleen"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "raymus-antilles",
+    "name": "Raymus Antilles",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/8/80/Raymus_card_trader.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 0,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 188
+    },
+    "mass": {
+      "kg": 79
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "brown",
+      "skinColor": "fair"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "alderaan",
+      "name": "Alderaan",
+      "type": "planet",
+      "href": "/api/v1/planets/alderaan"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "House of Organa",
+      "Alliance to Restore the Republic",
+      "Alliance Military"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "rey",
+    "name": "Rey",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/f/f8/ReyTLJEntertainmentWeeklyNovember.png",
+    "side": "light",
+    "gender": "female",
+    "birthYear": {
+      "value": 15,
+      "era": "ABY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 170
+    },
+    "mass": {
+      "kg": 54
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "hazel",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "jakku",
+      "name": "Jakku",
+      "type": "planet",
+      "href": "/api/v1/planets/jakku"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Resistance",
+      "Jedi Order"
+    ],
+    "masters": [
+      "Luke Skywalker"
+    ],
+    "apprentices": []
+  },
+  {
+    "id": "ric-olie",
+    "name": "Ric Olié",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4c/RicOlieHS-SWE.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 183
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "light brown",
+      "eyeColor": "bluish green",
+      "skinColor": "fair"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Royal House of Naboo",
+      "Royal Naboo Security Forces",
+      "Bravo Flight"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "roos-tarpals",
+    "name": "Roos Tarpals",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/ca/TarpalsHS.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 20,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 224
+    },
+    "mass": {
+      "kg": 82
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "orange",
+      "skinColor": "purple and white"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Gungan Grand Army"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "rugor-nass",
+    "name": "Rugor Nass",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/d8/Bossnass.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 206
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "yellow",
+      "skinColor": "green"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Gungan High Council"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "saesee-tiin",
+    "name": "Saesee Tiin",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/68/Saesee_Tiin_Card_Trader.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 193
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "yellow",
+      "skinColor": "orange and pink"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "iktotch",
+      "name": "Iktotch",
+      "type": "planet",
+      "href": "/api/v1/planets/iktotch"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Jedi assault team",
+      "Galactic Republic",
+      "Grand Army of the Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "san-hill",
+    "name": "San Hill",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/6f/SanHill_hs.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 191
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "yellow",
+      "skinColor": "pale"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "scipio",
+      "name": "Scipio",
+      "type": "planet",
+      "href": "/api/v1/planets/scipio"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "InterGalactic Banking Clan",
+      "Muunilinst Banking Clan",
+      "Confederacy of Independent Systems",
+      "Separatist Council"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "sebulba",
+    "name": "Sebulba",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/1/14/Sebulba_Headshot_Closeup.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 112
+    },
+    "mass": {
+      "kg": 40
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "yellow",
+      "skinColor": "purple and beige"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "malastare",
+      "name": "Malastare",
+      "type": "planet",
+      "href": "/api/v1/planets/malastare"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "shaak-ti",
+    "name": "Shaak Ti",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/2/20/Shaak_Ti_closeup-SWE.png",
+    "side": "none",
+    "gender": "female",
+    "birthYear": {
+      "value": 59,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 187
+    },
+    "mass": {
+      "kg": 57
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black",
+      "skinColor": "red (with white markings and gray stripes)"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "shili",
+      "name": "Shili",
+      "type": "planet",
+      "href": "/api/v1/planets/shili"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Jedi assault team",
+      "Galactic Republic",
+      "Grand Army of the Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "shmi-skywalker",
+    "name": "Shmi Skywalker",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/a/ad/ShmiSkywalkerDatabank_%28Repurposed%29.jpeg",
+    "side": "none",
+    "gender": "female",
+    "birthYear": {
+      "value": 72,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 22,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 163
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "brown",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "tatooine",
+      "name": "Tatooine",
+      "type": "planet",
+      "href": "/api/v1/planets/tatooine"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Skywalker family",
+      "Lars family"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "sly-moore",
+    "name": "Sly Moore",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/ec/SlyMooreIsWatchingYouPoop-OfficialPix.jpg",
+    "side": "none",
+    "gender": "female",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 178
+    },
+    "mass": {
+      "kg": 48
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "white",
+      "skinColor": "pale"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "umbara",
+      "name": "Umbara",
+      "type": "planet",
+      "href": "/api/v1/planets/umbara"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Republic",
+      "Office of the Chancellor",
+      "Galactic Empire"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "tarfful",
+    "name": "Tarfful",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/3/37/Tarfful_RotS.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 232
+    },
+    "mass": {
+      "kg": 136
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "blue",
+      "skinColor": "brown"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "kashyyyk",
+      "name": "Kashyyyk",
+      "type": "planet",
+      "href": "/api/v1/planets/kashyyyk"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "taun-we",
+    "name": "Taun We",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/9/9c/TaunWe.jpg",
+    "side": "none",
+    "gender": "female",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 213
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black with white pupils",
+      "skinColor": "white"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "kamino",
+      "name": "Kamino",
+      "type": "planet",
+      "href": "/api/v1/planets/kamino"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "tion-medon",
+    "name": "Tion Medon",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/43/Tion_Medon.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 206
+    },
+    "mass": {
+      "kg": 80
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black",
+      "skinColor": "gray (with red markings)"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "utapau",
+      "name": "Utapau",
+      "type": "planet",
+      "href": "/api/v1/planets/utapau"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "wat-tambor",
+    "name": "Wat Tambor",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/a/a5/Wat_Tambor.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 19,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 198
+    },
+    "mass": {
+      "kg": 48
+    },
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "black",
+      "skinColor": "green"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "skako",
+      "name": "Skako",
+      "type": "planet",
+      "href": "/api/v1/planets/skako"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Techno Union",
+      "Baktoid Armor Workshop",
+      "Confederacy of Independent Systems",
+      "Separatist Council"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "watto",
+    "name": "Watto",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/WattoHS.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": null,
+    "height": {
+      "cm": 137
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "black",
+      "eyeColor": "orange",
+      "skinColor": "blue"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "toydaria",
+      "name": "Toydaria",
+      "type": "planet",
+      "href": "/api/v1/planets/toydaria"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Watto's shop",
+      "Mos Espa"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "wedge-antilles",
+    "name": "Wedge Antilles",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/60/WedgeHelmetless-ROTJHD.jpg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 21,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 170
+    },
+    "mass": {
+      "kg": 77
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "brown",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "corellia",
+      "name": "Corellia",
+      "type": "planet",
+      "href": "/api/v1/planets/corellia"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Empire",
+      "Alliance to Restore the Republic",
+      "Phoenix Cell",
+      "Massassi Group",
+      "Red Squadron",
+      "Rogue Squadron",
+      "New Republic",
+      "Phantom Squadron"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "wicket-systri-warrick",
+    "name": "Wicket Systri Warrick",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4f/Wicket_RotJ.png",
+    "side": "none",
+    "gender": "male",
+    "birthYear": {
+      "value": 8,
+      "era": "BBY"
+    },
+    "deathYear": null,
+    "height": {
+      "cm": 80
+    },
+    "mass": {
+      "kg": 20
+    },
+    "appearance": {
+      "hairColor": "brown",
+      "eyeColor": "brownish black",
+      "skinColor": "brown"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "endor",
+      "name": "Endor",
+      "type": "planet",
+      "href": "/api/v1/planets/endor"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Bright Tree tribe",
+      "Alliance to Restore the Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "wilhuff-tarkin",
+    "name": "Wilhuff Tarkin",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/c/c1/Tarkininfobox.jpg",
+    "side": "dark",
+    "gender": "male",
+    "birthYear": {
+      "value": 64,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 0,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 182
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": "auburn, later gray",
+      "eyeColor": "gray-blue",
+      "skinColor": "light"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "eriadu",
+      "name": "Eriadu",
+      "type": "planet",
+      "href": "/api/v1/planets/eriadu"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Galactic Republic",
+      "Sullust Sector Spacefarers Academy",
+      "Judicial Forces",
+      "Republic Navy",
+      "Strategic Advisory Cell",
+      "Outland Regions Security Force",
+      "Outland's anti-pirate taskforce",
+      "Galactic Empire",
+      "Battle Station Command",
+      "Imperial Officer Corps",
+      "Imperial Navy",
+      "Tarkin Initiative"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "yarael-poof",
+    "name": "Yarael Poof",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/6/66/Yarael_Poof_Canon.jpeg",
+    "side": "none",
+    "gender": "male",
+    "birthYear": null,
+    "deathYear": {
+      "value": 27,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 264
+    },
+    "mass": null,
+    "appearance": {
+      "hairColor": null,
+      "eyeColor": "red",
+      "skinColor": "pasty white"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "quermia",
+      "name": "Quermia",
+      "type": "planet",
+      "href": "/api/v1/planets/quermia"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Galactic Republic"
+    ],
+    "masters": [],
+    "apprentices": []
+  },
+  {
+    "id": "yoda",
+    "name": "Yoda",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png",
+    "side": "light",
+    "gender": "male",
+    "birthYear": {
+      "value": 896,
+      "era": "BBY"
+    },
+    "deathYear": {
+      "value": 4,
+      "era": "ABY"
+    },
+    "height": {
+      "cm": 66
+    },
+    "mass": {
+      "kg": 13
+    },
+    "appearance": {
+      "hairColor": "white",
+      "eyeColor": "green-gold",
+      "skinColor": "green"
+    },
+    "cybernetics": null,
+    "homeworld": null,
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Jedi Order",
+      "Jedi High Council",
+      "Galactic Republic",
+      "Grand Army of the Republic"
+    ],
+    "masters": [
+      "Unidentified Jedi (Jedi Master)",
+      "Garro (stonepower master)",
+      "Qui-Gon Jinn (as Force spirit)"
+    ],
+    "apprentices": [
+      "Dooku (Padawan)",
+      "Obi-Wan Kenobi",
+      "Luke Skywalker",
+      "Anakin Skywalker (as Force spirit)"
+    ]
+  },
+  {
+    "id": "zam-wesell",
+    "name": "Zam Wesell",
+    "description": "",
+    "image": "https://vignette.wikia.nocookie.net/starwars/images/7/7d/Clawdite.jpg",
+    "side": "none",
+    "gender": "female",
+    "birthYear": null,
+    "deathYear": {
+      "value": 22,
+      "era": "BBY"
+    },
+    "height": {
+      "cm": 168
+    },
+    "mass": {
+      "kg": 55
+    },
+    "appearance": {
+      "hairColor": "blond",
+      "eyeColor": "yellow",
+      "skinColor": "green"
+    },
+    "cybernetics": null,
+    "homeworld": {
+      "id": "zolan",
+      "name": "Zolan",
+      "type": "planet",
+      "href": "/api/v1/planets/zolan"
+    },
+    "species": [],
+    "films": [],
+    "starships": [],
+    "vehicles": [],
+    "affiliations": [
+      "Mabari",
+      "Confederacy of Independent Systems"
+    ],
+    "masters": [],
+    "apprentices": []
+  }
+]
