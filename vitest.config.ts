@@ -12,9 +12,11 @@ export default defineConfig({
     exclude: ['node_modules', '.next', 'dist'],
   },
   resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-      '@/config': path.resolve(__dirname, './config'),
-    },
+    alias: [
+      // Order matters — more specific prefix must come first so Vite matches it
+      // before the generic `@/*` mapping.
+      { find: /^@\/config\/(.*)$/, replacement: `${path.resolve(__dirname, './config')}/$1` },
+      { find: /^@\/(.*)$/, replacement: `${path.resolve(__dirname, './src')}/$1` },
+    ],
   },
 });

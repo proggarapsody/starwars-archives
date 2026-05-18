@@ -1,0 +1,11 @@
+.surface {
+  background: var(--bg-surface);
+  border-radius: var(--radius-3);
+  padding: var(--space-6);
+  transition: transform var(--motion-normal) var(--motion-ease), box-shadow var(--motion-normal)
+    var(--motion-ease);
+}
+
+.lift {
+  box-shadow: 0 1px 2px var(--shadow-color), 0 12px 32px -16px var(--shadow-color);
+}

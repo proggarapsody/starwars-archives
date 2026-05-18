@@ -1,0 +1,49 @@
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--space-10);
+  height: var(--space-10);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--text-primary);
+  transition: background-color var(--motion-fast) var(--motion-ease), transform var(--motion-fast)
+    var(--motion-ease);
+}
+
+.toggle:hover {
+  background-color: var(--accent-soft);
+}
+
+.toggle:active {
+  transform: scale(0.98);
+}
+
+.toggle:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.icon {
+  width: var(--space-8);
+  height: var(--space-8);
+  overflow: visible;
+}
+
+.hilt {
+  fill: var(--text-primary);
+  stroke: var(--text-primary);
+  stroke-width: 0.5;
+}
+
+.hiltAccent {
+  fill: var(--gold);
+}
+
+.blade {
+  fill: var(--saber-color);
+  /* Anchor scaleY at hilt end (bottom of the symbol). */
+  transform-origin: 50% 100%;
+  transform-box: fill-box;
+  filter: drop-shadow(0 0 4px var(--saber-color));
+}
