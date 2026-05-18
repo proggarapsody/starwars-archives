@@ -25,9 +25,12 @@ bun run dev                  # http://localhost:3000
 
 ## Branches + commits
 
-- Branches: `feature/<slug>` / `fix/<slug>` / `docs/<slug>` / `chore/<slug>`.
-- Never push directly to `main`. Open a PR.
-- Commit messages: [Conventional Commits](https://www.conventionalcommits.org/). Enforced by commitlint via Lefthook.
+See [`docs/workflows/git-flow.md`](docs/workflows/git-flow.md) for the full flow. Summary:
+
+- **Long-lived:** `main` (release/deploy) and `dev` (integration). Never push directly to either.
+- **Short-lived:** branch from `dev`. Prefixes: `feature/<slug>`, `fix/<slug>`, `refactor/<slug>`, `docs/<slug>`, `chore/<slug>`, `test/<slug>`.
+- All changes land via PR. PRs to `dev` must pass CI before merge. Periodically, `dev` → `main` PR rolls up a release.
+- Commit messages: [Conventional Commits](https://www.conventionalcommits.org/), enforced by commitlint via Lefthook.
   - `feat:` new feature
   - `fix:` bug fix
   - `docs:` docs only

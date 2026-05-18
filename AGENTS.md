@@ -40,11 +40,12 @@ Read before designing any new component, screen, route, API surface, or visual m
 ## Workflow
 
 - [`docs/agent-primer.md`](docs/agent-primer.md) — required reading for any subagent implementing a new scope.
+- [`docs/workflows/git-flow.md`](docs/workflows/git-flow.md) — branching model, PR flow, CI gates, merge strategies.
 - [`docs/workflows/tdd-cycle.md`](docs/workflows/tdd-cycle.md) — red-green-refactor loop, applied to this project.
 
 ## Key rules for AI agents
 
-- **Branches + commits:** `feature/*` / `fix/*` / `docs/*` → PR to `main`. Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`).
+- **Branches + commits:** branch from `dev`; open PR to `dev`. `main` is release-only — `dev → main` PRs deploy. Never push directly to `dev` or `main`. See [`docs/workflows/git-flow.md`](docs/workflows/git-flow.md). Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`).
 - **TDD is the default.** No production code without a failing test first. Exceptions: pure visual layout with no behavior (no clicks, no state, no conditional render). When in doubt, write the test.
 - **Stack:** Next 15 (App Router) + React 19 + TypeScript strict + Bun + Biome + CSS Modules. No Tailwind. No framer-motion / Motion. GSAP only for bespoke timeline moments (see `docs/TASTE.md`).
 - **FSD-lite layers** (top-down): `app/` (Next routes) → `screens/` → `widgets/` → `features/` → `entities/` → `shared/`. Plus `config/` at top level. **Imports go down only**, never up. Same-layer cross-slice imports forbidden.
