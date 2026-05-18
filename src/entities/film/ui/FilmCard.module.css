@@ -1,0 +1,40 @@
+.card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-radius: var(--radius-3);
+  transition: transform var(--motion-normal) var(--motion-ease-out);
+}
+
+.surface {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  box-shadow: inset 0 0 0 1px transparent;
+  transition: box-shadow var(--motion-normal) var(--motion-ease-out);
+}
+
+.card:hover .surface,
+.card:focus-visible .surface {
+  box-shadow: inset 0 0 0 1px var(--border);
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+.title {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: var(--font-size-h3);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  text-wrap: balance;
+  margin: 0;
+}

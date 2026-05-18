@@ -54,8 +54,10 @@
   --container-max: 1240px;
   --container-gutter: var(--space-6);
 
-  /* side-tint (Force-Tinted UI) */
+  /* side-tint (Force-Tinted UI) — independent of global theme. */
   --side-tint: transparent;
+  --side-tint-light: #3b78c9;
+  --side-tint-dark: #a8262a;
 }
 
 /* ------------------------------------------------------------------ *
