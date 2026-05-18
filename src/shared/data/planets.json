@@ -1,0 +1,1971 @@
+[
+  {
+    "id": "alderaan",
+    "name": "Alderaan",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "grasslands",
+      "mountains"
+    ],
+    "diameterKm": 12500,
+    "gravity": "1 standard",
+    "rotationHours": 24,
+    "orbitDays": 364,
+    "surfaceWaterPercent": 40,
+    "population": 2000000000,
+    "residents": [
+      {
+        "id": "bail-prestor-organa",
+        "name": "Bail Prestor Organa",
+        "type": "character",
+        "href": "/api/v1/characters/bail-prestor-organa"
+      },
+      {
+        "id": "leia-organa",
+        "name": "Leia Organa",
+        "type": "character",
+        "href": "/api/v1/characters/leia-organa"
+      },
+      {
+        "id": "raymus-antilles",
+        "name": "Raymus Antilles",
+        "type": "character",
+        "href": "/api/v1/characters/raymus-antilles"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "aleen-minor",
+    "name": "Aleen Minor",
+    "description": "",
+    "climate": [],
+    "terrain": [],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "ratts-tyerel",
+        "name": "Ratts Tyerel",
+        "type": "character",
+        "href": "/api/v1/characters/ratts-tyerel"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "bespin",
+    "name": "Bespin",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "gas giant"
+    ],
+    "diameterKm": 118000,
+    "gravity": "1.5 (surface), 1 standard (Cloud City)",
+    "rotationHours": 12,
+    "orbitDays": 5110,
+    "surfaceWaterPercent": 0,
+    "population": 6000000,
+    "residents": [
+      {
+        "id": "lobot",
+        "name": "Lobot",
+        "type": "character",
+        "href": "/api/v1/characters/lobot"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "bestine-iv",
+    "name": "Bestine IV",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "rocky islands",
+      "oceans"
+    ],
+    "diameterKm": 6400,
+    "gravity": null,
+    "rotationHours": 26,
+    "orbitDays": 680,
+    "surfaceWaterPercent": 98,
+    "population": 62000000,
+    "residents": [
+      {
+        "id": "jek-tono-porkins",
+        "name": "Jek Tono Porkins",
+        "type": "character",
+        "href": "/api/v1/characters/jek-tono-porkins"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "cato-neimoidia",
+    "name": "Cato Neimoidia",
+    "description": "",
+    "climate": [
+      "temperate",
+      "moist"
+    ],
+    "terrain": [
+      "mountains",
+      "fields",
+      "forests",
+      "rock arches"
+    ],
+    "diameterKm": 0,
+    "gravity": "1 standard",
+    "rotationHours": 25,
+    "orbitDays": 278,
+    "surfaceWaterPercent": null,
+    "population": 10000000,
+    "residents": [
+      {
+        "id": "nute-gunray",
+        "name": "Nute Gunray",
+        "type": "character",
+        "href": "/api/v1/characters/nute-gunray"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "cerea",
+    "name": "Cerea",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "verdant"
+    ],
+    "diameterKm": null,
+    "gravity": "1",
+    "rotationHours": 27,
+    "orbitDays": 386,
+    "surfaceWaterPercent": 20,
+    "population": 450000000,
+    "residents": [
+      {
+        "id": "ki-adi-mundi",
+        "name": "Ki-Adi-Mundi",
+        "type": "character",
+        "href": "/api/v1/characters/ki-adi-mundi"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "champala",
+    "name": "Champala",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "oceans",
+      "rainforests",
+      "plateaus"
+    ],
+    "diameterKm": null,
+    "gravity": "1",
+    "rotationHours": 27,
+    "orbitDays": 318,
+    "surfaceWaterPercent": null,
+    "population": 3500000000,
+    "residents": [
+      {
+        "id": "mas-amedda",
+        "name": "Mas Amedda",
+        "type": "character",
+        "href": "/api/v1/characters/mas-amedda"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "chandrila",
+    "name": "Chandrila",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "plains",
+      "forests"
+    ],
+    "diameterKm": 13500,
+    "gravity": "1",
+    "rotationHours": 20,
+    "orbitDays": 368,
+    "surfaceWaterPercent": 40,
+    "population": 1200000000,
+    "residents": [
+      {
+        "id": "mon-mothma",
+        "name": "Mon Mothma",
+        "type": "character",
+        "href": "/api/v1/characters/mon-mothma"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "concord-dawn",
+    "name": "Concord Dawn",
+    "description": "",
+    "climate": [],
+    "terrain": [
+      "jungles",
+      "forests",
+      "deserts"
+    ],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "jango-fett",
+        "name": "Jango Fett",
+        "type": "character",
+        "href": "/api/v1/characters/jango-fett"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "corellia",
+    "name": "Corellia",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "plains",
+      "urban",
+      "hills",
+      "forests"
+    ],
+    "diameterKm": 11000,
+    "gravity": "1 standard",
+    "rotationHours": 25,
+    "orbitDays": 329,
+    "surfaceWaterPercent": 70,
+    "population": 3000000000,
+    "residents": [
+      {
+        "id": "han-solo",
+        "name": "Han Solo",
+        "type": "character",
+        "href": "/api/v1/characters/han-solo"
+      },
+      {
+        "id": "wedge-antilles",
+        "name": "Wedge Antilles",
+        "type": "character",
+        "href": "/api/v1/characters/wedge-antilles"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "coruscant",
+    "name": "Coruscant",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "cityscape",
+      "mountains"
+    ],
+    "diameterKm": 12240,
+    "gravity": "1 standard",
+    "rotationHours": 24,
+    "orbitDays": 368,
+    "surfaceWaterPercent": null,
+    "population": 1000000000000,
+    "residents": [
+      {
+        "id": "adi-gallia",
+        "name": "Adi Gallia",
+        "type": "character",
+        "href": "/api/v1/characters/adi-gallia"
+      },
+      {
+        "id": "finis-valorum",
+        "name": "Finis Valorum",
+        "type": "character",
+        "href": "/api/v1/characters/finis-valorum"
+      },
+      {
+        "id": "jocasta-nu",
+        "name": "Jocasta Nu",
+        "type": "character",
+        "href": "/api/v1/characters/jocasta-nu"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "dagobah",
+    "name": "Dagobah",
+    "description": "",
+    "climate": [
+      "murky"
+    ],
+    "terrain": [
+      "swamp",
+      "jungles"
+    ],
+    "diameterKm": 8900,
+    "gravity": null,
+    "rotationHours": 23,
+    "orbitDays": 341,
+    "surfaceWaterPercent": 8,
+    "population": null,
+    "residents": [],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "dantooine",
+    "name": "Dantooine",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "oceans",
+      "savannas",
+      "mountains",
+      "grasslands"
+    ],
+    "diameterKm": 9830,
+    "gravity": "1 standard",
+    "rotationHours": 25,
+    "orbitDays": 378,
+    "surfaceWaterPercent": null,
+    "population": 1000,
+    "residents": [],
+    "films": []
+  },
+  {
+    "id": "dathomir",
+    "name": "Dathomir",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "forests",
+      "deserts",
+      "savannas"
+    ],
+    "diameterKm": 10480,
+    "gravity": "0.9",
+    "rotationHours": 24,
+    "orbitDays": 491,
+    "surfaceWaterPercent": null,
+    "population": 5200,
+    "residents": [
+      {
+        "id": "darth-maul",
+        "name": "Darth Maul",
+        "type": "character",
+        "href": "/api/v1/characters/darth-maul"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "dorin",
+    "name": "Dorin",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [],
+    "diameterKm": 13400,
+    "gravity": "1",
+    "rotationHours": 22,
+    "orbitDays": 409,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "plo-koon",
+        "name": "Plo Koon",
+        "type": "character",
+        "href": "/api/v1/characters/plo-koon"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "endor",
+    "name": "Endor",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "forests",
+      "mountains",
+      "lakes"
+    ],
+    "diameterKm": 4900,
+    "gravity": "0.85 standard",
+    "rotationHours": 18,
+    "orbitDays": 402,
+    "surfaceWaterPercent": 8,
+    "population": 30000000,
+    "residents": [
+      {
+        "id": "wicket-systri-warrick",
+        "name": "Wicket Systri Warrick",
+        "type": "character",
+        "href": "/api/v1/characters/wicket-systri-warrick"
+      }
+    ],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ]
+  },
+  {
+    "id": "eriadu",
+    "name": "Eriadu",
+    "description": "",
+    "climate": [
+      "polluted"
+    ],
+    "terrain": [
+      "cityscape"
+    ],
+    "diameterKm": 13490,
+    "gravity": "1 standard",
+    "rotationHours": 24,
+    "orbitDays": 360,
+    "surfaceWaterPercent": null,
+    "population": 22000000000,
+    "residents": [
+      {
+        "id": "wilhuff-tarkin",
+        "name": "Wilhuff Tarkin",
+        "type": "character",
+        "href": "/api/v1/characters/wilhuff-tarkin"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "felucia",
+    "name": "Felucia",
+    "description": "",
+    "climate": [
+      "hot",
+      "humid"
+    ],
+    "terrain": [
+      "fungus forests"
+    ],
+    "diameterKm": 9100,
+    "gravity": "0.75 standard",
+    "rotationHours": 34,
+    "orbitDays": 231,
+    "surfaceWaterPercent": null,
+    "population": 8500000,
+    "residents": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "geonosis",
+    "name": "Geonosis",
+    "description": "",
+    "climate": [
+      "temperate",
+      "arid"
+    ],
+    "terrain": [
+      "rock",
+      "desert",
+      "mountain",
+      "barren"
+    ],
+    "diameterKm": 11370,
+    "gravity": "0.9 standard",
+    "rotationHours": 30,
+    "orbitDays": 256,
+    "surfaceWaterPercent": 5,
+    "population": 100000000000,
+    "residents": [
+      {
+        "id": "poggle-the-lesser",
+        "name": "Poggle the Lesser",
+        "type": "character",
+        "href": "/api/v1/characters/poggle-the-lesser"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "glee-anselm",
+    "name": "Glee Anselm",
+    "description": "",
+    "climate": [
+      "tropical",
+      "temperate"
+    ],
+    "terrain": [
+      "lakes",
+      "islands",
+      "swamps",
+      "seas"
+    ],
+    "diameterKm": 15600,
+    "gravity": "1",
+    "rotationHours": 33,
+    "orbitDays": 206,
+    "surfaceWaterPercent": 80,
+    "population": 500000000,
+    "residents": [
+      {
+        "id": "kit-fisto",
+        "name": "Kit Fisto",
+        "type": "character",
+        "href": "/api/v1/characters/kit-fisto"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "haruun-kal",
+    "name": "Haruun Kal",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "toxic cloudsea",
+      "plateaus",
+      "volcanoes"
+    ],
+    "diameterKm": 10120,
+    "gravity": "0.98",
+    "rotationHours": 25,
+    "orbitDays": 383,
+    "surfaceWaterPercent": null,
+    "population": 705300,
+    "residents": [
+      {
+        "id": "mace-windu",
+        "name": "Mace Windu",
+        "type": "character",
+        "href": "/api/v1/characters/mace-windu"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "hoth",
+    "name": "Hoth",
+    "description": "",
+    "climate": [
+      "frozen"
+    ],
+    "terrain": [
+      "tundra",
+      "ice caves",
+      "mountain ranges"
+    ],
+    "diameterKm": 7200,
+    "gravity": "1.1 standard",
+    "rotationHours": 23,
+    "orbitDays": 549,
+    "surfaceWaterPercent": 100,
+    "population": null,
+    "residents": [],
+    "films": [
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "iktotch",
+    "name": "Iktotch",
+    "description": "",
+    "climate": [
+      "arid",
+      "rocky",
+      "windy"
+    ],
+    "terrain": [
+      "rocky"
+    ],
+    "diameterKm": null,
+    "gravity": "1",
+    "rotationHours": 22,
+    "orbitDays": 481,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "saesee-tiin",
+        "name": "Saesee Tiin",
+        "type": "character",
+        "href": "/api/v1/characters/saesee-tiin"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "iridonia",
+    "name": "Iridonia",
+    "description": "",
+    "climate": [],
+    "terrain": [
+      "rocky canyons",
+      "acid pools"
+    ],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": 29,
+    "orbitDays": 413,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "eeth-koth",
+        "name": "Eeth Koth",
+        "type": "character",
+        "href": "/api/v1/characters/eeth-koth"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "kalee",
+    "name": "Kalee",
+    "description": "",
+    "climate": [
+      "arid",
+      "temperate",
+      "tropical"
+    ],
+    "terrain": [
+      "rainforests",
+      "cliffs",
+      "canyons",
+      "seas"
+    ],
+    "diameterKm": 13850,
+    "gravity": "1",
+    "rotationHours": 23,
+    "orbitDays": 378,
+    "surfaceWaterPercent": null,
+    "population": 4000000000,
+    "residents": [
+      {
+        "id": "grievous",
+        "name": "Grievous",
+        "type": "character",
+        "href": "/api/v1/characters/grievous"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "kamino",
+    "name": "Kamino",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "ocean"
+    ],
+    "diameterKm": 19720,
+    "gravity": "1 standard",
+    "rotationHours": 27,
+    "orbitDays": 463,
+    "surfaceWaterPercent": 100,
+    "population": 1000000000,
+    "residents": [
+      {
+        "id": "boba-fett",
+        "name": "Boba Fett",
+        "type": "character",
+        "href": "/api/v1/characters/boba-fett"
+      },
+      {
+        "id": "lama-su",
+        "name": "Lama Su",
+        "type": "character",
+        "href": "/api/v1/characters/lama-su"
+      },
+      {
+        "id": "taun-we",
+        "name": "Taun We",
+        "type": "character",
+        "href": "/api/v1/characters/taun-we"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "kashyyyk",
+    "name": "Kashyyyk",
+    "description": "",
+    "climate": [
+      "tropical"
+    ],
+    "terrain": [
+      "jungle",
+      "forests",
+      "lakes",
+      "rivers"
+    ],
+    "diameterKm": 12765,
+    "gravity": "1 standard",
+    "rotationHours": 26,
+    "orbitDays": 381,
+    "surfaceWaterPercent": 60,
+    "population": 45000000,
+    "residents": [
+      {
+        "id": "chewbacca",
+        "name": "Chewbacca",
+        "type": "character",
+        "href": "/api/v1/characters/chewbacca"
+      },
+      {
+        "id": "tarfful",
+        "name": "Tarfful",
+        "type": "character",
+        "href": "/api/v1/characters/tarfful"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "malastare",
+    "name": "Malastare",
+    "description": "",
+    "climate": [
+      "arid",
+      "temperate",
+      "tropical"
+    ],
+    "terrain": [
+      "swamps",
+      "deserts",
+      "jungles",
+      "mountains"
+    ],
+    "diameterKm": 18880,
+    "gravity": "1.56",
+    "rotationHours": 26,
+    "orbitDays": 201,
+    "surfaceWaterPercent": null,
+    "population": 2000000000,
+    "residents": [
+      {
+        "id": "sebulba",
+        "name": "Sebulba",
+        "type": "character",
+        "href": "/api/v1/characters/sebulba"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "mirial",
+    "name": "Mirial",
+    "description": "",
+    "climate": [],
+    "terrain": [
+      "deserts"
+    ],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "barriss-offee",
+        "name": "Barriss Offee",
+        "type": "character",
+        "href": "/api/v1/characters/barriss-offee"
+      },
+      {
+        "id": "luminara-unduli",
+        "name": "Luminara Unduli",
+        "type": "character",
+        "href": "/api/v1/characters/luminara-unduli"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "mon-cala",
+    "name": "Mon Cala",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "oceans",
+      "reefs",
+      "islands"
+    ],
+    "diameterKm": 11030,
+    "gravity": "1",
+    "rotationHours": 21,
+    "orbitDays": 398,
+    "surfaceWaterPercent": 100,
+    "population": 27000000000,
+    "residents": [
+      {
+        "id": "ackbar",
+        "name": "Ackbar",
+        "type": "character",
+        "href": "/api/v1/characters/ackbar"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "mustafar",
+    "name": "Mustafar",
+    "description": "",
+    "climate": [
+      "hot"
+    ],
+    "terrain": [
+      "volcanoes",
+      "lava rivers",
+      "mountains",
+      "caves"
+    ],
+    "diameterKm": 4200,
+    "gravity": "1 standard",
+    "rotationHours": 36,
+    "orbitDays": 412,
+    "surfaceWaterPercent": 0,
+    "population": 20000,
+    "residents": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "muunilinst",
+    "name": "Muunilinst",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "plains",
+      "forests",
+      "hills",
+      "mountains"
+    ],
+    "diameterKm": 13800,
+    "gravity": "1",
+    "rotationHours": 28,
+    "orbitDays": 412,
+    "surfaceWaterPercent": 25,
+    "population": 5000000000,
+    "residents": [
+      {
+        "id": "san-hill",
+        "name": "San Hill",
+        "type": "character",
+        "href": "/api/v1/characters/san-hill"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "mygeeto",
+    "name": "Mygeeto",
+    "description": "",
+    "climate": [
+      "frigid"
+    ],
+    "terrain": [
+      "glaciers",
+      "mountains",
+      "ice canyons"
+    ],
+    "diameterKm": 10088,
+    "gravity": "1 standard",
+    "rotationHours": 12,
+    "orbitDays": 167,
+    "surfaceWaterPercent": null,
+    "population": 19000000,
+    "residents": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "naboo",
+    "name": "Naboo",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "grassy hills",
+      "swamps",
+      "forests",
+      "mountains"
+    ],
+    "diameterKm": 12120,
+    "gravity": "1 standard",
+    "rotationHours": 26,
+    "orbitDays": 312,
+    "surfaceWaterPercent": 12,
+    "population": 4500000000,
+    "residents": [
+      {
+        "id": "corde",
+        "name": "Cordé",
+        "type": "character",
+        "href": "/api/v1/characters/corde"
+      },
+      {
+        "id": "dorme",
+        "name": "Dormé",
+        "type": "character",
+        "href": "/api/v1/characters/dorme"
+      },
+      {
+        "id": "gregar-typho",
+        "name": "Gregar Typho",
+        "type": "character",
+        "href": "/api/v1/characters/gregar-typho"
+      },
+      {
+        "id": "jar-jar-binks",
+        "name": "Jar Jar Binks",
+        "type": "character",
+        "href": "/api/v1/characters/jar-jar-binks"
+      },
+      {
+        "id": "padme-amidala",
+        "name": "Padmé Amidala",
+        "type": "character",
+        "href": "/api/v1/characters/padme-amidala"
+      },
+      {
+        "id": "palpatine",
+        "name": "Palpatine",
+        "type": "character",
+        "href": "/api/v1/characters/palpatine"
+      },
+      {
+        "id": "quarsh-panaka",
+        "name": "Quarsh Panaka",
+        "type": "character",
+        "href": "/api/v1/characters/quarsh-panaka"
+      },
+      {
+        "id": "r2-d2",
+        "name": "R2-D2",
+        "type": "character",
+        "href": "/api/v1/characters/r2-d2"
+      },
+      {
+        "id": "ric-olie",
+        "name": "Ric Olié",
+        "type": "character",
+        "href": "/api/v1/characters/ric-olie"
+      },
+      {
+        "id": "roos-tarpals",
+        "name": "Roos Tarpals",
+        "type": "character",
+        "href": "/api/v1/characters/roos-tarpals"
+      },
+      {
+        "id": "rugor-nass",
+        "name": "Rugor Nass",
+        "type": "character",
+        "href": "/api/v1/characters/rugor-nass"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "nal-hutta",
+    "name": "Nal Hutta",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "urban",
+      "oceans",
+      "swamps",
+      "bogs"
+    ],
+    "diameterKm": 12150,
+    "gravity": "1 standard",
+    "rotationHours": 87,
+    "orbitDays": 413,
+    "surfaceWaterPercent": null,
+    "population": 7000000000,
+    "residents": [
+      {
+        "id": "jabba-desilijic-tiure",
+        "name": "Jabba Desilijic Tiure",
+        "type": "character",
+        "href": "/api/v1/characters/jabba-desilijic-tiure"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "ojom",
+    "name": "Ojom",
+    "description": "",
+    "climate": [
+      "frigid"
+    ],
+    "terrain": [
+      "oceans",
+      "glaciers"
+    ],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": 100,
+    "population": 500000000,
+    "residents": [
+      {
+        "id": "dexter-jettster",
+        "name": "Dexter Jettster",
+        "type": "character",
+        "href": "/api/v1/characters/dexter-jettster"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "ord-mantell",
+    "name": "Ord Mantell",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "plains",
+      "seas",
+      "mesas"
+    ],
+    "diameterKm": 14050,
+    "gravity": "1 standard",
+    "rotationHours": 26,
+    "orbitDays": 334,
+    "surfaceWaterPercent": 10,
+    "population": 4000000000,
+    "residents": [],
+    "films": [
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "polis-massa",
+    "name": "Polis Massa",
+    "description": "",
+    "climate": [
+      "artificial temperate"
+    ],
+    "terrain": [
+      "airless asteroid"
+    ],
+    "diameterKm": 0,
+    "gravity": "0.56 standard",
+    "rotationHours": 24,
+    "orbitDays": 590,
+    "surfaceWaterPercent": 0,
+    "population": 1000000,
+    "residents": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "quermia",
+    "name": "Quermia",
+    "description": "",
+    "climate": [],
+    "terrain": [],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "yarael-poof",
+        "name": "Yarael Poof",
+        "type": "character",
+        "href": "/api/v1/characters/yarael-poof"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "rodia",
+    "name": "Rodia",
+    "description": "",
+    "climate": [
+      "hot"
+    ],
+    "terrain": [
+      "jungles",
+      "oceans",
+      "urban",
+      "swamps"
+    ],
+    "diameterKm": 7549,
+    "gravity": "1 standard",
+    "rotationHours": 29,
+    "orbitDays": 305,
+    "surfaceWaterPercent": 60,
+    "population": 1300000000,
+    "residents": [
+      {
+        "id": "greedo",
+        "name": "Greedo",
+        "type": "character",
+        "href": "/api/v1/characters/greedo"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "ryloth",
+    "name": "Ryloth",
+    "description": "",
+    "climate": [
+      "temperate",
+      "arid",
+      "subartic"
+    ],
+    "terrain": [
+      "mountains",
+      "valleys",
+      "deserts",
+      "tundra"
+    ],
+    "diameterKm": 10600,
+    "gravity": "1",
+    "rotationHours": 30,
+    "orbitDays": 305,
+    "surfaceWaterPercent": 5,
+    "population": 1500000000,
+    "residents": [
+      {
+        "id": "ayla-secura",
+        "name": "Ayla Secura",
+        "type": "character",
+        "href": "/api/v1/characters/ayla-secura"
+      },
+      {
+        "id": "bib-fortuna",
+        "name": "Bib Fortuna",
+        "type": "character",
+        "href": "/api/v1/characters/bib-fortuna"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "saleucami",
+    "name": "Saleucami",
+    "description": "",
+    "climate": [
+      "hot"
+    ],
+    "terrain": [
+      "caves",
+      "desert",
+      "mountains",
+      "volcanoes"
+    ],
+    "diameterKm": 14920,
+    "gravity": null,
+    "rotationHours": 26,
+    "orbitDays": 392,
+    "surfaceWaterPercent": null,
+    "population": 1400000000,
+    "residents": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "serenno",
+    "name": "Serenno",
+    "description": "",
+    "climate": [],
+    "terrain": [
+      "rainforests",
+      "rivers",
+      "mountains"
+    ],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "dooku",
+        "name": "Dooku",
+        "type": "character",
+        "href": "/api/v1/characters/dooku"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "shili",
+    "name": "Shili",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "cities",
+      "savannahs",
+      "seas",
+      "plains"
+    ],
+    "diameterKm": null,
+    "gravity": "1",
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "shaak-ti",
+        "name": "Shaak Ti",
+        "type": "character",
+        "href": "/api/v1/characters/shaak-ti"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "skako",
+    "name": "Skako",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "urban",
+      "vines"
+    ],
+    "diameterKm": null,
+    "gravity": "1",
+    "rotationHours": 27,
+    "orbitDays": 384,
+    "surfaceWaterPercent": null,
+    "population": 500000000000,
+    "residents": [
+      {
+        "id": "wat-tambor",
+        "name": "Wat Tambor",
+        "type": "character",
+        "href": "/api/v1/characters/wat-tambor"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "socorro",
+    "name": "Socorro",
+    "description": "",
+    "climate": [
+      "arid"
+    ],
+    "terrain": [
+      "deserts",
+      "mountains"
+    ],
+    "diameterKm": 0,
+    "gravity": "1 standard",
+    "rotationHours": 20,
+    "orbitDays": 326,
+    "surfaceWaterPercent": null,
+    "population": 300000000,
+    "residents": [
+      {
+        "id": "lando-calrissian",
+        "name": "Lando Calrissian",
+        "type": "character",
+        "href": "/api/v1/characters/lando-calrissian"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "stewjon",
+    "name": "Stewjon",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "grass"
+    ],
+    "diameterKm": 0,
+    "gravity": "1 standard",
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "obi-wan-kenobi",
+        "name": "Obi-Wan Kenobi",
+        "type": "character",
+        "href": "/api/v1/characters/obi-wan-kenobi"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "sullust",
+    "name": "Sullust",
+    "description": "",
+    "climate": [
+      "superheated"
+    ],
+    "terrain": [
+      "mountains",
+      "volcanoes",
+      "rocky deserts"
+    ],
+    "diameterKm": 12780,
+    "gravity": "1",
+    "rotationHours": 20,
+    "orbitDays": 263,
+    "surfaceWaterPercent": 5,
+    "population": 18500000000,
+    "residents": [
+      {
+        "id": "nien-nunb",
+        "name": "Nien Nunb",
+        "type": "character",
+        "href": "/api/v1/characters/nien-nunb"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "tatooine",
+    "name": "Tatooine",
+    "description": "",
+    "climate": [
+      "arid"
+    ],
+    "terrain": [
+      "desert"
+    ],
+    "diameterKm": 10465,
+    "gravity": "1 standard",
+    "rotationHours": 23,
+    "orbitDays": 304,
+    "surfaceWaterPercent": 1,
+    "population": 200000,
+    "residents": [
+      {
+        "id": "anakin-skywalker",
+        "name": "Anakin Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/anakin-skywalker"
+      },
+      {
+        "id": "beru-whitesun-lars",
+        "name": "Beru Whitesun lars",
+        "type": "character",
+        "href": "/api/v1/characters/beru-whitesun-lars"
+      },
+      {
+        "id": "biggs-darklighter",
+        "name": "Biggs Darklighter",
+        "type": "character",
+        "href": "/api/v1/characters/biggs-darklighter"
+      },
+      {
+        "id": "c-3po",
+        "name": "C-3PO",
+        "type": "character",
+        "href": "/api/v1/characters/c-3po"
+      },
+      {
+        "id": "cliegg-lars",
+        "name": "Cliegg Lars",
+        "type": "character",
+        "href": "/api/v1/characters/cliegg-lars"
+      },
+      {
+        "id": "darth-vader",
+        "name": "Darth Vader",
+        "type": "character",
+        "href": "/api/v1/characters/darth-vader"
+      },
+      {
+        "id": "luke-skywalker",
+        "name": "Luke Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/luke-skywalker"
+      },
+      {
+        "id": "owen-lars",
+        "name": "Owen Lars",
+        "type": "character",
+        "href": "/api/v1/characters/owen-lars"
+      },
+      {
+        "id": "r5-d4",
+        "name": "R5-D4",
+        "type": "character",
+        "href": "/api/v1/characters/r5-d4"
+      },
+      {
+        "id": "shmi-skywalker",
+        "name": "Shmi Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/shmi-skywalker"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "tholoth",
+    "name": "Tholoth",
+    "description": "",
+    "climate": [],
+    "terrain": [],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [],
+    "films": []
+  },
+  {
+    "id": "toydaria",
+    "name": "Toydaria",
+    "description": "",
+    "climate": [
+      "temperate"
+    ],
+    "terrain": [
+      "swamps",
+      "lakes"
+    ],
+    "diameterKm": 7900,
+    "gravity": "1",
+    "rotationHours": 21,
+    "orbitDays": 184,
+    "surfaceWaterPercent": null,
+    "population": 11000000,
+    "residents": [
+      {
+        "id": "watto",
+        "name": "Watto",
+        "type": "character",
+        "href": "/api/v1/characters/watto"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "trandosha",
+    "name": "Trandosha",
+    "description": "",
+    "climate": [
+      "arid"
+    ],
+    "terrain": [
+      "mountains",
+      "seas",
+      "grasslands",
+      "deserts"
+    ],
+    "diameterKm": 0,
+    "gravity": "0.62 standard",
+    "rotationHours": 25,
+    "orbitDays": 371,
+    "surfaceWaterPercent": null,
+    "population": 42000000,
+    "residents": [
+      {
+        "id": "bossk",
+        "name": "Bossk",
+        "type": "character",
+        "href": "/api/v1/characters/bossk"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "troiken",
+    "name": "Troiken",
+    "description": "",
+    "climate": [],
+    "terrain": [
+      "desert",
+      "tundra",
+      "rainforests",
+      "mountains"
+    ],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "gasgano",
+        "name": "Gasgano",
+        "type": "character",
+        "href": "/api/v1/characters/gasgano"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "tund",
+    "name": "Tund",
+    "description": "",
+    "climate": [],
+    "terrain": [
+      "barren",
+      "ash"
+    ],
+    "diameterKm": 12190,
+    "gravity": null,
+    "rotationHours": 48,
+    "orbitDays": 1770,
+    "surfaceWaterPercent": null,
+    "population": 0,
+    "residents": [
+      {
+        "id": "ben-quadinaros",
+        "name": "Ben Quadinaros",
+        "type": "character",
+        "href": "/api/v1/characters/ben-quadinaros"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "umbara",
+    "name": "Umbara",
+    "description": "",
+    "climate": [],
+    "terrain": [],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "sly-moore",
+        "name": "Sly Moore",
+        "type": "character",
+        "href": "/api/v1/characters/sly-moore"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "unknown",
+    "name": "unknown",
+    "description": "",
+    "climate": [],
+    "terrain": [],
+    "diameterKm": 0,
+    "gravity": null,
+    "rotationHours": 0,
+    "orbitDays": 0,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "arvel-crynyd",
+        "name": "Arvel Crynyd",
+        "type": "character",
+        "href": "/api/v1/characters/arvel-crynyd"
+      },
+      {
+        "id": "ig-88",
+        "name": "IG-88",
+        "type": "character",
+        "href": "/api/v1/characters/ig-88"
+      },
+      {
+        "id": "qui-gon-jinn",
+        "name": "Qui-Gon Jinn",
+        "type": "character",
+        "href": "/api/v1/characters/qui-gon-jinn"
+      },
+      {
+        "id": "r4-p17",
+        "name": "R4-P17",
+        "type": "character",
+        "href": "/api/v1/characters/r4-p17"
+      },
+      {
+        "id": "yoda",
+        "name": "Yoda",
+        "type": "character",
+        "href": "/api/v1/characters/yoda"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "utapau",
+    "name": "Utapau",
+    "description": "",
+    "climate": [
+      "temperate",
+      "arid",
+      "windy"
+    ],
+    "terrain": [
+      "scrublands",
+      "savanna",
+      "canyons",
+      "sinkholes"
+    ],
+    "diameterKm": 12900,
+    "gravity": "1 standard",
+    "rotationHours": 27,
+    "orbitDays": 351,
+    "surfaceWaterPercent": 0.9,
+    "population": 95000000,
+    "residents": [
+      {
+        "id": "tion-medon",
+        "name": "Tion Medon",
+        "type": "character",
+        "href": "/api/v1/characters/tion-medon"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "vulpter",
+    "name": "Vulpter",
+    "description": "",
+    "climate": [
+      "temperate",
+      "artic"
+    ],
+    "terrain": [
+      "urban",
+      "barren"
+    ],
+    "diameterKm": 14900,
+    "gravity": "1",
+    "rotationHours": 22,
+    "orbitDays": 391,
+    "surfaceWaterPercent": null,
+    "population": 421000000,
+    "residents": [
+      {
+        "id": "dud-bolt",
+        "name": "Dud Bolt",
+        "type": "character",
+        "href": "/api/v1/characters/dud-bolt"
+      }
+    ],
+    "films": []
+  },
+  {
+    "id": "yavin-iv",
+    "name": "Yavin IV",
+    "description": "",
+    "climate": [
+      "temperate",
+      "tropical"
+    ],
+    "terrain": [
+      "jungle",
+      "rainforests"
+    ],
+    "diameterKm": 10200,
+    "gravity": "1 standard",
+    "rotationHours": 24,
+    "orbitDays": 4818,
+    "surfaceWaterPercent": 8,
+    "population": 1000,
+    "residents": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      }
+    ]
+  },
+  {
+    "id": "zolan",
+    "name": "Zolan",
+    "description": "",
+    "climate": [],
+    "terrain": [],
+    "diameterKm": null,
+    "gravity": null,
+    "rotationHours": null,
+    "orbitDays": null,
+    "surfaceWaterPercent": null,
+    "population": null,
+    "residents": [
+      {
+        "id": "zam-wesell",
+        "name": "Zam Wesell",
+        "type": "character",
+        "href": "/api/v1/characters/zam-wesell"
+      }
+    ],
+    "films": []
+  }
+]

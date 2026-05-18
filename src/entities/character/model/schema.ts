@@ -1,7 +1,6 @@
+import { entityRefSchema, slugSchema } from '@/shared/model/schema';
 import * as v from 'valibot';
 import type { Character } from './types';
-
-const slugSchema = v.pipe(v.string(), v.minLength(1), v.regex(/^[a-z0-9-]+$/));
 
 const yearSchema = v.object({
   value: v.pipe(v.number(), v.minValue(0)),
@@ -15,14 +14,6 @@ const lengthSchema = v.object({
 const massSchema = v.object({
   kg: v.pipe(v.number(), v.minValue(0.001)),
 });
-
-const entityRefSchema = <T extends string>(type: T) =>
-  v.object({
-    id: slugSchema,
-    name: v.pipe(v.string(), v.minLength(1)),
-    type: v.literal(type),
-    href: v.pipe(v.string(), v.startsWith(`/api/v1/${type}s/`)),
-  });
 
 const sideSchema = v.picklist(['light', 'dark', 'none']);
 

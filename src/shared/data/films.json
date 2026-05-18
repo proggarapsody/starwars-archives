@@ -1,0 +1,2354 @@
+[
+  {
+    "id": "the-phantom-menace",
+    "title": "The Phantom Menace",
+    "episode": 1,
+    "description": "",
+    "openingCrawl": "Turmoil has engulfed the\r\nGalactic Republic. The taxation\r\nof trade routes to outlying star\r\nsystems is in dispute.\r\n\r\nHoping to resolve the matter\r\nwith a blockade of deadly\r\nbattleships, the greedy Trade\r\nFederation has stopped all\r\nshipping to the small planet\r\nof Naboo.\r\n\r\nWhile the Congress of the\r\nRepublic endlessly debates\r\nthis alarming chain of events,\r\nthe Supreme Chancellor has\r\nsecretly dispatched two Jedi\r\nKnights, the guardians of\r\npeace and justice in the\r\ngalaxy, to settle the conflict....",
+    "director": "George Lucas",
+    "producer": "Rick McCallum",
+    "releaseDate": "1999-05-19",
+    "characters": [
+      {
+        "id": "adi-gallia",
+        "name": "Adi Gallia",
+        "type": "character",
+        "href": "/api/v1/characters/adi-gallia"
+      },
+      {
+        "id": "anakin-skywalker",
+        "name": "Anakin Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/anakin-skywalker"
+      },
+      {
+        "id": "ayla-secura",
+        "name": "Ayla Secura",
+        "type": "character",
+        "href": "/api/v1/characters/ayla-secura"
+      },
+      {
+        "id": "ben-quadinaros",
+        "name": "Ben Quadinaros",
+        "type": "character",
+        "href": "/api/v1/characters/ben-quadinaros"
+      },
+      {
+        "id": "c-3po",
+        "name": "C-3PO",
+        "type": "character",
+        "href": "/api/v1/characters/c-3po"
+      },
+      {
+        "id": "darth-maul",
+        "name": "Darth Maul",
+        "type": "character",
+        "href": "/api/v1/characters/darth-maul"
+      },
+      {
+        "id": "dud-bolt",
+        "name": "Dud Bolt",
+        "type": "character",
+        "href": "/api/v1/characters/dud-bolt"
+      },
+      {
+        "id": "eeth-koth",
+        "name": "Eeth Koth",
+        "type": "character",
+        "href": "/api/v1/characters/eeth-koth"
+      },
+      {
+        "id": "finis-valorum",
+        "name": "Finis Valorum",
+        "type": "character",
+        "href": "/api/v1/characters/finis-valorum"
+      },
+      {
+        "id": "gasgano",
+        "name": "Gasgano",
+        "type": "character",
+        "href": "/api/v1/characters/gasgano"
+      },
+      {
+        "id": "jabba-desilijic-tiure",
+        "name": "Jabba Desilijic Tiure",
+        "type": "character",
+        "href": "/api/v1/characters/jabba-desilijic-tiure"
+      },
+      {
+        "id": "jar-jar-binks",
+        "name": "Jar Jar Binks",
+        "type": "character",
+        "href": "/api/v1/characters/jar-jar-binks"
+      },
+      {
+        "id": "ki-adi-mundi",
+        "name": "Ki-Adi-Mundi",
+        "type": "character",
+        "href": "/api/v1/characters/ki-adi-mundi"
+      },
+      {
+        "id": "kit-fisto",
+        "name": "Kit Fisto",
+        "type": "character",
+        "href": "/api/v1/characters/kit-fisto"
+      },
+      {
+        "id": "mace-windu",
+        "name": "Mace Windu",
+        "type": "character",
+        "href": "/api/v1/characters/mace-windu"
+      },
+      {
+        "id": "mas-amedda",
+        "name": "Mas Amedda",
+        "type": "character",
+        "href": "/api/v1/characters/mas-amedda"
+      },
+      {
+        "id": "nute-gunray",
+        "name": "Nute Gunray",
+        "type": "character",
+        "href": "/api/v1/characters/nute-gunray"
+      },
+      {
+        "id": "obi-wan-kenobi",
+        "name": "Obi-Wan Kenobi",
+        "type": "character",
+        "href": "/api/v1/characters/obi-wan-kenobi"
+      },
+      {
+        "id": "padme-amidala",
+        "name": "Padmé Amidala",
+        "type": "character",
+        "href": "/api/v1/characters/padme-amidala"
+      },
+      {
+        "id": "palpatine",
+        "name": "Palpatine",
+        "type": "character",
+        "href": "/api/v1/characters/palpatine"
+      },
+      {
+        "id": "plo-koon",
+        "name": "Plo Koon",
+        "type": "character",
+        "href": "/api/v1/characters/plo-koon"
+      },
+      {
+        "id": "quarsh-panaka",
+        "name": "Quarsh Panaka",
+        "type": "character",
+        "href": "/api/v1/characters/quarsh-panaka"
+      },
+      {
+        "id": "qui-gon-jinn",
+        "name": "Qui-Gon Jinn",
+        "type": "character",
+        "href": "/api/v1/characters/qui-gon-jinn"
+      },
+      {
+        "id": "r2-d2",
+        "name": "R2-D2",
+        "type": "character",
+        "href": "/api/v1/characters/r2-d2"
+      },
+      {
+        "id": "ratts-tyerel",
+        "name": "Ratts Tyerel",
+        "type": "character",
+        "href": "/api/v1/characters/ratts-tyerel"
+      },
+      {
+        "id": "ric-olie",
+        "name": "Ric Olié",
+        "type": "character",
+        "href": "/api/v1/characters/ric-olie"
+      },
+      {
+        "id": "roos-tarpals",
+        "name": "Roos Tarpals",
+        "type": "character",
+        "href": "/api/v1/characters/roos-tarpals"
+      },
+      {
+        "id": "rugor-nass",
+        "name": "Rugor Nass",
+        "type": "character",
+        "href": "/api/v1/characters/rugor-nass"
+      },
+      {
+        "id": "saesee-tiin",
+        "name": "Saesee Tiin",
+        "type": "character",
+        "href": "/api/v1/characters/saesee-tiin"
+      },
+      {
+        "id": "sebulba",
+        "name": "Sebulba",
+        "type": "character",
+        "href": "/api/v1/characters/sebulba"
+      },
+      {
+        "id": "shmi-skywalker",
+        "name": "Shmi Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/shmi-skywalker"
+      },
+      {
+        "id": "watto",
+        "name": "Watto",
+        "type": "character",
+        "href": "/api/v1/characters/watto"
+      },
+      {
+        "id": "yarael-poof",
+        "name": "Yarael Poof",
+        "type": "character",
+        "href": "/api/v1/characters/yarael-poof"
+      },
+      {
+        "id": "yoda",
+        "name": "Yoda",
+        "type": "character",
+        "href": "/api/v1/characters/yoda"
+      }
+    ],
+    "planets": [
+      {
+        "id": "coruscant",
+        "name": "Coruscant",
+        "type": "planet",
+        "href": "/api/v1/planets/coruscant"
+      },
+      {
+        "id": "naboo",
+        "name": "Naboo",
+        "type": "planet",
+        "href": "/api/v1/planets/naboo"
+      },
+      {
+        "id": "tatooine",
+        "name": "Tatooine",
+        "type": "planet",
+        "href": "/api/v1/planets/tatooine"
+      }
+    ],
+    "starships": [
+      {
+        "id": "droid-control-ship",
+        "name": "Droid control ship",
+        "type": "starship",
+        "href": "/api/v1/starships/droid-control-ship"
+      },
+      {
+        "id": "naboo-fighter",
+        "name": "Naboo fighter",
+        "type": "starship",
+        "href": "/api/v1/starships/naboo-fighter"
+      },
+      {
+        "id": "naboo-royal-starship",
+        "name": "Naboo Royal Starship",
+        "type": "starship",
+        "href": "/api/v1/starships/naboo-royal-starship"
+      },
+      {
+        "id": "republic-cruiser",
+        "name": "Republic Cruiser",
+        "type": "starship",
+        "href": "/api/v1/starships/republic-cruiser"
+      },
+      {
+        "id": "scimitar",
+        "name": "Scimitar",
+        "type": "starship",
+        "href": "/api/v1/starships/scimitar"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "armored-assault-tank",
+        "name": "Armored Assault Tank",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/armored-assault-tank"
+      },
+      {
+        "id": "c-9979-landing-craft",
+        "name": "C-9979 landing craft",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/c-9979-landing-craft"
+      },
+      {
+        "id": "multi-troop-transport",
+        "name": "Multi-Troop Transport",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/multi-troop-transport"
+      },
+      {
+        "id": "single-trooper-aerial-platform",
+        "name": "Single Trooper Aerial Platform",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/single-trooper-aerial-platform"
+      },
+      {
+        "id": "sith-speeder",
+        "name": "Sith speeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/sith-speeder"
+      },
+      {
+        "id": "tribubble-bongo",
+        "name": "Tribubble bongo",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tribubble-bongo"
+      },
+      {
+        "id": "vulture-droid",
+        "name": "Vulture Droid",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/vulture-droid"
+      }
+    ],
+    "species": [
+      {
+        "id": "aleena",
+        "name": "Aleena",
+        "type": "species",
+        "href": "/api/v1/speciess/aleena"
+      },
+      {
+        "id": "cerean",
+        "name": "Cerean",
+        "type": "species",
+        "href": "/api/v1/speciess/cerean"
+      },
+      {
+        "id": "chagrian",
+        "name": "Chagrian",
+        "type": "species",
+        "href": "/api/v1/speciess/chagrian"
+      },
+      {
+        "id": "droid",
+        "name": "Droid",
+        "type": "species",
+        "href": "/api/v1/speciess/droid"
+      },
+      {
+        "id": "dug",
+        "name": "Dug",
+        "type": "species",
+        "href": "/api/v1/speciess/dug"
+      },
+      {
+        "id": "gungan",
+        "name": "Gungan",
+        "type": "species",
+        "href": "/api/v1/speciess/gungan"
+      },
+      {
+        "id": "human",
+        "name": "Human",
+        "type": "species",
+        "href": "/api/v1/speciess/human"
+      },
+      {
+        "id": "iktotchi",
+        "name": "Iktotchi",
+        "type": "species",
+        "href": "/api/v1/speciess/iktotchi"
+      },
+      {
+        "id": "kel-dor",
+        "name": "Kel Dor",
+        "type": "species",
+        "href": "/api/v1/speciess/kel-dor"
+      },
+      {
+        "id": "nautolan",
+        "name": "Nautolan",
+        "type": "species",
+        "href": "/api/v1/speciess/nautolan"
+      },
+      {
+        "id": "neimodian",
+        "name": "Neimodian",
+        "type": "species",
+        "href": "/api/v1/speciess/neimodian"
+      },
+      {
+        "id": "quermian",
+        "name": "Quermian",
+        "type": "species",
+        "href": "/api/v1/speciess/quermian"
+      },
+      {
+        "id": "tholothian",
+        "name": "Tholothian",
+        "type": "species",
+        "href": "/api/v1/speciess/tholothian"
+      },
+      {
+        "id": "toong",
+        "name": "Toong",
+        "type": "species",
+        "href": "/api/v1/speciess/toong"
+      },
+      {
+        "id": "toydarian",
+        "name": "Toydarian",
+        "type": "species",
+        "href": "/api/v1/speciess/toydarian"
+      },
+      {
+        "id": "twilek",
+        "name": "Twi'lek",
+        "type": "species",
+        "href": "/api/v1/speciess/twilek"
+      },
+      {
+        "id": "vulptereen",
+        "name": "Vulptereen",
+        "type": "species",
+        "href": "/api/v1/speciess/vulptereen"
+      },
+      {
+        "id": "xexto",
+        "name": "Xexto",
+        "type": "species",
+        "href": "/api/v1/speciess/xexto"
+      },
+      {
+        "id": "yodas-species",
+        "name": "Yoda's species",
+        "type": "species",
+        "href": "/api/v1/speciess/yodas-species"
+      },
+      {
+        "id": "zabrak",
+        "name": "Zabrak",
+        "type": "species",
+        "href": "/api/v1/speciess/zabrak"
+      }
+    ]
+  },
+  {
+    "id": "attack-of-the-clones",
+    "title": "Attack of the Clones",
+    "episode": 2,
+    "description": "",
+    "openingCrawl": "There is unrest in the Galactic\r\nSenate. Several thousand solar\r\nsystems have declared their\r\nintentions to leave the Republic.\r\n\r\nThis separatist movement,\r\nunder the leadership of the\r\nmysterious Count Dooku, has\r\nmade it difficult for the limited\r\nnumber of Jedi Knights to maintain \r\npeace and order in the galaxy.\r\n\r\nSenator Amidala, the former\r\nQueen of Naboo, is returning\r\nto the Galactic Senate to vote\r\non the critical issue of creating\r\nan ARMY OF THE REPUBLIC\r\nto assist the overwhelmed\r\nJedi....",
+    "director": "George Lucas",
+    "producer": "Rick McCallum",
+    "releaseDate": "2002-05-16",
+    "characters": [
+      {
+        "id": "anakin-skywalker",
+        "name": "Anakin Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/anakin-skywalker"
+      },
+      {
+        "id": "ayla-secura",
+        "name": "Ayla Secura",
+        "type": "character",
+        "href": "/api/v1/characters/ayla-secura"
+      },
+      {
+        "id": "bail-prestor-organa",
+        "name": "Bail Prestor Organa",
+        "type": "character",
+        "href": "/api/v1/characters/bail-prestor-organa"
+      },
+      {
+        "id": "barriss-offee",
+        "name": "Barriss Offee",
+        "type": "character",
+        "href": "/api/v1/characters/barriss-offee"
+      },
+      {
+        "id": "beru-whitesun-lars",
+        "name": "Beru Whitesun lars",
+        "type": "character",
+        "href": "/api/v1/characters/beru-whitesun-lars"
+      },
+      {
+        "id": "boba-fett",
+        "name": "Boba Fett",
+        "type": "character",
+        "href": "/api/v1/characters/boba-fett"
+      },
+      {
+        "id": "c-3po",
+        "name": "C-3PO",
+        "type": "character",
+        "href": "/api/v1/characters/c-3po"
+      },
+      {
+        "id": "cliegg-lars",
+        "name": "Cliegg Lars",
+        "type": "character",
+        "href": "/api/v1/characters/cliegg-lars"
+      },
+      {
+        "id": "corde",
+        "name": "Cordé",
+        "type": "character",
+        "href": "/api/v1/characters/corde"
+      },
+      {
+        "id": "dexter-jettster",
+        "name": "Dexter Jettster",
+        "type": "character",
+        "href": "/api/v1/characters/dexter-jettster"
+      },
+      {
+        "id": "dooku",
+        "name": "Dooku",
+        "type": "character",
+        "href": "/api/v1/characters/dooku"
+      },
+      {
+        "id": "dorme",
+        "name": "Dormé",
+        "type": "character",
+        "href": "/api/v1/characters/dorme"
+      },
+      {
+        "id": "gregar-typho",
+        "name": "Gregar Typho",
+        "type": "character",
+        "href": "/api/v1/characters/gregar-typho"
+      },
+      {
+        "id": "jango-fett",
+        "name": "Jango Fett",
+        "type": "character",
+        "href": "/api/v1/characters/jango-fett"
+      },
+      {
+        "id": "jar-jar-binks",
+        "name": "Jar Jar Binks",
+        "type": "character",
+        "href": "/api/v1/characters/jar-jar-binks"
+      },
+      {
+        "id": "jocasta-nu",
+        "name": "Jocasta Nu",
+        "type": "character",
+        "href": "/api/v1/characters/jocasta-nu"
+      },
+      {
+        "id": "ki-adi-mundi",
+        "name": "Ki-Adi-Mundi",
+        "type": "character",
+        "href": "/api/v1/characters/ki-adi-mundi"
+      },
+      {
+        "id": "kit-fisto",
+        "name": "Kit Fisto",
+        "type": "character",
+        "href": "/api/v1/characters/kit-fisto"
+      },
+      {
+        "id": "lama-su",
+        "name": "Lama Su",
+        "type": "character",
+        "href": "/api/v1/characters/lama-su"
+      },
+      {
+        "id": "luminara-unduli",
+        "name": "Luminara Unduli",
+        "type": "character",
+        "href": "/api/v1/characters/luminara-unduli"
+      },
+      {
+        "id": "mace-windu",
+        "name": "Mace Windu",
+        "type": "character",
+        "href": "/api/v1/characters/mace-windu"
+      },
+      {
+        "id": "mas-amedda",
+        "name": "Mas Amedda",
+        "type": "character",
+        "href": "/api/v1/characters/mas-amedda"
+      },
+      {
+        "id": "nute-gunray",
+        "name": "Nute Gunray",
+        "type": "character",
+        "href": "/api/v1/characters/nute-gunray"
+      },
+      {
+        "id": "obi-wan-kenobi",
+        "name": "Obi-Wan Kenobi",
+        "type": "character",
+        "href": "/api/v1/characters/obi-wan-kenobi"
+      },
+      {
+        "id": "owen-lars",
+        "name": "Owen Lars",
+        "type": "character",
+        "href": "/api/v1/characters/owen-lars"
+      },
+      {
+        "id": "padme-amidala",
+        "name": "Padmé Amidala",
+        "type": "character",
+        "href": "/api/v1/characters/padme-amidala"
+      },
+      {
+        "id": "palpatine",
+        "name": "Palpatine",
+        "type": "character",
+        "href": "/api/v1/characters/palpatine"
+      },
+      {
+        "id": "plo-koon",
+        "name": "Plo Koon",
+        "type": "character",
+        "href": "/api/v1/characters/plo-koon"
+      },
+      {
+        "id": "poggle-the-lesser",
+        "name": "Poggle the Lesser",
+        "type": "character",
+        "href": "/api/v1/characters/poggle-the-lesser"
+      },
+      {
+        "id": "r2-d2",
+        "name": "R2-D2",
+        "type": "character",
+        "href": "/api/v1/characters/r2-d2"
+      },
+      {
+        "id": "r4-p17",
+        "name": "R4-P17",
+        "type": "character",
+        "href": "/api/v1/characters/r4-p17"
+      },
+      {
+        "id": "san-hill",
+        "name": "San Hill",
+        "type": "character",
+        "href": "/api/v1/characters/san-hill"
+      },
+      {
+        "id": "shaak-ti",
+        "name": "Shaak Ti",
+        "type": "character",
+        "href": "/api/v1/characters/shaak-ti"
+      },
+      {
+        "id": "shmi-skywalker",
+        "name": "Shmi Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/shmi-skywalker"
+      },
+      {
+        "id": "sly-moore",
+        "name": "Sly Moore",
+        "type": "character",
+        "href": "/api/v1/characters/sly-moore"
+      },
+      {
+        "id": "taun-we",
+        "name": "Taun We",
+        "type": "character",
+        "href": "/api/v1/characters/taun-we"
+      },
+      {
+        "id": "wat-tambor",
+        "name": "Wat Tambor",
+        "type": "character",
+        "href": "/api/v1/characters/wat-tambor"
+      },
+      {
+        "id": "watto",
+        "name": "Watto",
+        "type": "character",
+        "href": "/api/v1/characters/watto"
+      },
+      {
+        "id": "yoda",
+        "name": "Yoda",
+        "type": "character",
+        "href": "/api/v1/characters/yoda"
+      },
+      {
+        "id": "zam-wesell",
+        "name": "Zam Wesell",
+        "type": "character",
+        "href": "/api/v1/characters/zam-wesell"
+      }
+    ],
+    "planets": [
+      {
+        "id": "coruscant",
+        "name": "Coruscant",
+        "type": "planet",
+        "href": "/api/v1/planets/coruscant"
+      },
+      {
+        "id": "geonosis",
+        "name": "Geonosis",
+        "type": "planet",
+        "href": "/api/v1/planets/geonosis"
+      },
+      {
+        "id": "kamino",
+        "name": "Kamino",
+        "type": "planet",
+        "href": "/api/v1/planets/kamino"
+      },
+      {
+        "id": "naboo",
+        "name": "Naboo",
+        "type": "planet",
+        "href": "/api/v1/planets/naboo"
+      },
+      {
+        "id": "tatooine",
+        "name": "Tatooine",
+        "type": "planet",
+        "href": "/api/v1/planets/tatooine"
+      }
+    ],
+    "starships": [
+      {
+        "id": "aa-9-coruscant-freighter",
+        "name": "AA-9 Coruscant freighter",
+        "type": "starship",
+        "href": "/api/v1/starships/aa-9-coruscant-freighter"
+      },
+      {
+        "id": "droid-control-ship",
+        "name": "Droid control ship",
+        "type": "starship",
+        "href": "/api/v1/starships/droid-control-ship"
+      },
+      {
+        "id": "h-type-nubian-yacht",
+        "name": "H-type Nubian yacht",
+        "type": "starship",
+        "href": "/api/v1/starships/h-type-nubian-yacht"
+      },
+      {
+        "id": "j-type-diplomatic-barge",
+        "name": "J-type diplomatic barge",
+        "type": "starship",
+        "href": "/api/v1/starships/j-type-diplomatic-barge"
+      },
+      {
+        "id": "jedi-starfighter",
+        "name": "Jedi starfighter",
+        "type": "starship",
+        "href": "/api/v1/starships/jedi-starfighter"
+      },
+      {
+        "id": "naboo-fighter",
+        "name": "Naboo fighter",
+        "type": "starship",
+        "href": "/api/v1/starships/naboo-fighter"
+      },
+      {
+        "id": "republic-assault-ship",
+        "name": "Republic Assault ship",
+        "type": "starship",
+        "href": "/api/v1/starships/republic-assault-ship"
+      },
+      {
+        "id": "slave-1",
+        "name": "Slave 1",
+        "type": "starship",
+        "href": "/api/v1/starships/slave-1"
+      },
+      {
+        "id": "solar-sailer",
+        "name": "Solar Sailer",
+        "type": "starship",
+        "href": "/api/v1/starships/solar-sailer"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "at-te",
+        "name": "AT-TE",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/at-te"
+      },
+      {
+        "id": "flitknot-speeder",
+        "name": "Flitknot speeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/flitknot-speeder"
+      },
+      {
+        "id": "geonosian-starfighter",
+        "name": "Geonosian starfighter",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/geonosian-starfighter"
+      },
+      {
+        "id": "koro-2-exodrive-airspeeder",
+        "name": "Koro-2 Exodrive airspeeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/koro-2-exodrive-airspeeder"
+      },
+      {
+        "id": "laat-c",
+        "name": "LAAT/c",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/laat-c"
+      },
+      {
+        "id": "laat-i",
+        "name": "LAAT/i",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/laat-i"
+      },
+      {
+        "id": "neimoidian-shuttle",
+        "name": "Neimoidian shuttle",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/neimoidian-shuttle"
+      },
+      {
+        "id": "sand-crawler",
+        "name": "Sand Crawler",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/sand-crawler"
+      },
+      {
+        "id": "spha",
+        "name": "SPHA",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/spha"
+      },
+      {
+        "id": "xj-6-airspeeder",
+        "name": "XJ-6 airspeeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/xj-6-airspeeder"
+      },
+      {
+        "id": "zephyr-g-swoop-bike",
+        "name": "Zephyr-G swoop bike",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/zephyr-g-swoop-bike"
+      }
+    ],
+    "species": [
+      {
+        "id": "besalisk",
+        "name": "Besalisk",
+        "type": "species",
+        "href": "/api/v1/speciess/besalisk"
+      },
+      {
+        "id": "clawdite",
+        "name": "Clawdite",
+        "type": "species",
+        "href": "/api/v1/speciess/clawdite"
+      },
+      {
+        "id": "droid",
+        "name": "Droid",
+        "type": "species",
+        "href": "/api/v1/speciess/droid"
+      },
+      {
+        "id": "geonosian",
+        "name": "Geonosian",
+        "type": "species",
+        "href": "/api/v1/speciess/geonosian"
+      },
+      {
+        "id": "gungan",
+        "name": "Gungan",
+        "type": "species",
+        "href": "/api/v1/speciess/gungan"
+      },
+      {
+        "id": "human",
+        "name": "Human",
+        "type": "species",
+        "href": "/api/v1/speciess/human"
+      },
+      {
+        "id": "kaminoan",
+        "name": "Kaminoan",
+        "type": "species",
+        "href": "/api/v1/speciess/kaminoan"
+      },
+      {
+        "id": "mirialan",
+        "name": "Mirialan",
+        "type": "species",
+        "href": "/api/v1/speciess/mirialan"
+      },
+      {
+        "id": "muun",
+        "name": "Muun",
+        "type": "species",
+        "href": "/api/v1/speciess/muun"
+      },
+      {
+        "id": "skakoan",
+        "name": "Skakoan",
+        "type": "species",
+        "href": "/api/v1/speciess/skakoan"
+      },
+      {
+        "id": "togruta",
+        "name": "Togruta",
+        "type": "species",
+        "href": "/api/v1/speciess/togruta"
+      },
+      {
+        "id": "toydarian",
+        "name": "Toydarian",
+        "type": "species",
+        "href": "/api/v1/speciess/toydarian"
+      },
+      {
+        "id": "twilek",
+        "name": "Twi'lek",
+        "type": "species",
+        "href": "/api/v1/speciess/twilek"
+      },
+      {
+        "id": "yodas-species",
+        "name": "Yoda's species",
+        "type": "species",
+        "href": "/api/v1/speciess/yodas-species"
+      }
+    ]
+  },
+  {
+    "id": "revenge-of-the-sith",
+    "title": "Revenge of the Sith",
+    "episode": 3,
+    "description": "",
+    "openingCrawl": "War! The Republic is crumbling\r\nunder attacks by the ruthless\r\nSith Lord, Count Dooku.\r\nThere are heroes on both sides.\r\nEvil is everywhere.\r\n\r\nIn a stunning move, the\r\nfiendish droid leader, General\r\nGrievous, has swept into the\r\nRepublic capital and kidnapped\r\nChancellor Palpatine, leader of\r\nthe Galactic Senate.\r\n\r\nAs the Separatist Droid Army\r\nattempts to flee the besieged\r\ncapital with their valuable\r\nhostage, two Jedi Knights lead a\r\ndesperate mission to rescue the\r\ncaptive Chancellor....",
+    "director": "George Lucas",
+    "producer": "Rick McCallum",
+    "releaseDate": "2005-05-19",
+    "characters": [
+      {
+        "id": "adi-gallia",
+        "name": "Adi Gallia",
+        "type": "character",
+        "href": "/api/v1/characters/adi-gallia"
+      },
+      {
+        "id": "anakin-skywalker",
+        "name": "Anakin Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/anakin-skywalker"
+      },
+      {
+        "id": "ayla-secura",
+        "name": "Ayla Secura",
+        "type": "character",
+        "href": "/api/v1/characters/ayla-secura"
+      },
+      {
+        "id": "bail-prestor-organa",
+        "name": "Bail Prestor Organa",
+        "type": "character",
+        "href": "/api/v1/characters/bail-prestor-organa"
+      },
+      {
+        "id": "beru-whitesun-lars",
+        "name": "Beru Whitesun lars",
+        "type": "character",
+        "href": "/api/v1/characters/beru-whitesun-lars"
+      },
+      {
+        "id": "c-3po",
+        "name": "C-3PO",
+        "type": "character",
+        "href": "/api/v1/characters/c-3po"
+      },
+      {
+        "id": "chewbacca",
+        "name": "Chewbacca",
+        "type": "character",
+        "href": "/api/v1/characters/chewbacca"
+      },
+      {
+        "id": "darth-vader",
+        "name": "Darth Vader",
+        "type": "character",
+        "href": "/api/v1/characters/darth-vader"
+      },
+      {
+        "id": "dooku",
+        "name": "Dooku",
+        "type": "character",
+        "href": "/api/v1/characters/dooku"
+      },
+      {
+        "id": "eeth-koth",
+        "name": "Eeth Koth",
+        "type": "character",
+        "href": "/api/v1/characters/eeth-koth"
+      },
+      {
+        "id": "grievous",
+        "name": "Grievous",
+        "type": "character",
+        "href": "/api/v1/characters/grievous"
+      },
+      {
+        "id": "ki-adi-mundi",
+        "name": "Ki-Adi-Mundi",
+        "type": "character",
+        "href": "/api/v1/characters/ki-adi-mundi"
+      },
+      {
+        "id": "kit-fisto",
+        "name": "Kit Fisto",
+        "type": "character",
+        "href": "/api/v1/characters/kit-fisto"
+      },
+      {
+        "id": "leia-organa",
+        "name": "Leia Organa",
+        "type": "character",
+        "href": "/api/v1/characters/leia-organa"
+      },
+      {
+        "id": "luke-skywalker",
+        "name": "Luke Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/luke-skywalker"
+      },
+      {
+        "id": "luminara-unduli",
+        "name": "Luminara Unduli",
+        "type": "character",
+        "href": "/api/v1/characters/luminara-unduli"
+      },
+      {
+        "id": "mace-windu",
+        "name": "Mace Windu",
+        "type": "character",
+        "href": "/api/v1/characters/mace-windu"
+      },
+      {
+        "id": "nute-gunray",
+        "name": "Nute Gunray",
+        "type": "character",
+        "href": "/api/v1/characters/nute-gunray"
+      },
+      {
+        "id": "obi-wan-kenobi",
+        "name": "Obi-Wan Kenobi",
+        "type": "character",
+        "href": "/api/v1/characters/obi-wan-kenobi"
+      },
+      {
+        "id": "owen-lars",
+        "name": "Owen Lars",
+        "type": "character",
+        "href": "/api/v1/characters/owen-lars"
+      },
+      {
+        "id": "padme-amidala",
+        "name": "Padmé Amidala",
+        "type": "character",
+        "href": "/api/v1/characters/padme-amidala"
+      },
+      {
+        "id": "palpatine",
+        "name": "Palpatine",
+        "type": "character",
+        "href": "/api/v1/characters/palpatine"
+      },
+      {
+        "id": "plo-koon",
+        "name": "Plo Koon",
+        "type": "character",
+        "href": "/api/v1/characters/plo-koon"
+      },
+      {
+        "id": "poggle-the-lesser",
+        "name": "Poggle the Lesser",
+        "type": "character",
+        "href": "/api/v1/characters/poggle-the-lesser"
+      },
+      {
+        "id": "r2-d2",
+        "name": "R2-D2",
+        "type": "character",
+        "href": "/api/v1/characters/r2-d2"
+      },
+      {
+        "id": "r4-p17",
+        "name": "R4-P17",
+        "type": "character",
+        "href": "/api/v1/characters/r4-p17"
+      },
+      {
+        "id": "raymus-antilles",
+        "name": "Raymus Antilles",
+        "type": "character",
+        "href": "/api/v1/characters/raymus-antilles"
+      },
+      {
+        "id": "saesee-tiin",
+        "name": "Saesee Tiin",
+        "type": "character",
+        "href": "/api/v1/characters/saesee-tiin"
+      },
+      {
+        "id": "shaak-ti",
+        "name": "Shaak Ti",
+        "type": "character",
+        "href": "/api/v1/characters/shaak-ti"
+      },
+      {
+        "id": "sly-moore",
+        "name": "Sly Moore",
+        "type": "character",
+        "href": "/api/v1/characters/sly-moore"
+      },
+      {
+        "id": "tarfful",
+        "name": "Tarfful",
+        "type": "character",
+        "href": "/api/v1/characters/tarfful"
+      },
+      {
+        "id": "tion-medon",
+        "name": "Tion Medon",
+        "type": "character",
+        "href": "/api/v1/characters/tion-medon"
+      },
+      {
+        "id": "wilhuff-tarkin",
+        "name": "Wilhuff Tarkin",
+        "type": "character",
+        "href": "/api/v1/characters/wilhuff-tarkin"
+      },
+      {
+        "id": "yoda",
+        "name": "Yoda",
+        "type": "character",
+        "href": "/api/v1/characters/yoda"
+      }
+    ],
+    "planets": [
+      {
+        "id": "alderaan",
+        "name": "Alderaan",
+        "type": "planet",
+        "href": "/api/v1/planets/alderaan"
+      },
+      {
+        "id": "cato-neimoidia",
+        "name": "Cato Neimoidia",
+        "type": "planet",
+        "href": "/api/v1/planets/cato-neimoidia"
+      },
+      {
+        "id": "coruscant",
+        "name": "Coruscant",
+        "type": "planet",
+        "href": "/api/v1/planets/coruscant"
+      },
+      {
+        "id": "dagobah",
+        "name": "Dagobah",
+        "type": "planet",
+        "href": "/api/v1/planets/dagobah"
+      },
+      {
+        "id": "felucia",
+        "name": "Felucia",
+        "type": "planet",
+        "href": "/api/v1/planets/felucia"
+      },
+      {
+        "id": "kashyyyk",
+        "name": "Kashyyyk",
+        "type": "planet",
+        "href": "/api/v1/planets/kashyyyk"
+      },
+      {
+        "id": "mustafar",
+        "name": "Mustafar",
+        "type": "planet",
+        "href": "/api/v1/planets/mustafar"
+      },
+      {
+        "id": "mygeeto",
+        "name": "Mygeeto",
+        "type": "planet",
+        "href": "/api/v1/planets/mygeeto"
+      },
+      {
+        "id": "naboo",
+        "name": "Naboo",
+        "type": "planet",
+        "href": "/api/v1/planets/naboo"
+      },
+      {
+        "id": "polis-massa",
+        "name": "Polis Massa",
+        "type": "planet",
+        "href": "/api/v1/planets/polis-massa"
+      },
+      {
+        "id": "saleucami",
+        "name": "Saleucami",
+        "type": "planet",
+        "href": "/api/v1/planets/saleucami"
+      },
+      {
+        "id": "tatooine",
+        "name": "Tatooine",
+        "type": "planet",
+        "href": "/api/v1/planets/tatooine"
+      },
+      {
+        "id": "utapau",
+        "name": "Utapau",
+        "type": "planet",
+        "href": "/api/v1/planets/utapau"
+      }
+    ],
+    "starships": [
+      {
+        "id": "arc-170",
+        "name": "arc-170",
+        "type": "starship",
+        "href": "/api/v1/starships/arc-170"
+      },
+      {
+        "id": "banking-clan-frigte",
+        "name": "Banking clan frigte",
+        "type": "starship",
+        "href": "/api/v1/starships/banking-clan-frigte"
+      },
+      {
+        "id": "belbullab-22-starfighter",
+        "name": "Belbullab-22 starfighter",
+        "type": "starship",
+        "href": "/api/v1/starships/belbullab-22-starfighter"
+      },
+      {
+        "id": "cr90-corvette",
+        "name": "CR90 corvette",
+        "type": "starship",
+        "href": "/api/v1/starships/cr90-corvette"
+      },
+      {
+        "id": "droid-control-ship",
+        "name": "Droid control ship",
+        "type": "starship",
+        "href": "/api/v1/starships/droid-control-ship"
+      },
+      {
+        "id": "jedi-interceptor",
+        "name": "Jedi Interceptor",
+        "type": "starship",
+        "href": "/api/v1/starships/jedi-interceptor"
+      },
+      {
+        "id": "jedi-starfighter",
+        "name": "Jedi starfighter",
+        "type": "starship",
+        "href": "/api/v1/starships/jedi-starfighter"
+      },
+      {
+        "id": "naboo-star-skiff",
+        "name": "Naboo star skiff",
+        "type": "starship",
+        "href": "/api/v1/starships/naboo-star-skiff"
+      },
+      {
+        "id": "republic-attack-cruiser",
+        "name": "Republic attack cruiser",
+        "type": "starship",
+        "href": "/api/v1/starships/republic-attack-cruiser"
+      },
+      {
+        "id": "theta-class-t-2c-shuttle",
+        "name": "Theta-class T-2c shuttle",
+        "type": "starship",
+        "href": "/api/v1/starships/theta-class-t-2c-shuttle"
+      },
+      {
+        "id": "trade-federation-cruiser",
+        "name": "Trade Federation cruiser",
+        "type": "starship",
+        "href": "/api/v1/starships/trade-federation-cruiser"
+      },
+      {
+        "id": "v-wing",
+        "name": "V-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/v-wing"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "at-rt",
+        "name": "AT-RT",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/at-rt"
+      },
+      {
+        "id": "at-te",
+        "name": "AT-TE",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/at-te"
+      },
+      {
+        "id": "clone-turbo-tank",
+        "name": "Clone turbo tank",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/clone-turbo-tank"
+      },
+      {
+        "id": "corporate-alliance-tank-droid",
+        "name": "Corporate Alliance tank droid",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/corporate-alliance-tank-droid"
+      },
+      {
+        "id": "droid-gunship",
+        "name": "Droid gunship",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/droid-gunship"
+      },
+      {
+        "id": "droid-tri-fighter",
+        "name": "Droid tri-fighter",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/droid-tri-fighter"
+      },
+      {
+        "id": "emergency-firespeeder",
+        "name": "Emergency Firespeeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/emergency-firespeeder"
+      },
+      {
+        "id": "laat-i",
+        "name": "LAAT/i",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/laat-i"
+      },
+      {
+        "id": "neimoidian-shuttle",
+        "name": "Neimoidian shuttle",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/neimoidian-shuttle"
+      },
+      {
+        "id": "oevvaor-jet-catamaran",
+        "name": "Oevvaor jet catamaran",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/oevvaor-jet-catamaran"
+      },
+      {
+        "id": "raddaugh-gnasp-fluttercraft",
+        "name": "Raddaugh Gnasp fluttercraft",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/raddaugh-gnasp-fluttercraft"
+      },
+      {
+        "id": "tsmeu-6-personal-wheel-bike",
+        "name": "Tsmeu-6 personal wheel bike",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tsmeu-6-personal-wheel-bike"
+      },
+      {
+        "id": "vulture-droid",
+        "name": "Vulture Droid",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/vulture-droid"
+      }
+    ],
+    "species": [
+      {
+        "id": "cerean",
+        "name": "Cerean",
+        "type": "species",
+        "href": "/api/v1/speciess/cerean"
+      },
+      {
+        "id": "chagrian",
+        "name": "Chagrian",
+        "type": "species",
+        "href": "/api/v1/speciess/chagrian"
+      },
+      {
+        "id": "clawdite",
+        "name": "Clawdite",
+        "type": "species",
+        "href": "/api/v1/speciess/clawdite"
+      },
+      {
+        "id": "droid",
+        "name": "Droid",
+        "type": "species",
+        "href": "/api/v1/speciess/droid"
+      },
+      {
+        "id": "geonosian",
+        "name": "Geonosian",
+        "type": "species",
+        "href": "/api/v1/speciess/geonosian"
+      },
+      {
+        "id": "human",
+        "name": "Human",
+        "type": "species",
+        "href": "/api/v1/speciess/human"
+      },
+      {
+        "id": "iktotchi",
+        "name": "Iktotchi",
+        "type": "species",
+        "href": "/api/v1/speciess/iktotchi"
+      },
+      {
+        "id": "kaleesh",
+        "name": "Kaleesh",
+        "type": "species",
+        "href": "/api/v1/speciess/kaleesh"
+      },
+      {
+        "id": "kel-dor",
+        "name": "Kel Dor",
+        "type": "species",
+        "href": "/api/v1/speciess/kel-dor"
+      },
+      {
+        "id": "mirialan",
+        "name": "Mirialan",
+        "type": "species",
+        "href": "/api/v1/speciess/mirialan"
+      },
+      {
+        "id": "muun",
+        "name": "Muun",
+        "type": "species",
+        "href": "/api/v1/speciess/muun"
+      },
+      {
+        "id": "pauan",
+        "name": "Pau'an",
+        "type": "species",
+        "href": "/api/v1/speciess/pauan"
+      },
+      {
+        "id": "quermian",
+        "name": "Quermian",
+        "type": "species",
+        "href": "/api/v1/speciess/quermian"
+      },
+      {
+        "id": "skakoan",
+        "name": "Skakoan",
+        "type": "species",
+        "href": "/api/v1/speciess/skakoan"
+      },
+      {
+        "id": "tholothian",
+        "name": "Tholothian",
+        "type": "species",
+        "href": "/api/v1/speciess/tholothian"
+      },
+      {
+        "id": "togruta",
+        "name": "Togruta",
+        "type": "species",
+        "href": "/api/v1/speciess/togruta"
+      },
+      {
+        "id": "toong",
+        "name": "Toong",
+        "type": "species",
+        "href": "/api/v1/speciess/toong"
+      },
+      {
+        "id": "twilek",
+        "name": "Twi'lek",
+        "type": "species",
+        "href": "/api/v1/speciess/twilek"
+      },
+      {
+        "id": "wookie",
+        "name": "Wookie",
+        "type": "species",
+        "href": "/api/v1/speciess/wookie"
+      },
+      {
+        "id": "yodas-species",
+        "name": "Yoda's species",
+        "type": "species",
+        "href": "/api/v1/speciess/yodas-species"
+      }
+    ]
+  },
+  {
+    "id": "a-new-hope",
+    "title": "A New Hope",
+    "episode": 4,
+    "description": "",
+    "openingCrawl": "It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....",
+    "director": "George Lucas",
+    "producer": "Gary Kurtz, Rick McCallum",
+    "releaseDate": "1977-05-25",
+    "characters": [
+      {
+        "id": "beru-whitesun-lars",
+        "name": "Beru Whitesun lars",
+        "type": "character",
+        "href": "/api/v1/characters/beru-whitesun-lars"
+      },
+      {
+        "id": "biggs-darklighter",
+        "name": "Biggs Darklighter",
+        "type": "character",
+        "href": "/api/v1/characters/biggs-darklighter"
+      },
+      {
+        "id": "c-3po",
+        "name": "C-3PO",
+        "type": "character",
+        "href": "/api/v1/characters/c-3po"
+      },
+      {
+        "id": "chewbacca",
+        "name": "Chewbacca",
+        "type": "character",
+        "href": "/api/v1/characters/chewbacca"
+      },
+      {
+        "id": "darth-vader",
+        "name": "Darth Vader",
+        "type": "character",
+        "href": "/api/v1/characters/darth-vader"
+      },
+      {
+        "id": "greedo",
+        "name": "Greedo",
+        "type": "character",
+        "href": "/api/v1/characters/greedo"
+      },
+      {
+        "id": "han-solo",
+        "name": "Han Solo",
+        "type": "character",
+        "href": "/api/v1/characters/han-solo"
+      },
+      {
+        "id": "jabba-desilijic-tiure",
+        "name": "Jabba Desilijic Tiure",
+        "type": "character",
+        "href": "/api/v1/characters/jabba-desilijic-tiure"
+      },
+      {
+        "id": "jek-tono-porkins",
+        "name": "Jek Tono Porkins",
+        "type": "character",
+        "href": "/api/v1/characters/jek-tono-porkins"
+      },
+      {
+        "id": "leia-organa",
+        "name": "Leia Organa",
+        "type": "character",
+        "href": "/api/v1/characters/leia-organa"
+      },
+      {
+        "id": "luke-skywalker",
+        "name": "Luke Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/luke-skywalker"
+      },
+      {
+        "id": "obi-wan-kenobi",
+        "name": "Obi-Wan Kenobi",
+        "type": "character",
+        "href": "/api/v1/characters/obi-wan-kenobi"
+      },
+      {
+        "id": "owen-lars",
+        "name": "Owen Lars",
+        "type": "character",
+        "href": "/api/v1/characters/owen-lars"
+      },
+      {
+        "id": "r2-d2",
+        "name": "R2-D2",
+        "type": "character",
+        "href": "/api/v1/characters/r2-d2"
+      },
+      {
+        "id": "r5-d4",
+        "name": "R5-D4",
+        "type": "character",
+        "href": "/api/v1/characters/r5-d4"
+      },
+      {
+        "id": "raymus-antilles",
+        "name": "Raymus Antilles",
+        "type": "character",
+        "href": "/api/v1/characters/raymus-antilles"
+      },
+      {
+        "id": "wedge-antilles",
+        "name": "Wedge Antilles",
+        "type": "character",
+        "href": "/api/v1/characters/wedge-antilles"
+      },
+      {
+        "id": "wilhuff-tarkin",
+        "name": "Wilhuff Tarkin",
+        "type": "character",
+        "href": "/api/v1/characters/wilhuff-tarkin"
+      }
+    ],
+    "planets": [
+      {
+        "id": "alderaan",
+        "name": "Alderaan",
+        "type": "planet",
+        "href": "/api/v1/planets/alderaan"
+      },
+      {
+        "id": "tatooine",
+        "name": "Tatooine",
+        "type": "planet",
+        "href": "/api/v1/planets/tatooine"
+      },
+      {
+        "id": "yavin-iv",
+        "name": "Yavin IV",
+        "type": "planet",
+        "href": "/api/v1/planets/yavin-iv"
+      }
+    ],
+    "starships": [
+      {
+        "id": "cr90-corvette",
+        "name": "CR90 corvette",
+        "type": "starship",
+        "href": "/api/v1/starships/cr90-corvette"
+      },
+      {
+        "id": "death-star",
+        "name": "Death Star",
+        "type": "starship",
+        "href": "/api/v1/starships/death-star"
+      },
+      {
+        "id": "millennium-falcon",
+        "name": "Millennium Falcon",
+        "type": "starship",
+        "href": "/api/v1/starships/millennium-falcon"
+      },
+      {
+        "id": "sentinel-class-landing-craft",
+        "name": "Sentinel-class landing craft",
+        "type": "starship",
+        "href": "/api/v1/starships/sentinel-class-landing-craft"
+      },
+      {
+        "id": "star-destroyer",
+        "name": "Star Destroyer",
+        "type": "starship",
+        "href": "/api/v1/starships/star-destroyer"
+      },
+      {
+        "id": "tie-advanced-x1",
+        "name": "TIE Advanced x1",
+        "type": "starship",
+        "href": "/api/v1/starships/tie-advanced-x1"
+      },
+      {
+        "id": "x-wing",
+        "name": "X-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/x-wing"
+      },
+      {
+        "id": "y-wing",
+        "name": "Y-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/y-wing"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "sand-crawler",
+        "name": "Sand Crawler",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/sand-crawler"
+      },
+      {
+        "id": "t-16-skyhopper",
+        "name": "T-16 skyhopper",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/t-16-skyhopper"
+      },
+      {
+        "id": "tie-ln-starfighter",
+        "name": "TIE/LN starfighter",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tie-ln-starfighter"
+      },
+      {
+        "id": "x-34-landspeeder",
+        "name": "X-34 landspeeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/x-34-landspeeder"
+      }
+    ],
+    "species": [
+      {
+        "id": "droid",
+        "name": "Droid",
+        "type": "species",
+        "href": "/api/v1/speciess/droid"
+      },
+      {
+        "id": "human",
+        "name": "Human",
+        "type": "species",
+        "href": "/api/v1/speciess/human"
+      },
+      {
+        "id": "hutt",
+        "name": "Hutt",
+        "type": "species",
+        "href": "/api/v1/speciess/hutt"
+      },
+      {
+        "id": "rodian",
+        "name": "Rodian",
+        "type": "species",
+        "href": "/api/v1/speciess/rodian"
+      },
+      {
+        "id": "wookie",
+        "name": "Wookie",
+        "type": "species",
+        "href": "/api/v1/speciess/wookie"
+      }
+    ]
+  },
+  {
+    "id": "the-empire-strikes-back",
+    "title": "The Empire Strikes Back",
+    "episode": 5,
+    "description": "",
+    "openingCrawl": "It is a dark time for the\r\nRebellion. Although the Death\r\nStar has been destroyed,\r\nImperial troops have driven the\r\nRebel forces from their hidden\r\nbase and pursued them across\r\nthe galaxy.\r\n\r\nEvading the dreaded Imperial\r\nStarfleet, a group of freedom\r\nfighters led by Luke Skywalker\r\nhas established a new secret\r\nbase on the remote ice world\r\nof Hoth.\r\n\r\nThe evil lord Darth Vader,\r\nobsessed with finding young\r\nSkywalker, has dispatched\r\nthousands of remote probes into\r\nthe far reaches of space....",
+    "director": "Irvin Kershner",
+    "producer": "Gary Kurtz, Rick McCallum",
+    "releaseDate": "1980-05-17",
+    "characters": [
+      {
+        "id": "boba-fett",
+        "name": "Boba Fett",
+        "type": "character",
+        "href": "/api/v1/characters/boba-fett"
+      },
+      {
+        "id": "bossk",
+        "name": "Bossk",
+        "type": "character",
+        "href": "/api/v1/characters/bossk"
+      },
+      {
+        "id": "c-3po",
+        "name": "C-3PO",
+        "type": "character",
+        "href": "/api/v1/characters/c-3po"
+      },
+      {
+        "id": "chewbacca",
+        "name": "Chewbacca",
+        "type": "character",
+        "href": "/api/v1/characters/chewbacca"
+      },
+      {
+        "id": "darth-vader",
+        "name": "Darth Vader",
+        "type": "character",
+        "href": "/api/v1/characters/darth-vader"
+      },
+      {
+        "id": "han-solo",
+        "name": "Han Solo",
+        "type": "character",
+        "href": "/api/v1/characters/han-solo"
+      },
+      {
+        "id": "ig-88",
+        "name": "IG-88",
+        "type": "character",
+        "href": "/api/v1/characters/ig-88"
+      },
+      {
+        "id": "lando-calrissian",
+        "name": "Lando Calrissian",
+        "type": "character",
+        "href": "/api/v1/characters/lando-calrissian"
+      },
+      {
+        "id": "leia-organa",
+        "name": "Leia Organa",
+        "type": "character",
+        "href": "/api/v1/characters/leia-organa"
+      },
+      {
+        "id": "lobot",
+        "name": "Lobot",
+        "type": "character",
+        "href": "/api/v1/characters/lobot"
+      },
+      {
+        "id": "luke-skywalker",
+        "name": "Luke Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/luke-skywalker"
+      },
+      {
+        "id": "obi-wan-kenobi",
+        "name": "Obi-Wan Kenobi",
+        "type": "character",
+        "href": "/api/v1/characters/obi-wan-kenobi"
+      },
+      {
+        "id": "palpatine",
+        "name": "Palpatine",
+        "type": "character",
+        "href": "/api/v1/characters/palpatine"
+      },
+      {
+        "id": "r2-d2",
+        "name": "R2-D2",
+        "type": "character",
+        "href": "/api/v1/characters/r2-d2"
+      },
+      {
+        "id": "wedge-antilles",
+        "name": "Wedge Antilles",
+        "type": "character",
+        "href": "/api/v1/characters/wedge-antilles"
+      },
+      {
+        "id": "yoda",
+        "name": "Yoda",
+        "type": "character",
+        "href": "/api/v1/characters/yoda"
+      }
+    ],
+    "planets": [
+      {
+        "id": "bespin",
+        "name": "Bespin",
+        "type": "planet",
+        "href": "/api/v1/planets/bespin"
+      },
+      {
+        "id": "dagobah",
+        "name": "Dagobah",
+        "type": "planet",
+        "href": "/api/v1/planets/dagobah"
+      },
+      {
+        "id": "hoth",
+        "name": "Hoth",
+        "type": "planet",
+        "href": "/api/v1/planets/hoth"
+      },
+      {
+        "id": "ord-mantell",
+        "name": "Ord Mantell",
+        "type": "planet",
+        "href": "/api/v1/planets/ord-mantell"
+      }
+    ],
+    "starships": [
+      {
+        "id": "ef76-nebulon-b-escort-frigate",
+        "name": "EF76 Nebulon-B escort frigate",
+        "type": "starship",
+        "href": "/api/v1/starships/ef76-nebulon-b-escort-frigate"
+      },
+      {
+        "id": "executor",
+        "name": "Executor",
+        "type": "starship",
+        "href": "/api/v1/starships/executor"
+      },
+      {
+        "id": "imperial-shuttle",
+        "name": "Imperial shuttle",
+        "type": "starship",
+        "href": "/api/v1/starships/imperial-shuttle"
+      },
+      {
+        "id": "millennium-falcon",
+        "name": "Millennium Falcon",
+        "type": "starship",
+        "href": "/api/v1/starships/millennium-falcon"
+      },
+      {
+        "id": "rebel-transport",
+        "name": "Rebel transport",
+        "type": "starship",
+        "href": "/api/v1/starships/rebel-transport"
+      },
+      {
+        "id": "slave-1",
+        "name": "Slave 1",
+        "type": "starship",
+        "href": "/api/v1/starships/slave-1"
+      },
+      {
+        "id": "star-destroyer",
+        "name": "Star Destroyer",
+        "type": "starship",
+        "href": "/api/v1/starships/star-destroyer"
+      },
+      {
+        "id": "x-wing",
+        "name": "X-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/x-wing"
+      },
+      {
+        "id": "y-wing",
+        "name": "Y-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/y-wing"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "at-at",
+        "name": "AT-AT",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/at-at"
+      },
+      {
+        "id": "at-st",
+        "name": "AT-ST",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/at-st"
+      },
+      {
+        "id": "snowspeeder",
+        "name": "Snowspeeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/snowspeeder"
+      },
+      {
+        "id": "storm-iv-twin-pod-cloud-car",
+        "name": "Storm IV Twin-Pod cloud car",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/storm-iv-twin-pod-cloud-car"
+      },
+      {
+        "id": "tie-bomber",
+        "name": "TIE bomber",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tie-bomber"
+      },
+      {
+        "id": "tie-ln-starfighter",
+        "name": "TIE/LN starfighter",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tie-ln-starfighter"
+      }
+    ],
+    "species": [
+      {
+        "id": "droid",
+        "name": "Droid",
+        "type": "species",
+        "href": "/api/v1/speciess/droid"
+      },
+      {
+        "id": "human",
+        "name": "Human",
+        "type": "species",
+        "href": "/api/v1/speciess/human"
+      },
+      {
+        "id": "trandoshan",
+        "name": "Trandoshan",
+        "type": "species",
+        "href": "/api/v1/speciess/trandoshan"
+      },
+      {
+        "id": "wookie",
+        "name": "Wookie",
+        "type": "species",
+        "href": "/api/v1/speciess/wookie"
+      },
+      {
+        "id": "yodas-species",
+        "name": "Yoda's species",
+        "type": "species",
+        "href": "/api/v1/speciess/yodas-species"
+      }
+    ]
+  },
+  {
+    "id": "return-of-the-jedi",
+    "title": "Return of the Jedi",
+    "episode": 6,
+    "description": "",
+    "openingCrawl": "Luke Skywalker has returned to\r\nhis home planet of Tatooine in\r\nan attempt to rescue his\r\nfriend Han Solo from the\r\nclutches of the vile gangster\r\nJabba the Hutt.\r\n\r\nLittle does Luke know that the\r\nGALACTIC EMPIRE has secretly\r\nbegun construction on a new\r\narmored space station even\r\nmore powerful than the first\r\ndreaded Death Star.\r\n\r\nWhen completed, this ultimate\r\nweapon will spell certain doom\r\nfor the small band of rebels\r\nstruggling to restore freedom\r\nto the galaxy...",
+    "director": "Richard Marquand",
+    "producer": "Howard G. Kazanjian, George Lucas, Rick McCallum",
+    "releaseDate": "1983-05-25",
+    "characters": [
+      {
+        "id": "ackbar",
+        "name": "Ackbar",
+        "type": "character",
+        "href": "/api/v1/characters/ackbar"
+      },
+      {
+        "id": "arvel-crynyd",
+        "name": "Arvel Crynyd",
+        "type": "character",
+        "href": "/api/v1/characters/arvel-crynyd"
+      },
+      {
+        "id": "bib-fortuna",
+        "name": "Bib Fortuna",
+        "type": "character",
+        "href": "/api/v1/characters/bib-fortuna"
+      },
+      {
+        "id": "boba-fett",
+        "name": "Boba Fett",
+        "type": "character",
+        "href": "/api/v1/characters/boba-fett"
+      },
+      {
+        "id": "c-3po",
+        "name": "C-3PO",
+        "type": "character",
+        "href": "/api/v1/characters/c-3po"
+      },
+      {
+        "id": "chewbacca",
+        "name": "Chewbacca",
+        "type": "character",
+        "href": "/api/v1/characters/chewbacca"
+      },
+      {
+        "id": "darth-vader",
+        "name": "Darth Vader",
+        "type": "character",
+        "href": "/api/v1/characters/darth-vader"
+      },
+      {
+        "id": "han-solo",
+        "name": "Han Solo",
+        "type": "character",
+        "href": "/api/v1/characters/han-solo"
+      },
+      {
+        "id": "jabba-desilijic-tiure",
+        "name": "Jabba Desilijic Tiure",
+        "type": "character",
+        "href": "/api/v1/characters/jabba-desilijic-tiure"
+      },
+      {
+        "id": "lando-calrissian",
+        "name": "Lando Calrissian",
+        "type": "character",
+        "href": "/api/v1/characters/lando-calrissian"
+      },
+      {
+        "id": "leia-organa",
+        "name": "Leia Organa",
+        "type": "character",
+        "href": "/api/v1/characters/leia-organa"
+      },
+      {
+        "id": "luke-skywalker",
+        "name": "Luke Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/luke-skywalker"
+      },
+      {
+        "id": "mon-mothma",
+        "name": "Mon Mothma",
+        "type": "character",
+        "href": "/api/v1/characters/mon-mothma"
+      },
+      {
+        "id": "nien-nunb",
+        "name": "Nien Nunb",
+        "type": "character",
+        "href": "/api/v1/characters/nien-nunb"
+      },
+      {
+        "id": "obi-wan-kenobi",
+        "name": "Obi-Wan Kenobi",
+        "type": "character",
+        "href": "/api/v1/characters/obi-wan-kenobi"
+      },
+      {
+        "id": "palpatine",
+        "name": "Palpatine",
+        "type": "character",
+        "href": "/api/v1/characters/palpatine"
+      },
+      {
+        "id": "r2-d2",
+        "name": "R2-D2",
+        "type": "character",
+        "href": "/api/v1/characters/r2-d2"
+      },
+      {
+        "id": "wedge-antilles",
+        "name": "Wedge Antilles",
+        "type": "character",
+        "href": "/api/v1/characters/wedge-antilles"
+      },
+      {
+        "id": "wicket-systri-warrick",
+        "name": "Wicket Systri Warrick",
+        "type": "character",
+        "href": "/api/v1/characters/wicket-systri-warrick"
+      },
+      {
+        "id": "yoda",
+        "name": "Yoda",
+        "type": "character",
+        "href": "/api/v1/characters/yoda"
+      }
+    ],
+    "planets": [
+      {
+        "id": "coruscant",
+        "name": "Coruscant",
+        "type": "planet",
+        "href": "/api/v1/planets/coruscant"
+      },
+      {
+        "id": "dagobah",
+        "name": "Dagobah",
+        "type": "planet",
+        "href": "/api/v1/planets/dagobah"
+      },
+      {
+        "id": "endor",
+        "name": "Endor",
+        "type": "planet",
+        "href": "/api/v1/planets/endor"
+      },
+      {
+        "id": "naboo",
+        "name": "Naboo",
+        "type": "planet",
+        "href": "/api/v1/planets/naboo"
+      },
+      {
+        "id": "tatooine",
+        "name": "Tatooine",
+        "type": "planet",
+        "href": "/api/v1/planets/tatooine"
+      }
+    ],
+    "starships": [
+      {
+        "id": "a-wing",
+        "name": "A-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/a-wing"
+      },
+      {
+        "id": "b-wing",
+        "name": "B-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/b-wing"
+      },
+      {
+        "id": "calamari-cruiser",
+        "name": "Calamari Cruiser",
+        "type": "starship",
+        "href": "/api/v1/starships/calamari-cruiser"
+      },
+      {
+        "id": "cr90-corvette",
+        "name": "CR90 corvette",
+        "type": "starship",
+        "href": "/api/v1/starships/cr90-corvette"
+      },
+      {
+        "id": "ef76-nebulon-b-escort-frigate",
+        "name": "EF76 Nebulon-B escort frigate",
+        "type": "starship",
+        "href": "/api/v1/starships/ef76-nebulon-b-escort-frigate"
+      },
+      {
+        "id": "executor",
+        "name": "Executor",
+        "type": "starship",
+        "href": "/api/v1/starships/executor"
+      },
+      {
+        "id": "imperial-shuttle",
+        "name": "Imperial shuttle",
+        "type": "starship",
+        "href": "/api/v1/starships/imperial-shuttle"
+      },
+      {
+        "id": "millennium-falcon",
+        "name": "Millennium Falcon",
+        "type": "starship",
+        "href": "/api/v1/starships/millennium-falcon"
+      },
+      {
+        "id": "rebel-transport",
+        "name": "Rebel transport",
+        "type": "starship",
+        "href": "/api/v1/starships/rebel-transport"
+      },
+      {
+        "id": "star-destroyer",
+        "name": "Star Destroyer",
+        "type": "starship",
+        "href": "/api/v1/starships/star-destroyer"
+      },
+      {
+        "id": "x-wing",
+        "name": "X-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/x-wing"
+      },
+      {
+        "id": "y-wing",
+        "name": "Y-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/y-wing"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "at-at",
+        "name": "AT-AT",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/at-at"
+      },
+      {
+        "id": "at-st",
+        "name": "AT-ST",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/at-st"
+      },
+      {
+        "id": "bantha-ii-cargo-skiff",
+        "name": "Bantha-II cargo skiff",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/bantha-ii-cargo-skiff"
+      },
+      {
+        "id": "imperial-speeder-bike",
+        "name": "Imperial Speeder Bike",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/imperial-speeder-bike"
+      },
+      {
+        "id": "sail-barge",
+        "name": "Sail barge",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/sail-barge"
+      },
+      {
+        "id": "tie-bomber",
+        "name": "TIE bomber",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tie-bomber"
+      },
+      {
+        "id": "tie-in-interceptor",
+        "name": "TIE/IN interceptor",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tie-in-interceptor"
+      },
+      {
+        "id": "tie-ln-starfighter",
+        "name": "TIE/LN starfighter",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tie-ln-starfighter"
+      }
+    ],
+    "species": [
+      {
+        "id": "droid",
+        "name": "Droid",
+        "type": "species",
+        "href": "/api/v1/speciess/droid"
+      },
+      {
+        "id": "ewok",
+        "name": "Ewok",
+        "type": "species",
+        "href": "/api/v1/speciess/ewok"
+      },
+      {
+        "id": "human",
+        "name": "Human",
+        "type": "species",
+        "href": "/api/v1/speciess/human"
+      },
+      {
+        "id": "hutt",
+        "name": "Hutt",
+        "type": "species",
+        "href": "/api/v1/speciess/hutt"
+      },
+      {
+        "id": "mon-calamari",
+        "name": "Mon Calamari",
+        "type": "species",
+        "href": "/api/v1/speciess/mon-calamari"
+      },
+      {
+        "id": "sullustan",
+        "name": "Sullustan",
+        "type": "species",
+        "href": "/api/v1/speciess/sullustan"
+      },
+      {
+        "id": "twilek",
+        "name": "Twi'lek",
+        "type": "species",
+        "href": "/api/v1/speciess/twilek"
+      },
+      {
+        "id": "wookie",
+        "name": "Wookie",
+        "type": "species",
+        "href": "/api/v1/speciess/wookie"
+      },
+      {
+        "id": "yodas-species",
+        "name": "Yoda's species",
+        "type": "species",
+        "href": "/api/v1/speciess/yodas-species"
+      }
+    ]
+  }
+]

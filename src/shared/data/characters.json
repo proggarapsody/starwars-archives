@@ -32,8 +32,22 @@
       "type": "planet",
       "href": "/api/v1/planets/mon-cala"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "mon-calamari",
+        "name": "Mon Calamari",
+        "type": "species",
+        "href": "/api/v1/speciess/mon-calamari"
+      }
+    ],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -84,8 +98,28 @@
       "type": "planet",
       "href": "/api/v1/planets/coruscant"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "tholothian",
+        "name": "Tholothian",
+        "type": "species",
+        "href": "/api/v1/speciess/tholothian"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -132,9 +166,60 @@
       "href": "/api/v1/planets/tatooine"
     },
     "species": [],
-    "films": [],
-    "starships": [],
-    "vehicles": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
+    "starships": [
+      {
+        "id": "jedi-interceptor",
+        "name": "Jedi Interceptor",
+        "type": "starship",
+        "href": "/api/v1/starships/jedi-interceptor"
+      },
+      {
+        "id": "naboo-fighter",
+        "name": "Naboo fighter",
+        "type": "starship",
+        "href": "/api/v1/starships/naboo-fighter"
+      },
+      {
+        "id": "trade-federation-cruiser",
+        "name": "Trade Federation cruiser",
+        "type": "starship",
+        "href": "/api/v1/starships/trade-federation-cruiser"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "xj-6-airspeeder",
+        "name": "XJ-6 airspeeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/xj-6-airspeeder"
+      },
+      {
+        "id": "zephyr-g-swoop-bike",
+        "name": "Zephyr-G swoop bike",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/zephyr-g-swoop-bike"
+      }
+    ],
     "affiliations": [
       "501st Legion",
       "Sith",
@@ -174,8 +259,22 @@
     "cybernetics": null,
     "homeworld": null,
     "species": [],
-    "films": [],
-    "starships": [],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ],
+    "starships": [
+      {
+        "id": "a-wing",
+        "name": "A-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/a-wing"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "Alliance to Restore the Republic",
@@ -217,8 +316,34 @@
       "type": "planet",
       "href": "/api/v1/planets/ryloth"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "twilek",
+        "name": "Twi'lek",
+        "type": "species",
+        "href": "/api/v1/speciess/twilek"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -263,8 +388,28 @@
       "type": "planet",
       "href": "/api/v1/planets/alderaan"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "human",
+        "name": "Human",
+        "type": "species",
+        "href": "/api/v1/speciess/human"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -318,8 +463,22 @@
       "type": "planet",
       "href": "/api/v1/planets/mirial"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "mirialan",
+        "name": "Mirialan",
+        "type": "species",
+        "href": "/api/v1/speciess/mirialan"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -395,8 +554,22 @@
       "type": "planet",
       "href": "/api/v1/planets/tund"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "toong",
+        "name": "Toong",
+        "type": "species",
+        "href": "/api/v1/speciess/toong"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [],
@@ -437,7 +610,26 @@
       "href": "/api/v1/planets/tatooine"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [],
@@ -472,8 +664,22 @@
       "type": "planet",
       "href": "/api/v1/planets/ryloth"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "twilek",
+        "name": "Twi'lek",
+        "type": "species",
+        "href": "/api/v1/speciess/twilek"
+      }
+    ],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -517,8 +723,22 @@
       "href": "/api/v1/planets/tatooine"
     },
     "species": [],
-    "films": [],
-    "starships": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      }
+    ],
+    "starships": [
+      {
+        "id": "x-wing",
+        "name": "X-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/x-wing"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "Galactic Empire",
@@ -558,8 +778,34 @@
       "href": "/api/v1/planets/kamino"
     },
     "species": [],
-    "films": [],
-    "starships": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
+    "starships": [
+      {
+        "id": "slave-1",
+        "name": "Slave 1",
+        "type": "starship",
+        "href": "/api/v1/starships/slave-1"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "Confederacy of Independent Systems",
@@ -600,8 +846,22 @@
       "type": "planet",
       "href": "/api/v1/planets/trandosha"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "trandoshan",
+        "name": "Trandoshan",
+        "type": "species",
+        "href": "/api/v1/speciess/trandoshan"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -643,8 +903,52 @@
       "type": "planet",
       "href": "/api/v1/planets/tatooine"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "droid",
+        "name": "Droid",
+        "type": "species",
+        "href": "/api/v1/speciess/droid"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -737,10 +1041,62 @@
       "type": "planet",
       "href": "/api/v1/planets/kashyyyk"
     },
-    "species": [],
-    "films": [],
-    "starships": [],
-    "vehicles": [],
+    "species": [
+      {
+        "id": "wookie",
+        "name": "Wookie",
+        "type": "species",
+        "href": "/api/v1/speciess/wookie"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
+    "starships": [
+      {
+        "id": "imperial-shuttle",
+        "name": "Imperial shuttle",
+        "type": "starship",
+        "href": "/api/v1/starships/imperial-shuttle"
+      },
+      {
+        "id": "millennium-falcon",
+        "name": "Millennium Falcon",
+        "type": "starship",
+        "href": "/api/v1/starships/millennium-falcon"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "at-st",
+        "name": "AT-ST",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/at-st"
+      }
+    ],
     "affiliations": [
       "Galactic Republic",
       "Alliance to Restore the Republic",
@@ -786,7 +1142,14 @@
       "href": "/api/v1/planets/tatooine"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -824,7 +1187,14 @@
       "href": "/api/v1/planets/naboo"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -868,10 +1238,38 @@
       "type": "planet",
       "href": "/api/v1/planets/dathomir"
     },
-    "species": [],
-    "films": [],
-    "starships": [],
-    "vehicles": [],
+    "species": [
+      {
+        "id": "zabrak",
+        "name": "Zabrak",
+        "type": "species",
+        "href": "/api/v1/speciess/zabrak"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
+    "starships": [
+      {
+        "id": "scimitar",
+        "name": "Scimitar",
+        "type": "starship",
+        "href": "/api/v1/starships/scimitar"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "sith-speeder",
+        "name": "Sith speeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/sith-speeder"
+      }
+    ],
     "affiliations": [
       "Nightbrothers",
       "Sith",
@@ -920,8 +1318,40 @@
       "href": "/api/v1/planets/tatooine"
     },
     "species": [],
-    "films": [],
-    "starships": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
+    "starships": [
+      {
+        "id": "tie-advanced-x1",
+        "name": "TIE Advanced x1",
+        "type": "starship",
+        "href": "/api/v1/starships/tie-advanced-x1"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "501st Legion",
@@ -967,8 +1397,22 @@
       "type": "planet",
       "href": "/api/v1/planets/ojom"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "besalisk",
+        "name": "Besalisk",
+        "type": "species",
+        "href": "/api/v1/speciess/besalisk"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1010,10 +1454,37 @@
       "type": "planet",
       "href": "/api/v1/planets/serenno"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "human",
+        "name": "Human",
+        "type": "species",
+        "href": "/api/v1/speciess/human"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
-    "vehicles": [],
+    "vehicles": [
+      {
+        "id": "flitknot-speeder",
+        "name": "Flitknot speeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/flitknot-speeder"
+      }
+    ],
     "affiliations": [
       "House of Dooku",
       "Lost Twenty",
@@ -1058,8 +1529,22 @@
       "type": "planet",
       "href": "/api/v1/planets/naboo"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "human",
+        "name": "Human",
+        "type": "species",
+        "href": "/api/v1/speciess/human"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1097,8 +1582,22 @@
       "type": "planet",
       "href": "/api/v1/planets/vulpter"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "vulptereen",
+        "name": "Vulptereen",
+        "type": "species",
+        "href": "/api/v1/speciess/vulptereen"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [],
@@ -1130,8 +1629,28 @@
       "type": "planet",
       "href": "/api/v1/planets/nar-shaddaa"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "zabrak",
+        "name": "Zabrak",
+        "type": "species",
+        "href": "/api/v1/speciess/zabrak"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1172,7 +1691,14 @@
       "href": "/api/v1/planets/coruscant"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1245,8 +1771,22 @@
       "type": "planet",
       "href": "/api/v1/planets/troiken"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "xexto",
+        "name": "Xexto",
+        "type": "species",
+        "href": "/api/v1/speciess/xexto"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [],
@@ -1281,8 +1821,22 @@
     },
     "cybernetics": null,
     "homeworld": null,
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "rodian",
+        "name": "Rodian",
+        "type": "species",
+        "href": "/api/v1/speciess/rodian"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1319,8 +1873,22 @@
       "href": "/api/v1/planets/naboo"
     },
     "species": [],
-    "films": [],
-    "starships": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
+    "starships": [
+      {
+        "id": "naboo-fighter",
+        "name": "Naboo fighter",
+        "type": "starship",
+        "href": "/api/v1/starships/naboo-fighter"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "Royal House of Naboo",
@@ -1360,10 +1928,38 @@
       "type": "planet",
       "href": "/api/v1/planets/kalee"
     },
-    "species": [],
-    "films": [],
-    "starships": [],
-    "vehicles": [],
+    "species": [
+      {
+        "id": "kaleesh",
+        "name": "Kaleesh",
+        "type": "species",
+        "href": "/api/v1/speciess/kaleesh"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
+    "starships": [
+      {
+        "id": "belbullab-22-starfighter",
+        "name": "Belbullab-22 starfighter",
+        "type": "starship",
+        "href": "/api/v1/starships/belbullab-22-starfighter"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "tsmeu-6-personal-wheel-bike",
+        "name": "Tsmeu-6 personal wheel bike",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tsmeu-6-personal-wheel-bike"
+      }
+    ],
     "affiliations": [
       "Confederacy of Independent Systems",
       "Separatist Droid Army"
@@ -1407,8 +2003,40 @@
       "href": "/api/v1/planets/corellia"
     },
     "species": [],
-    "films": [],
-    "starships": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
+    "starships": [
+      {
+        "id": "imperial-shuttle",
+        "name": "Imperial shuttle",
+        "type": "starship",
+        "href": "/api/v1/starships/imperial-shuttle"
+      },
+      {
+        "id": "millennium-falcon",
+        "name": "Millennium Falcon",
+        "type": "starship",
+        "href": "/api/v1/starships/millennium-falcon"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "Galactic Empire",
@@ -1451,8 +2079,22 @@
     },
     "cybernetics": null,
     "homeworld": null,
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "droid",
+        "name": "Droid",
+        "type": "species",
+        "href": "/api/v1/speciess/droid"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [],
@@ -1492,8 +2134,34 @@
       "type": "planet",
       "href": "/api/v1/planets/tatooine"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "hutt",
+        "name": "Hutt",
+        "type": "species",
+        "href": "/api/v1/speciess/hutt"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1542,7 +2210,14 @@
       "href": "/api/v1/planets/concord-dawn"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1582,8 +2257,28 @@
       "type": "planet",
       "href": "/api/v1/planets/naboo"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "gungan",
+        "name": "Gungan",
+        "type": "species",
+        "href": "/api/v1/speciess/gungan"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1628,8 +2323,22 @@
       "href": "/api/v1/planets/bestine"
     },
     "species": [],
-    "films": [],
-    "starships": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      }
+    ],
+    "starships": [
+      {
+        "id": "x-wing",
+        "name": "X-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/x-wing"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "Alliance to Restore the Republic",
@@ -1668,8 +2377,22 @@
       "type": "planet",
       "href": "/api/v1/planets/coruscant"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "human",
+        "name": "Human",
+        "type": "species",
+        "href": "/api/v1/speciess/human"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1712,8 +2435,34 @@
       "type": "planet",
       "href": "/api/v1/planets/cerea"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "cerean",
+        "name": "Cerean",
+        "type": "species",
+        "href": "/api/v1/speciess/cerean"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1756,8 +2505,34 @@
       "type": "planet",
       "href": "/api/v1/planets/glee-anselm"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "nautolan",
+        "name": "Nautolan",
+        "type": "species",
+        "href": "/api/v1/speciess/nautolan"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1799,8 +2574,22 @@
       "type": "planet",
       "href": "/api/v1/planets/kamino"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "kaminoan",
+        "name": "Kaminoan",
+        "type": "species",
+        "href": "/api/v1/speciess/kaminoan"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1840,8 +2629,28 @@
       "href": "/api/v1/planets/socorro"
     },
     "species": [],
-    "films": [],
-    "starships": [],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
+    "starships": [
+      {
+        "id": "millennium-falcon",
+        "name": "Millennium Falcon",
+        "type": "starship",
+        "href": "/api/v1/starships/millennium-falcon"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "Cloud City colony",
@@ -1887,9 +2696,41 @@
       "href": "/api/v1/planets/alderaan"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
     "starships": [],
-    "vehicles": [],
+    "vehicles": [
+      {
+        "id": "imperial-speeder-bike",
+        "name": "Imperial Speeder Bike",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/imperial-speeder-bike"
+      }
+    ],
     "affiliations": [
       "Elder Houses",
       "House of Organa",
@@ -1941,7 +2782,14 @@
       "href": "/api/v1/planets/bespin"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -1988,9 +2836,60 @@
       "href": "/api/v1/planets/tatooine"
     },
     "species": [],
-    "films": [],
-    "starships": [],
-    "vehicles": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
+    "starships": [
+      {
+        "id": "imperial-shuttle",
+        "name": "Imperial shuttle",
+        "type": "starship",
+        "href": "/api/v1/starships/imperial-shuttle"
+      },
+      {
+        "id": "x-wing",
+        "name": "X-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/x-wing"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "imperial-speeder-bike",
+        "name": "Imperial Speeder Bike",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/imperial-speeder-bike"
+      },
+      {
+        "id": "snowspeeder",
+        "name": "Snowspeeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/snowspeeder"
+      }
+    ],
     "affiliations": [
       "Alliance to Restore the Republic",
       "Red Squadron",
@@ -2046,8 +2945,28 @@
       "type": "planet",
       "href": "/api/v1/planets/mirial"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "mirialan",
+        "name": "Mirialan",
+        "type": "species",
+        "href": "/api/v1/speciess/mirialan"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2095,7 +3014,26 @@
       "href": "/api/v1/planets/haruun-kal"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2138,8 +3076,28 @@
       "type": "planet",
       "href": "/api/v1/planets/champala"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "chagrian",
+        "name": "Chagrian",
+        "type": "species",
+        "href": "/api/v1/speciess/chagrian"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2183,7 +3141,14 @@
       "href": "/api/v1/planets/chandrila"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2226,9 +3191,30 @@
       "type": "planet",
       "href": "/api/v1/planets/sullust"
     },
-    "species": [],
-    "films": [],
-    "starships": [],
+    "species": [
+      {
+        "id": "sullustan",
+        "name": "Sullustan",
+        "type": "species",
+        "href": "/api/v1/speciess/sullustan"
+      }
+    ],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ],
+    "starships": [
+      {
+        "id": "millennium-falcon",
+        "name": "Millennium Falcon",
+        "type": "starship",
+        "href": "/api/v1/starships/millennium-falcon"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "House of Organa",
@@ -2271,8 +3257,34 @@
       "type": "planet",
       "href": "/api/v1/planets/neimoidia"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "neimodian",
+        "name": "Neimodian",
+        "type": "species",
+        "href": "/api/v1/speciess/neimodian"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2317,9 +3329,84 @@
       "href": "/api/v1/planets/stewjon"
     },
     "species": [],
-    "films": [],
-    "starships": [],
-    "vehicles": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
+    "starships": [
+      {
+        "id": "belbullab-22-starfighter",
+        "name": "Belbullab-22 starfighter",
+        "type": "starship",
+        "href": "/api/v1/starships/belbullab-22-starfighter"
+      },
+      {
+        "id": "jedi-interceptor",
+        "name": "Jedi Interceptor",
+        "type": "starship",
+        "href": "/api/v1/starships/jedi-interceptor"
+      },
+      {
+        "id": "jedi-starfighter",
+        "name": "Jedi starfighter",
+        "type": "starship",
+        "href": "/api/v1/starships/jedi-starfighter"
+      },
+      {
+        "id": "naboo-star-skiff",
+        "name": "Naboo star skiff",
+        "type": "starship",
+        "href": "/api/v1/starships/naboo-star-skiff"
+      },
+      {
+        "id": "trade-federation-cruiser",
+        "name": "Trade Federation cruiser",
+        "type": "starship",
+        "href": "/api/v1/starships/trade-federation-cruiser"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "tribubble-bongo",
+        "name": "Tribubble bongo",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tribubble-bongo"
+      }
+    ],
     "affiliations": [
       "Jedi Order",
       "Jedi High Council",
@@ -2370,7 +3457,26 @@
       "href": "/api/v1/planets/tatooine"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2413,8 +3519,46 @@
       "href": "/api/v1/planets/naboo"
     },
     "species": [],
-    "films": [],
-    "starships": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
+    "starships": [
+      {
+        "id": "h-type-nubian-yacht",
+        "name": "H-type Nubian yacht",
+        "type": "starship",
+        "href": "/api/v1/starships/h-type-nubian-yacht"
+      },
+      {
+        "id": "naboo-fighter",
+        "name": "Naboo fighter",
+        "type": "starship",
+        "href": "/api/v1/starships/naboo-fighter"
+      },
+      {
+        "id": "naboo-star-skiff",
+        "name": "Naboo star skiff",
+        "type": "starship",
+        "href": "/api/v1/starships/naboo-star-skiff"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "Apprentice Legislators",
@@ -2463,7 +3607,38 @@
       "href": "/api/v1/planets/naboo"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2530,9 +3705,42 @@
       "type": "planet",
       "href": "/api/v1/planets/dorin"
     },
-    "species": [],
-    "films": [],
-    "starships": [],
+    "species": [
+      {
+        "id": "kel-dor",
+        "name": "Kel Dor",
+        "type": "species",
+        "href": "/api/v1/speciess/kel-dor"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
+    "starships": [
+      {
+        "id": "jedi-starfighter",
+        "name": "Jedi starfighter",
+        "type": "starship",
+        "href": "/api/v1/starships/jedi-starfighter"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "Jedi Order",
@@ -2621,8 +3829,28 @@
       "type": "planet",
       "href": "/api/v1/planets/geonosis"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "geonosian",
+        "name": "Geonosian",
+        "type": "species",
+        "href": "/api/v1/speciess/geonosian"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2668,7 +3896,14 @@
       "href": "/api/v1/planets/naboo"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2715,9 +3950,23 @@
       "href": "/api/v1/planets/coruscant"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
-    "vehicles": [],
+    "vehicles": [
+      {
+        "id": "tribubble-bongo",
+        "name": "Tribubble bongo",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/tribubble-bongo"
+      }
+    ],
     "affiliations": [
       "Jedi Order",
       "Galactic Republic"
@@ -2761,8 +4010,52 @@
       "type": "planet",
       "href": "/api/v1/planets/naboo"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "droid",
+        "name": "Droid",
+        "type": "species",
+        "href": "/api/v1/speciess/droid"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2805,7 +4098,20 @@
     "cybernetics": null,
     "homeworld": null,
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2841,8 +4147,22 @@
       "type": "planet",
       "href": "/api/v1/planets/tatooine"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "droid",
+        "name": "Droid",
+        "type": "species",
+        "href": "/api/v1/speciess/droid"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -2920,7 +4240,20 @@
       "href": "/api/v1/planets/alderaan"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3000,8 +4333,22 @@
       "href": "/api/v1/planets/naboo"
     },
     "species": [],
-    "films": [],
-    "starships": [],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
+    "starships": [
+      {
+        "id": "naboo-royal-starship",
+        "name": "Naboo Royal Starship",
+        "type": "starship",
+        "href": "/api/v1/starships/naboo-royal-starship"
+      }
+    ],
     "vehicles": [],
     "affiliations": [
       "Royal House of Naboo",
@@ -3041,8 +4388,22 @@
       "type": "planet",
       "href": "/api/v1/planets/naboo"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "gungan",
+        "name": "Gungan",
+        "type": "species",
+        "href": "/api/v1/speciess/gungan"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3076,8 +4437,22 @@
       "type": "planet",
       "href": "/api/v1/planets/naboo"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "gungan",
+        "name": "Gungan",
+        "type": "species",
+        "href": "/api/v1/speciess/gungan"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3114,8 +4489,28 @@
       "type": "planet",
       "href": "/api/v1/planets/iktotch"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "iktotchi",
+        "name": "Iktotchi",
+        "type": "species",
+        "href": "/api/v1/speciess/iktotchi"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3156,8 +4551,22 @@
       "type": "planet",
       "href": "/api/v1/planets/scipio"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "muun",
+        "name": "Muun",
+        "type": "species",
+        "href": "/api/v1/speciess/muun"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3196,8 +4605,22 @@
       "type": "planet",
       "href": "/api/v1/planets/malastare"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "dug",
+        "name": "Dug",
+        "type": "species",
+        "href": "/api/v1/speciess/dug"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [],
@@ -3237,8 +4660,28 @@
       "type": "planet",
       "href": "/api/v1/planets/shili"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "togruta",
+        "name": "Togruta",
+        "type": "species",
+        "href": "/api/v1/speciess/togruta"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3283,7 +4726,20 @@
       "href": "/api/v1/planets/tatooine"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3321,7 +4777,20 @@
       "href": "/api/v1/planets/umbara"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3359,8 +4828,22 @@
       "type": "planet",
       "href": "/api/v1/planets/kashyyyk"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "wookie",
+        "name": "Wookie",
+        "type": "species",
+        "href": "/api/v1/speciess/wookie"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3394,8 +4877,22 @@
       "type": "planet",
       "href": "/api/v1/planets/kamino"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "kaminoan",
+        "name": "Kaminoan",
+        "type": "species",
+        "href": "/api/v1/speciess/kaminoan"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3431,8 +4928,22 @@
       "type": "planet",
       "href": "/api/v1/planets/utapau"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "pauan",
+        "name": "Pau'an",
+        "type": "species",
+        "href": "/api/v1/speciess/pauan"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3471,8 +4982,22 @@
       "type": "planet",
       "href": "/api/v1/planets/skako"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "skakoan",
+        "name": "Skakoan",
+        "type": "species",
+        "href": "/api/v1/speciess/skakoan"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3509,8 +5034,28 @@
       "type": "planet",
       "href": "/api/v1/planets/toydaria"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "toydarian",
+        "name": "Toydarian",
+        "type": "species",
+        "href": "/api/v1/speciess/toydarian"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3551,9 +5096,42 @@
       "href": "/api/v1/planets/corellia"
     },
     "species": [],
-    "films": [],
-    "starships": [],
-    "vehicles": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ],
+    "starships": [
+      {
+        "id": "x-wing",
+        "name": "X-wing",
+        "type": "starship",
+        "href": "/api/v1/starships/x-wing"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "snowspeeder",
+        "name": "Snowspeeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/snowspeeder"
+      }
+    ],
     "affiliations": [
       "Galactic Empire",
       "Alliance to Restore the Republic",
@@ -3597,8 +5175,22 @@
       "type": "planet",
       "href": "/api/v1/planets/endor"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "ewok",
+        "name": "Ewok",
+        "type": "species",
+        "href": "/api/v1/speciess/ewok"
+      }
+    ],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3640,7 +5232,20 @@
       "href": "/api/v1/planets/eriadu"
     },
     "species": [],
-    "films": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3688,8 +5293,22 @@
       "type": "planet",
       "href": "/api/v1/planets/quermia"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "quermian",
+        "name": "Quermian",
+        "type": "species",
+        "href": "/api/v1/speciess/quermian"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3728,8 +5347,46 @@
     },
     "cybernetics": null,
     "homeworld": null,
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "yodas-species",
+        "name": "Yoda's species",
+        "type": "species",
+        "href": "/api/v1/speciess/yodas-species"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ],
     "starships": [],
     "vehicles": [],
     "affiliations": [
@@ -3780,10 +5437,31 @@
       "type": "planet",
       "href": "/api/v1/planets/zolan"
     },
-    "species": [],
-    "films": [],
+    "species": [
+      {
+        "id": "clawdite",
+        "name": "Clawdite",
+        "type": "species",
+        "href": "/api/v1/speciess/clawdite"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ],
     "starships": [],
-    "vehicles": [],
+    "vehicles": [
+      {
+        "id": "koro-2-exodrive-airspeeder",
+        "name": "Koro-2 Exodrive airspeeder",
+        "type": "vehicle",
+        "href": "/api/v1/vehicles/koro-2-exodrive-airspeeder"
+      }
+    ],
     "affiliations": [
       "Mabari",
       "Confederacy of Independent Systems"

@@ -1,0 +1,1836 @@
+[
+  {
+    "id": "aleena",
+    "name": "Aleena",
+    "description": "",
+    "classification": "reptile",
+    "designation": "sentient",
+    "averageHeightCm": 80,
+    "averageLifespanYears": 79,
+    "language": "Aleena",
+    "skinColors": [
+      "blue",
+      "gray"
+    ],
+    "hairColors": [],
+    "eyeColors": [],
+    "homeworld": {
+      "id": "aleen-minor",
+      "name": "Aleen Minor",
+      "type": "planet",
+      "href": "/api/v1/planets/aleen-minor"
+    },
+    "characters": [
+      {
+        "id": "ratts-tyerel",
+        "name": "Ratts Tyerel",
+        "type": "character",
+        "href": "/api/v1/characters/ratts-tyerel"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "besalisk",
+    "name": "Besalisk",
+    "description": "",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeightCm": 178,
+    "averageLifespanYears": 75,
+    "language": "besalisk",
+    "skinColors": [
+      "brown"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "yellow"
+    ],
+    "homeworld": {
+      "id": "ojom",
+      "name": "Ojom",
+      "type": "planet",
+      "href": "/api/v1/planets/ojom"
+    },
+    "characters": [
+      {
+        "id": "dexter-jettster",
+        "name": "Dexter Jettster",
+        "type": "character",
+        "href": "/api/v1/characters/dexter-jettster"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "cerean",
+    "name": "Cerean",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 200,
+    "averageLifespanYears": null,
+    "language": "Cerean",
+    "skinColors": [
+      "pale pink"
+    ],
+    "hairColors": [
+      "red",
+      "blond",
+      "black",
+      "white"
+    ],
+    "eyeColors": [
+      "hazel"
+    ],
+    "homeworld": {
+      "id": "cerea",
+      "name": "Cerea",
+      "type": "planet",
+      "href": "/api/v1/planets/cerea"
+    },
+    "characters": [
+      {
+        "id": "ki-adi-mundi",
+        "name": "Ki-Adi-Mundi",
+        "type": "character",
+        "href": "/api/v1/characters/ki-adi-mundi"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "chagrian",
+    "name": "Chagrian",
+    "description": "",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeightCm": 190,
+    "averageLifespanYears": null,
+    "language": "Chagria",
+    "skinColors": [
+      "blue"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "blue"
+    ],
+    "homeworld": {
+      "id": "champala",
+      "name": "Champala",
+      "type": "planet",
+      "href": "/api/v1/planets/champala"
+    },
+    "characters": [
+      {
+        "id": "mas-amedda",
+        "name": "Mas Amedda",
+        "type": "character",
+        "href": "/api/v1/characters/mas-amedda"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "clawdite",
+    "name": "Clawdite",
+    "description": "",
+    "classification": "reptilian",
+    "designation": "sentient",
+    "averageHeightCm": 180,
+    "averageLifespanYears": 70,
+    "language": "Clawdite",
+    "skinColors": [
+      "green",
+      "yellow"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "yellow"
+    ],
+    "homeworld": {
+      "id": "zolan",
+      "name": "Zolan",
+      "type": "planet",
+      "href": "/api/v1/planets/zolan"
+    },
+    "characters": [
+      {
+        "id": "zam-wesell",
+        "name": "Zam Wesell",
+        "type": "character",
+        "href": "/api/v1/characters/zam-wesell"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "droid",
+    "name": "Droid",
+    "description": "",
+    "classification": "artificial",
+    "designation": "sentient",
+    "averageHeightCm": null,
+    "averageLifespanYears": null,
+    "language": null,
+    "skinColors": [],
+    "hairColors": [],
+    "eyeColors": [],
+    "homeworld": null,
+    "characters": [
+      {
+        "id": "c-3po",
+        "name": "C-3PO",
+        "type": "character",
+        "href": "/api/v1/characters/c-3po"
+      },
+      {
+        "id": "ig-88",
+        "name": "IG-88",
+        "type": "character",
+        "href": "/api/v1/characters/ig-88"
+      },
+      {
+        "id": "r2-d2",
+        "name": "R2-D2",
+        "type": "character",
+        "href": "/api/v1/characters/r2-d2"
+      },
+      {
+        "id": "r5-d4",
+        "name": "R5-D4",
+        "type": "character",
+        "href": "/api/v1/characters/r5-d4"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "dug",
+    "name": "Dug",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 100,
+    "averageLifespanYears": null,
+    "language": "Dugese",
+    "skinColors": [
+      "brown",
+      "purple",
+      "grey",
+      "red"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "yellow",
+      "blue"
+    ],
+    "homeworld": {
+      "id": "malastare",
+      "name": "Malastare",
+      "type": "planet",
+      "href": "/api/v1/planets/malastare"
+    },
+    "characters": [
+      {
+        "id": "sebulba",
+        "name": "Sebulba",
+        "type": "character",
+        "href": "/api/v1/characters/sebulba"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "ewok",
+    "name": "Ewok",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 100,
+    "averageLifespanYears": null,
+    "language": "Ewokese",
+    "skinColors": [
+      "brown"
+    ],
+    "hairColors": [
+      "white",
+      "brown",
+      "black"
+    ],
+    "eyeColors": [
+      "orange",
+      "brown"
+    ],
+    "homeworld": {
+      "id": "endor",
+      "name": "Endor",
+      "type": "planet",
+      "href": "/api/v1/planets/endor"
+    },
+    "characters": [
+      {
+        "id": "wicket-systri-warrick",
+        "name": "Wicket Systri Warrick",
+        "type": "character",
+        "href": "/api/v1/characters/wicket-systri-warrick"
+      }
+    ],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ]
+  },
+  {
+    "id": "geonosian",
+    "name": "Geonosian",
+    "description": "",
+    "classification": "insectoid",
+    "designation": "sentient",
+    "averageHeightCm": 178,
+    "averageLifespanYears": null,
+    "language": "Geonosian",
+    "skinColors": [
+      "green",
+      "brown"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "green",
+      "hazel"
+    ],
+    "homeworld": {
+      "id": "geonosis",
+      "name": "Geonosis",
+      "type": "planet",
+      "href": "/api/v1/planets/geonosis"
+    },
+    "characters": [
+      {
+        "id": "poggle-the-lesser",
+        "name": "Poggle the Lesser",
+        "type": "character",
+        "href": "/api/v1/characters/poggle-the-lesser"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "gungan",
+    "name": "Gungan",
+    "description": "",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeightCm": 190,
+    "averageLifespanYears": null,
+    "language": "Gungan basic",
+    "skinColors": [
+      "brown",
+      "green"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "orange"
+    ],
+    "homeworld": {
+      "id": "naboo",
+      "name": "Naboo",
+      "type": "planet",
+      "href": "/api/v1/planets/naboo"
+    },
+    "characters": [
+      {
+        "id": "jar-jar-binks",
+        "name": "Jar Jar Binks",
+        "type": "character",
+        "href": "/api/v1/characters/jar-jar-binks"
+      },
+      {
+        "id": "roos-tarpals",
+        "name": "Roos Tarpals",
+        "type": "character",
+        "href": "/api/v1/characters/roos-tarpals"
+      },
+      {
+        "id": "rugor-nass",
+        "name": "Rugor Nass",
+        "type": "character",
+        "href": "/api/v1/characters/rugor-nass"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "human",
+    "name": "Human",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 180,
+    "averageLifespanYears": 120,
+    "language": "Galactic Basic",
+    "skinColors": [
+      "caucasian",
+      "black",
+      "asian",
+      "hispanic"
+    ],
+    "hairColors": [
+      "blonde",
+      "brown",
+      "black",
+      "red"
+    ],
+    "eyeColors": [
+      "brown",
+      "blue",
+      "green",
+      "hazel",
+      "grey",
+      "amber"
+    ],
+    "homeworld": {
+      "id": "coruscant",
+      "name": "Coruscant",
+      "type": "planet",
+      "href": "/api/v1/planets/coruscant"
+    },
+    "characters": [
+      {
+        "id": "bail-prestor-organa",
+        "name": "Bail Prestor Organa",
+        "type": "character",
+        "href": "/api/v1/characters/bail-prestor-organa"
+      },
+      {
+        "id": "dooku",
+        "name": "Dooku",
+        "type": "character",
+        "href": "/api/v1/characters/dooku"
+      },
+      {
+        "id": "dorme",
+        "name": "Dormé",
+        "type": "character",
+        "href": "/api/v1/characters/dorme"
+      },
+      {
+        "id": "jocasta-nu",
+        "name": "Jocasta Nu",
+        "type": "character",
+        "href": "/api/v1/characters/jocasta-nu"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "hutt",
+    "name": "Hutt",
+    "description": "",
+    "classification": "gastropod",
+    "designation": "sentient",
+    "averageHeightCm": 300,
+    "averageLifespanYears": 1000,
+    "language": "Huttese",
+    "skinColors": [
+      "green",
+      "brown",
+      "tan"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "yellow",
+      "red"
+    ],
+    "homeworld": {
+      "id": "nal-hutta",
+      "name": "Nal Hutta",
+      "type": "planet",
+      "href": "/api/v1/planets/nal-hutta"
+    },
+    "characters": [
+      {
+        "id": "jabba-desilijic-tiure",
+        "name": "Jabba Desilijic Tiure",
+        "type": "character",
+        "href": "/api/v1/characters/jabba-desilijic-tiure"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ]
+  },
+  {
+    "id": "iktotchi",
+    "name": "Iktotchi",
+    "description": "",
+    "classification": null,
+    "designation": "sentient",
+    "averageHeightCm": 180,
+    "averageLifespanYears": null,
+    "language": "Iktotchese",
+    "skinColors": [
+      "pink"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "orange"
+    ],
+    "homeworld": {
+      "id": "iktotch",
+      "name": "Iktotch",
+      "type": "planet",
+      "href": "/api/v1/planets/iktotch"
+    },
+    "characters": [
+      {
+        "id": "saesee-tiin",
+        "name": "Saesee Tiin",
+        "type": "character",
+        "href": "/api/v1/characters/saesee-tiin"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "kaleesh",
+    "name": "Kaleesh",
+    "description": "",
+    "classification": "reptile",
+    "designation": "sentient",
+    "averageHeightCm": 170,
+    "averageLifespanYears": 80,
+    "language": "Kaleesh",
+    "skinColors": [
+      "brown",
+      "orange",
+      "tan"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "yellow"
+    ],
+    "homeworld": {
+      "id": "kalee",
+      "name": "Kalee",
+      "type": "planet",
+      "href": "/api/v1/planets/kalee"
+    },
+    "characters": [
+      {
+        "id": "grievous",
+        "name": "Grievous",
+        "type": "character",
+        "href": "/api/v1/characters/grievous"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "kaminoan",
+    "name": "Kaminoan",
+    "description": "",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeightCm": 220,
+    "averageLifespanYears": 80,
+    "language": "Kaminoan",
+    "skinColors": [
+      "grey",
+      "blue"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "black"
+    ],
+    "homeworld": {
+      "id": "kamino",
+      "name": "Kamino",
+      "type": "planet",
+      "href": "/api/v1/planets/kamino"
+    },
+    "characters": [
+      {
+        "id": "lama-su",
+        "name": "Lama Su",
+        "type": "character",
+        "href": "/api/v1/characters/lama-su"
+      },
+      {
+        "id": "taun-we",
+        "name": "Taun We",
+        "type": "character",
+        "href": "/api/v1/characters/taun-we"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "kel-dor",
+    "name": "Kel Dor",
+    "description": "",
+    "classification": null,
+    "designation": "sentient",
+    "averageHeightCm": 180,
+    "averageLifespanYears": 70,
+    "language": "Kel Dor",
+    "skinColors": [
+      "peach",
+      "orange",
+      "red"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "black",
+      "silver"
+    ],
+    "homeworld": {
+      "id": "dorin",
+      "name": "Dorin",
+      "type": "planet",
+      "href": "/api/v1/planets/dorin"
+    },
+    "characters": [
+      {
+        "id": "plo-koon",
+        "name": "Plo Koon",
+        "type": "character",
+        "href": "/api/v1/characters/plo-koon"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "mirialan",
+    "name": "Mirialan",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 180,
+    "averageLifespanYears": null,
+    "language": "Mirialan",
+    "skinColors": [
+      "yellow",
+      "green"
+    ],
+    "hairColors": [
+      "black",
+      "brown"
+    ],
+    "eyeColors": [
+      "blue",
+      "green",
+      "red",
+      "yellow",
+      "brown",
+      "orange"
+    ],
+    "homeworld": {
+      "id": "mirial",
+      "name": "Mirial",
+      "type": "planet",
+      "href": "/api/v1/planets/mirial"
+    },
+    "characters": [
+      {
+        "id": "barriss-offee",
+        "name": "Barriss Offee",
+        "type": "character",
+        "href": "/api/v1/characters/barriss-offee"
+      },
+      {
+        "id": "luminara-unduli",
+        "name": "Luminara Unduli",
+        "type": "character",
+        "href": "/api/v1/characters/luminara-unduli"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "mon-calamari",
+    "name": "Mon Calamari",
+    "description": "",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeightCm": 160,
+    "averageLifespanYears": null,
+    "language": "Mon Calamarian",
+    "skinColors": [
+      "red",
+      "blue",
+      "brown",
+      "magenta"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "yellow"
+    ],
+    "homeworld": {
+      "id": "mon-cala",
+      "name": "Mon Cala",
+      "type": "planet",
+      "href": "/api/v1/planets/mon-cala"
+    },
+    "characters": [
+      {
+        "id": "ackbar",
+        "name": "Ackbar",
+        "type": "character",
+        "href": "/api/v1/characters/ackbar"
+      }
+    ],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ]
+  },
+  {
+    "id": "muun",
+    "name": "Muun",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 190,
+    "averageLifespanYears": 100,
+    "language": "Muun",
+    "skinColors": [
+      "grey",
+      "white"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "black"
+    ],
+    "homeworld": {
+      "id": "muunilinst",
+      "name": "Muunilinst",
+      "type": "planet",
+      "href": "/api/v1/planets/muunilinst"
+    },
+    "characters": [
+      {
+        "id": "san-hill",
+        "name": "San Hill",
+        "type": "character",
+        "href": "/api/v1/characters/san-hill"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "nautolan",
+    "name": "Nautolan",
+    "description": "",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeightCm": 180,
+    "averageLifespanYears": 70,
+    "language": "Nautila",
+    "skinColors": [
+      "green",
+      "blue",
+      "brown",
+      "red"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "black"
+    ],
+    "homeworld": {
+      "id": "glee-anselm",
+      "name": "Glee Anselm",
+      "type": "planet",
+      "href": "/api/v1/planets/glee-anselm"
+    },
+    "characters": [
+      {
+        "id": "kit-fisto",
+        "name": "Kit Fisto",
+        "type": "character",
+        "href": "/api/v1/characters/kit-fisto"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "neimodian",
+    "name": "Neimodian",
+    "description": "",
+    "classification": null,
+    "designation": "sentient",
+    "averageHeightCm": 180,
+    "averageLifespanYears": null,
+    "language": "Neimoidia",
+    "skinColors": [
+      "grey",
+      "green"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "red",
+      "pink"
+    ],
+    "homeworld": {
+      "id": "cato-neimoidia",
+      "name": "Cato Neimoidia",
+      "type": "planet",
+      "href": "/api/v1/planets/cato-neimoidia"
+    },
+    "characters": [
+      {
+        "id": "nute-gunray",
+        "name": "Nute Gunray",
+        "type": "character",
+        "href": "/api/v1/characters/nute-gunray"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "pauan",
+    "name": "Pau'an",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 190,
+    "averageLifespanYears": 700,
+    "language": "Utapese",
+    "skinColors": [
+      "grey"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "black"
+    ],
+    "homeworld": {
+      "id": "utapau",
+      "name": "Utapau",
+      "type": "planet",
+      "href": "/api/v1/planets/utapau"
+    },
+    "characters": [
+      {
+        "id": "tion-medon",
+        "name": "Tion Medon",
+        "type": "character",
+        "href": "/api/v1/characters/tion-medon"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "quermian",
+    "name": "Quermian",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 240,
+    "averageLifespanYears": 86,
+    "language": "Quermian",
+    "skinColors": [
+      "white"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "yellow"
+    ],
+    "homeworld": {
+      "id": "quermia",
+      "name": "Quermia",
+      "type": "planet",
+      "href": "/api/v1/planets/quermia"
+    },
+    "characters": [
+      {
+        "id": "yarael-poof",
+        "name": "Yarael Poof",
+        "type": "character",
+        "href": "/api/v1/characters/yarael-poof"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "rodian",
+    "name": "Rodian",
+    "description": "",
+    "classification": "sentient",
+    "designation": "reptilian",
+    "averageHeightCm": 170,
+    "averageLifespanYears": null,
+    "language": "Galatic Basic",
+    "skinColors": [
+      "green",
+      "blue"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "black"
+    ],
+    "homeworld": {
+      "id": "rodia",
+      "name": "Rodia",
+      "type": "planet",
+      "href": "/api/v1/planets/rodia"
+    },
+    "characters": [
+      {
+        "id": "greedo",
+        "name": "Greedo",
+        "type": "character",
+        "href": "/api/v1/characters/greedo"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      }
+    ]
+  },
+  {
+    "id": "skakoan",
+    "name": "Skakoan",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": null,
+    "averageLifespanYears": null,
+    "language": "Skakoan",
+    "skinColors": [
+      "grey",
+      "green"
+    ],
+    "hairColors": [],
+    "eyeColors": [],
+    "homeworld": {
+      "id": "skako",
+      "name": "Skako",
+      "type": "planet",
+      "href": "/api/v1/planets/skako"
+    },
+    "characters": [
+      {
+        "id": "wat-tambor",
+        "name": "Wat Tambor",
+        "type": "character",
+        "href": "/api/v1/characters/wat-tambor"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "sullustan",
+    "name": "Sullustan",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 180,
+    "averageLifespanYears": null,
+    "language": "Sullutese",
+    "skinColors": [
+      "pale"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "black"
+    ],
+    "homeworld": {
+      "id": "sullust",
+      "name": "Sullust",
+      "type": "planet",
+      "href": "/api/v1/planets/sullust"
+    },
+    "characters": [
+      {
+        "id": "nien-nunb",
+        "name": "Nien Nunb",
+        "type": "character",
+        "href": "/api/v1/characters/nien-nunb"
+      }
+    ],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ]
+  },
+  {
+    "id": "tholothian",
+    "name": "Tholothian",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": null,
+    "averageLifespanYears": null,
+    "language": null,
+    "skinColors": [
+      "dark"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "blue",
+      "indigo"
+    ],
+    "homeworld": {
+      "id": "tholoth",
+      "name": "Tholoth",
+      "type": "planet",
+      "href": "/api/v1/planets/tholoth"
+    },
+    "characters": [
+      {
+        "id": "adi-gallia",
+        "name": "Adi Gallia",
+        "type": "character",
+        "href": "/api/v1/characters/adi-gallia"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "togruta",
+    "name": "Togruta",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 180,
+    "averageLifespanYears": 94,
+    "language": "Togruti",
+    "skinColors": [
+      "red",
+      "white",
+      "orange",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "black"
+    ],
+    "homeworld": {
+      "id": "shili",
+      "name": "Shili",
+      "type": "planet",
+      "href": "/api/v1/planets/shili"
+    },
+    "characters": [
+      {
+        "id": "shaak-ti",
+        "name": "Shaak Ti",
+        "type": "character",
+        "href": "/api/v1/characters/shaak-ti"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "toong",
+    "name": "Toong",
+    "description": "",
+    "classification": null,
+    "designation": "sentient",
+    "averageHeightCm": 200,
+    "averageLifespanYears": null,
+    "language": "Tundan",
+    "skinColors": [
+      "grey",
+      "green",
+      "yellow"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "orange"
+    ],
+    "homeworld": {
+      "id": "tund",
+      "name": "Tund",
+      "type": "planet",
+      "href": "/api/v1/planets/tund"
+    },
+    "characters": [
+      {
+        "id": "ben-quadinaros",
+        "name": "Ben Quadinaros",
+        "type": "character",
+        "href": "/api/v1/characters/ben-quadinaros"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "toydarian",
+    "name": "Toydarian",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 120,
+    "averageLifespanYears": 91,
+    "language": "Toydarian",
+    "skinColors": [
+      "blue",
+      "green",
+      "grey"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "yellow"
+    ],
+    "homeworld": {
+      "id": "toydaria",
+      "name": "Toydaria",
+      "type": "planet",
+      "href": "/api/v1/planets/toydaria"
+    },
+    "characters": [
+      {
+        "id": "watto",
+        "name": "Watto",
+        "type": "character",
+        "href": "/api/v1/characters/watto"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "trandoshan",
+    "name": "Trandoshan",
+    "description": "",
+    "classification": "reptile",
+    "designation": "sentient",
+    "averageHeightCm": 200,
+    "averageLifespanYears": null,
+    "language": "Dosh",
+    "skinColors": [
+      "brown",
+      "green"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "yellow",
+      "orange"
+    ],
+    "homeworld": {
+      "id": "trandosha",
+      "name": "Trandosha",
+      "type": "planet",
+      "href": "/api/v1/planets/trandosha"
+    },
+    "characters": [
+      {
+        "id": "bossk",
+        "name": "Bossk",
+        "type": "character",
+        "href": "/api/v1/characters/bossk"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "twilek",
+    "name": "Twi'lek",
+    "description": "",
+    "classification": "mammals",
+    "designation": "sentient",
+    "averageHeightCm": 200,
+    "averageLifespanYears": null,
+    "language": "Twi'leki",
+    "skinColors": [
+      "orange",
+      "yellow",
+      "blue",
+      "green",
+      "pink",
+      "purple",
+      "tan"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "blue",
+      "brown",
+      "orange",
+      "pink"
+    ],
+    "homeworld": {
+      "id": "ryloth",
+      "name": "Ryloth",
+      "type": "planet",
+      "href": "/api/v1/planets/ryloth"
+    },
+    "characters": [
+      {
+        "id": "ayla-secura",
+        "name": "Ayla Secura",
+        "type": "character",
+        "href": "/api/v1/characters/ayla-secura"
+      },
+      {
+        "id": "bib-fortuna",
+        "name": "Bib Fortuna",
+        "type": "character",
+        "href": "/api/v1/characters/bib-fortuna"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "vulptereen",
+    "name": "Vulptereen",
+    "description": "",
+    "classification": null,
+    "designation": "sentient",
+    "averageHeightCm": 100,
+    "averageLifespanYears": null,
+    "language": "vulpterish",
+    "skinColors": [
+      "grey"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "yellow"
+    ],
+    "homeworld": {
+      "id": "vulpter",
+      "name": "Vulpter",
+      "type": "planet",
+      "href": "/api/v1/planets/vulpter"
+    },
+    "characters": [
+      {
+        "id": "dud-bolt",
+        "name": "Dud Bolt",
+        "type": "character",
+        "href": "/api/v1/characters/dud-bolt"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "wookie",
+    "name": "Wookie",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 210,
+    "averageLifespanYears": 400,
+    "language": "Shyriiwook",
+    "skinColors": [
+      "gray"
+    ],
+    "hairColors": [
+      "black",
+      "brown"
+    ],
+    "eyeColors": [
+      "blue",
+      "green",
+      "yellow",
+      "brown",
+      "golden",
+      "red"
+    ],
+    "homeworld": {
+      "id": "kashyyyk",
+      "name": "Kashyyyk",
+      "type": "planet",
+      "href": "/api/v1/planets/kashyyyk"
+    },
+    "characters": [
+      {
+        "id": "chewbacca",
+        "name": "Chewbacca",
+        "type": "character",
+        "href": "/api/v1/characters/chewbacca"
+      },
+      {
+        "id": "tarfful",
+        "name": "Tarfful",
+        "type": "character",
+        "href": "/api/v1/characters/tarfful"
+      }
+    ],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "xexto",
+    "name": "Xexto",
+    "description": "",
+    "classification": null,
+    "designation": "sentient",
+    "averageHeightCm": 125,
+    "averageLifespanYears": null,
+    "language": "Xextese",
+    "skinColors": [
+      "grey",
+      "yellow",
+      "purple"
+    ],
+    "hairColors": [],
+    "eyeColors": [
+      "black"
+    ],
+    "homeworld": {
+      "id": "troiken",
+      "name": "Troiken",
+      "type": "planet",
+      "href": "/api/v1/planets/troiken"
+    },
+    "characters": [
+      {
+        "id": "gasgano",
+        "name": "Gasgano",
+        "type": "character",
+        "href": "/api/v1/characters/gasgano"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "yodas-species",
+    "name": "Yoda's species",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 66,
+    "averageLifespanYears": 900,
+    "language": "Galactic basic",
+    "skinColors": [
+      "green",
+      "yellow"
+    ],
+    "hairColors": [
+      "brown",
+      "white"
+    ],
+    "eyeColors": [
+      "brown",
+      "green",
+      "yellow"
+    ],
+    "homeworld": {
+      "id": "unknown",
+      "name": "unknown",
+      "type": "planet",
+      "href": "/api/v1/planets/unknown"
+    },
+    "characters": [
+      {
+        "id": "yoda",
+        "name": "Yoda",
+        "type": "character",
+        "href": "/api/v1/characters/yoda"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "zabrak",
+    "name": "Zabrak",
+    "description": "",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeightCm": 180,
+    "averageLifespanYears": null,
+    "language": "Zabraki",
+    "skinColors": [
+      "pale",
+      "brown",
+      "red",
+      "orange",
+      "yellow"
+    ],
+    "hairColors": [
+      "black"
+    ],
+    "eyeColors": [
+      "brown",
+      "orange"
+    ],
+    "homeworld": {
+      "id": "iridonia",
+      "name": "Iridonia",
+      "type": "planet",
+      "href": "/api/v1/planets/iridonia"
+    },
+    "characters": [
+      {
+        "id": "darth-maul",
+        "name": "Darth Maul",
+        "type": "character",
+        "href": "/api/v1/characters/darth-maul"
+      },
+      {
+        "id": "eeth-koth",
+        "name": "Eeth Koth",
+        "type": "character",
+        "href": "/api/v1/characters/eeth-koth"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  }
+]

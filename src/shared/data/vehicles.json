@@ -1,0 +1,1168 @@
+[
+  {
+    "id": "armored-assault-tank",
+    "name": "Armored Assault Tank",
+    "description": "",
+    "model": "Armoured Assault Tank",
+    "manufacturer": [
+      "Baktoid Armor Workshop"
+    ],
+    "vehicleClass": "repulsorcraft",
+    "costCredits": null,
+    "lengthMeters": 9.75,
+    "crew": "4",
+    "passengers": 6,
+    "cargoCapacityKg": null,
+    "consumables": null,
+    "maxAtmospheringSpeed": 55,
+    "pilots": [],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "at-at",
+    "name": "AT-AT",
+    "description": "",
+    "model": "All Terrain Armored Transport",
+    "manufacturer": [
+      "Kuat Drive Yards",
+      "Imperial Department of Military Research"
+    ],
+    "vehicleClass": "assault walker",
+    "costCredits": null,
+    "lengthMeters": 20,
+    "crew": "5",
+    "passengers": 40,
+    "cargoCapacityKg": 1000,
+    "consumables": null,
+    "maxAtmospheringSpeed": 60,
+    "pilots": [],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "at-rt",
+    "name": "AT-RT",
+    "description": "",
+    "model": "All Terrain Recon Transport",
+    "manufacturer": [
+      "Kuat Drive Yards"
+    ],
+    "vehicleClass": "walker",
+    "costCredits": 40000,
+    "lengthMeters": 3.2,
+    "crew": "1",
+    "passengers": 0,
+    "cargoCapacityKg": 20,
+    "consumables": "1 day",
+    "maxAtmospheringSpeed": 90,
+    "pilots": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "at-st",
+    "name": "AT-ST",
+    "description": "",
+    "model": "All Terrain Scout Transport",
+    "manufacturer": [
+      "Kuat Drive Yards",
+      "Imperial Department of Military Research"
+    ],
+    "vehicleClass": "walker",
+    "costCredits": null,
+    "lengthMeters": 2,
+    "crew": "2",
+    "passengers": 0,
+    "cargoCapacityKg": 200,
+    "consumables": null,
+    "maxAtmospheringSpeed": 90,
+    "pilots": [
+      {
+        "id": "chewbacca",
+        "name": "Chewbacca",
+        "type": "character",
+        "href": "/api/v1/characters/chewbacca"
+      }
+    ],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "at-te",
+    "name": "AT-TE",
+    "description": "",
+    "model": "All Terrain Tactical Enforcer",
+    "manufacturer": [
+      "Rothana Heavy Engineering",
+      "Kuat Drive Yards"
+    ],
+    "vehicleClass": "walker",
+    "costCredits": null,
+    "lengthMeters": 13.2,
+    "crew": "6",
+    "passengers": 36,
+    "cargoCapacityKg": 10000,
+    "consumables": "21 days",
+    "maxAtmospheringSpeed": 60,
+    "pilots": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "bantha-ii-cargo-skiff",
+    "name": "Bantha-II cargo skiff",
+    "description": "",
+    "model": "Bantha-II",
+    "manufacturer": [
+      "Ubrikkian Industries"
+    ],
+    "vehicleClass": "repulsorcraft cargo skiff",
+    "costCredits": 8000,
+    "lengthMeters": 9.5,
+    "crew": "5",
+    "passengers": 16,
+    "cargoCapacityKg": 135000,
+    "consumables": "1 day",
+    "maxAtmospheringSpeed": 250,
+    "pilots": [],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ]
+  },
+  {
+    "id": "c-9979-landing-craft",
+    "name": "C-9979 landing craft",
+    "description": "",
+    "model": "C-9979 landing craft",
+    "manufacturer": [
+      "Haor Chall Engineering"
+    ],
+    "vehicleClass": "landing craft",
+    "costCredits": 200000,
+    "lengthMeters": 210,
+    "crew": "140",
+    "passengers": 284,
+    "cargoCapacityKg": 1800000,
+    "consumables": "1 day",
+    "maxAtmospheringSpeed": 587,
+    "pilots": [],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "clone-turbo-tank",
+    "name": "Clone turbo tank",
+    "description": "",
+    "model": "HAVw A6 Juggernaut",
+    "manufacturer": [
+      "Kuat Drive Yards"
+    ],
+    "vehicleClass": "wheeled walker",
+    "costCredits": 350000,
+    "lengthMeters": 49.4,
+    "crew": "20",
+    "passengers": 300,
+    "cargoCapacityKg": 30000,
+    "consumables": "20 days",
+    "maxAtmospheringSpeed": 160,
+    "pilots": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "corporate-alliance-tank-droid",
+    "name": "Corporate Alliance tank droid",
+    "description": "",
+    "model": "NR-N99 Persuader-class droid enforcer",
+    "manufacturer": [
+      "Techno Union"
+    ],
+    "vehicleClass": "droid tank",
+    "costCredits": 49000,
+    "lengthMeters": 10.96,
+    "crew": "0",
+    "passengers": 4,
+    "cargoCapacityKg": null,
+    "consumables": null,
+    "maxAtmospheringSpeed": 100,
+    "pilots": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "droid-gunship",
+    "name": "Droid gunship",
+    "description": "",
+    "model": "HMP droid gunship",
+    "manufacturer": [
+      "Baktoid Fleet Ordnance",
+      "Haor Chall Engineering"
+    ],
+    "vehicleClass": "airspeeder",
+    "costCredits": 60000,
+    "lengthMeters": 12.3,
+    "crew": "0",
+    "passengers": 0,
+    "cargoCapacityKg": 0,
+    "consumables": null,
+    "maxAtmospheringSpeed": 820,
+    "pilots": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "droid-tri-fighter",
+    "name": "Droid tri-fighter",
+    "description": "",
+    "model": "tri-fighter",
+    "manufacturer": [
+      "Colla Designs",
+      "Phlac-Arphocc Automata Industries"
+    ],
+    "vehicleClass": "droid starfighter",
+    "costCredits": 20000,
+    "lengthMeters": 5.4,
+    "crew": "1",
+    "passengers": 0,
+    "cargoCapacityKg": 0,
+    "consumables": null,
+    "maxAtmospheringSpeed": 1180,
+    "pilots": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "emergency-firespeeder",
+    "name": "Emergency Firespeeder",
+    "description": "",
+    "model": "Fire suppression speeder",
+    "manufacturer": [],
+    "vehicleClass": "fire suppression ship",
+    "costCredits": null,
+    "lengthMeters": null,
+    "crew": "2",
+    "passengers": null,
+    "cargoCapacityKg": null,
+    "consumables": null,
+    "maxAtmospheringSpeed": null,
+    "pilots": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "flitknot-speeder",
+    "name": "Flitknot speeder",
+    "description": "",
+    "model": "Flitknot speeder",
+    "manufacturer": [
+      "Huppla Pasa Tisc Shipwrights Collective"
+    ],
+    "vehicleClass": "speeder",
+    "costCredits": 8000,
+    "lengthMeters": 2,
+    "crew": "1",
+    "passengers": 0,
+    "cargoCapacityKg": null,
+    "consumables": null,
+    "maxAtmospheringSpeed": 634,
+    "pilots": [
+      {
+        "id": "dooku",
+        "name": "Dooku",
+        "type": "character",
+        "href": "/api/v1/characters/dooku"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "geonosian-starfighter",
+    "name": "Geonosian starfighter",
+    "description": "",
+    "model": "Nantex-class territorial defense",
+    "manufacturer": [
+      "Huppla Pasa Tisc Shipwrights Collective"
+    ],
+    "vehicleClass": "starfighter",
+    "costCredits": null,
+    "lengthMeters": 9.8,
+    "crew": "1",
+    "passengers": 0,
+    "cargoCapacityKg": null,
+    "consumables": null,
+    "maxAtmospheringSpeed": 20000,
+    "pilots": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "imperial-speeder-bike",
+    "name": "Imperial Speeder Bike",
+    "description": "",
+    "model": "74-Z speeder bike",
+    "manufacturer": [
+      "Aratech Repulsor Company"
+    ],
+    "vehicleClass": "speeder",
+    "costCredits": 8000,
+    "lengthMeters": 3,
+    "crew": "1",
+    "passengers": 1,
+    "cargoCapacityKg": 4,
+    "consumables": "1 day",
+    "maxAtmospheringSpeed": 360,
+    "pilots": [
+      {
+        "id": "leia-organa",
+        "name": "Leia Organa",
+        "type": "character",
+        "href": "/api/v1/characters/leia-organa"
+      },
+      {
+        "id": "luke-skywalker",
+        "name": "Luke Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/luke-skywalker"
+      }
+    ],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ]
+  },
+  {
+    "id": "koro-2-exodrive-airspeeder",
+    "name": "Koro-2 Exodrive airspeeder",
+    "description": "",
+    "model": "Koro-2 Exodrive airspeeder",
+    "manufacturer": [
+      "Desler Gizh Outworld Mobility Corporation"
+    ],
+    "vehicleClass": "airspeeder",
+    "costCredits": null,
+    "lengthMeters": 6.6,
+    "crew": "1",
+    "passengers": 1,
+    "cargoCapacityKg": 80,
+    "consumables": null,
+    "maxAtmospheringSpeed": 800,
+    "pilots": [
+      {
+        "id": "zam-wesell",
+        "name": "Zam Wesell",
+        "type": "character",
+        "href": "/api/v1/characters/zam-wesell"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "laat-c",
+    "name": "LAAT/c",
+    "description": "",
+    "model": "Low Altitude Assault Transport/carrier",
+    "manufacturer": [
+      "Rothana Heavy Engineering"
+    ],
+    "vehicleClass": "gunship",
+    "costCredits": null,
+    "lengthMeters": 28.82,
+    "crew": "1",
+    "passengers": 0,
+    "cargoCapacityKg": 40000,
+    "consumables": null,
+    "maxAtmospheringSpeed": 620,
+    "pilots": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "laat-i",
+    "name": "LAAT/i",
+    "description": "",
+    "model": "Low Altitude Assault Transport/infrantry",
+    "manufacturer": [
+      "Rothana Heavy Engineering"
+    ],
+    "vehicleClass": "gunship",
+    "costCredits": null,
+    "lengthMeters": 17.4,
+    "crew": "6",
+    "passengers": 30,
+    "cargoCapacityKg": 170,
+    "consumables": null,
+    "maxAtmospheringSpeed": 620,
+    "pilots": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "multi-troop-transport",
+    "name": "Multi-Troop Transport",
+    "description": "",
+    "model": "Multi-Troop Transport",
+    "manufacturer": [
+      "Baktoid Armor Workshop"
+    ],
+    "vehicleClass": "repulsorcraft",
+    "costCredits": 138000,
+    "lengthMeters": 31,
+    "crew": "4",
+    "passengers": 112,
+    "cargoCapacityKg": 12000,
+    "consumables": null,
+    "maxAtmospheringSpeed": 35,
+    "pilots": [],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "neimoidian-shuttle",
+    "name": "Neimoidian shuttle",
+    "description": "",
+    "model": "Sheathipede-class transport shuttle",
+    "manufacturer": [
+      "Haor Chall Engineering"
+    ],
+    "vehicleClass": "transport",
+    "costCredits": null,
+    "lengthMeters": 20,
+    "crew": "2",
+    "passengers": 6,
+    "cargoCapacityKg": 1000,
+    "consumables": "7 days",
+    "maxAtmospheringSpeed": 880,
+    "pilots": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      },
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "oevvaor-jet-catamaran",
+    "name": "Oevvaor jet catamaran",
+    "description": "",
+    "model": "Oevvaor jet catamaran",
+    "manufacturer": [
+      "Appazanna Engineering Works"
+    ],
+    "vehicleClass": "airspeeder",
+    "costCredits": 12125,
+    "lengthMeters": 15.1,
+    "crew": "2",
+    "passengers": 2,
+    "cargoCapacityKg": 50,
+    "consumables": "3 days",
+    "maxAtmospheringSpeed": 420,
+    "pilots": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "raddaugh-gnasp-fluttercraft",
+    "name": "Raddaugh Gnasp fluttercraft",
+    "description": "",
+    "model": "Raddaugh Gnasp fluttercraft",
+    "manufacturer": [
+      "Appazanna Engineering Works"
+    ],
+    "vehicleClass": "air speeder",
+    "costCredits": 14750,
+    "lengthMeters": 7,
+    "crew": "2",
+    "passengers": 0,
+    "cargoCapacityKg": 20,
+    "consumables": null,
+    "maxAtmospheringSpeed": 310,
+    "pilots": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "sail-barge",
+    "name": "Sail barge",
+    "description": "",
+    "model": "Modified Luxury Sail Barge",
+    "manufacturer": [
+      "Ubrikkian Industries Custom Vehicle Division"
+    ],
+    "vehicleClass": "sail barge",
+    "costCredits": 285000,
+    "lengthMeters": 30,
+    "crew": "26",
+    "passengers": 500,
+    "cargoCapacityKg": 2000000,
+    "consumables": "Live food tanks",
+    "maxAtmospheringSpeed": 100,
+    "pilots": [],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ]
+  },
+  {
+    "id": "sand-crawler",
+    "name": "Sand Crawler",
+    "description": "",
+    "model": "Digger Crawler",
+    "manufacturer": [
+      "Corellia Mining Corporation"
+    ],
+    "vehicleClass": "wheeled",
+    "costCredits": 150000,
+    "lengthMeters": 36.8,
+    "crew": "46",
+    "passengers": 30,
+    "cargoCapacityKg": 50000,
+    "consumables": "2 months",
+    "maxAtmospheringSpeed": 30,
+    "pilots": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "single-trooper-aerial-platform",
+    "name": "Single Trooper Aerial Platform",
+    "description": "",
+    "model": "Single Trooper Aerial Platform",
+    "manufacturer": [
+      "Baktoid Armor Workshop"
+    ],
+    "vehicleClass": "repulsorcraft",
+    "costCredits": 2500,
+    "lengthMeters": 2,
+    "crew": "1",
+    "passengers": 0,
+    "cargoCapacityKg": null,
+    "consumables": null,
+    "maxAtmospheringSpeed": 400,
+    "pilots": [],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "sith-speeder",
+    "name": "Sith speeder",
+    "description": "",
+    "model": "FC-20 speeder bike",
+    "manufacturer": [
+      "Razalon"
+    ],
+    "vehicleClass": "speeder",
+    "costCredits": 4000,
+    "lengthMeters": 1.5,
+    "crew": "1",
+    "passengers": 0,
+    "cargoCapacityKg": 2,
+    "consumables": null,
+    "maxAtmospheringSpeed": 180,
+    "pilots": [
+      {
+        "id": "darth-maul",
+        "name": "Darth Maul",
+        "type": "character",
+        "href": "/api/v1/characters/darth-maul"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "snowspeeder",
+    "name": "Snowspeeder",
+    "description": "",
+    "model": "t-47 airspeeder",
+    "manufacturer": [
+      "Incom corporation"
+    ],
+    "vehicleClass": "airspeeder",
+    "costCredits": null,
+    "lengthMeters": 4.5,
+    "crew": "2",
+    "passengers": 0,
+    "cargoCapacityKg": 10,
+    "consumables": null,
+    "maxAtmospheringSpeed": 650,
+    "pilots": [
+      {
+        "id": "luke-skywalker",
+        "name": "Luke Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/luke-skywalker"
+      },
+      {
+        "id": "wedge-antilles",
+        "name": "Wedge Antilles",
+        "type": "character",
+        "href": "/api/v1/characters/wedge-antilles"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "spha",
+    "name": "SPHA",
+    "description": "",
+    "model": "Self-Propelled Heavy Artillery",
+    "manufacturer": [
+      "Rothana Heavy Engineering"
+    ],
+    "vehicleClass": "walker",
+    "costCredits": null,
+    "lengthMeters": 140,
+    "crew": "25",
+    "passengers": 30,
+    "cargoCapacityKg": 500,
+    "consumables": "7 days",
+    "maxAtmospheringSpeed": 35,
+    "pilots": [],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "storm-iv-twin-pod-cloud-car",
+    "name": "Storm IV Twin-Pod cloud car",
+    "description": "",
+    "model": "Storm IV Twin-Pod",
+    "manufacturer": [
+      "Bespin Motors"
+    ],
+    "vehicleClass": "repulsorcraft",
+    "costCredits": 75000,
+    "lengthMeters": 7,
+    "crew": "2",
+    "passengers": 0,
+    "cargoCapacityKg": 10,
+    "consumables": "1 day",
+    "maxAtmospheringSpeed": 1500,
+    "pilots": [],
+    "films": [
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "t-16-skyhopper",
+    "name": "T-16 skyhopper",
+    "description": "",
+    "model": "T-16 skyhopper",
+    "manufacturer": [
+      "Incom Corporation"
+    ],
+    "vehicleClass": "repulsorcraft",
+    "costCredits": 14500,
+    "lengthMeters": 10.4,
+    "crew": "1",
+    "passengers": 1,
+    "cargoCapacityKg": 50,
+    "consumables": "0",
+    "maxAtmospheringSpeed": 1200,
+    "pilots": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      }
+    ]
+  },
+  {
+    "id": "tie-bomber",
+    "name": "TIE bomber",
+    "description": "",
+    "model": "TIE/sa bomber",
+    "manufacturer": [
+      "Sienar Fleet Systems"
+    ],
+    "vehicleClass": "space/planetary bomber",
+    "costCredits": null,
+    "lengthMeters": 7.8,
+    "crew": "1",
+    "passengers": 0,
+    "cargoCapacityKg": null,
+    "consumables": "2 days",
+    "maxAtmospheringSpeed": 850,
+    "pilots": [],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "tie-in-interceptor",
+    "name": "TIE/IN interceptor",
+    "description": "",
+    "model": "Twin Ion Engine Interceptor",
+    "manufacturer": [
+      "Sienar Fleet Systems"
+    ],
+    "vehicleClass": "starfighter",
+    "costCredits": null,
+    "lengthMeters": 9.6,
+    "crew": "1",
+    "passengers": 0,
+    "cargoCapacityKg": 75,
+    "consumables": "2 days",
+    "maxAtmospheringSpeed": 1250,
+    "pilots": [],
+    "films": [
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      }
+    ]
+  },
+  {
+    "id": "tie-ln-starfighter",
+    "name": "TIE/LN starfighter",
+    "description": "",
+    "model": "Twin Ion Engine/Ln Starfighter",
+    "manufacturer": [
+      "Sienar Fleet Systems"
+    ],
+    "vehicleClass": "starfighter",
+    "costCredits": null,
+    "lengthMeters": 6.4,
+    "crew": "1",
+    "passengers": 0,
+    "cargoCapacityKg": 65,
+    "consumables": "2 days",
+    "maxAtmospheringSpeed": 1200,
+    "pilots": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      },
+      {
+        "id": "return-of-the-jedi",
+        "name": "Return of the Jedi",
+        "type": "film",
+        "href": "/api/v1/films/return-of-the-jedi"
+      },
+      {
+        "id": "the-empire-strikes-back",
+        "name": "The Empire Strikes Back",
+        "type": "film",
+        "href": "/api/v1/films/the-empire-strikes-back"
+      }
+    ]
+  },
+  {
+    "id": "tribubble-bongo",
+    "name": "Tribubble bongo",
+    "description": "",
+    "model": "Tribubble bongo",
+    "manufacturer": [
+      "Otoh Gunga Bongameken Cooperative"
+    ],
+    "vehicleClass": "submarine",
+    "costCredits": null,
+    "lengthMeters": 15,
+    "crew": "1",
+    "passengers": 2,
+    "cargoCapacityKg": 1600,
+    "consumables": null,
+    "maxAtmospheringSpeed": 85,
+    "pilots": [
+      {
+        "id": "obi-wan-kenobi",
+        "name": "Obi-Wan Kenobi",
+        "type": "character",
+        "href": "/api/v1/characters/obi-wan-kenobi"
+      },
+      {
+        "id": "qui-gon-jinn",
+        "name": "Qui-Gon Jinn",
+        "type": "character",
+        "href": "/api/v1/characters/qui-gon-jinn"
+      }
+    ],
+    "films": [
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "tsmeu-6-personal-wheel-bike",
+    "name": "Tsmeu-6 personal wheel bike",
+    "description": "",
+    "model": "Tsmeu-6 personal wheel bike",
+    "manufacturer": [
+      "Z-Gomot Ternbuell Guppat Corporation"
+    ],
+    "vehicleClass": "wheeled walker",
+    "costCredits": 15000,
+    "lengthMeters": 3.5,
+    "crew": "1",
+    "passengers": 1,
+    "cargoCapacityKg": 10,
+    "consumables": null,
+    "maxAtmospheringSpeed": 330,
+    "pilots": [
+      {
+        "id": "grievous",
+        "name": "Grievous",
+        "type": "character",
+        "href": "/api/v1/characters/grievous"
+      }
+    ],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      }
+    ]
+  },
+  {
+    "id": "vulture-droid",
+    "name": "Vulture Droid",
+    "description": "",
+    "model": "Vulture-class droid starfighter",
+    "manufacturer": [
+      "Haor Chall Engineering",
+      "Baktoid Armor Workshop"
+    ],
+    "vehicleClass": "starfighter",
+    "costCredits": null,
+    "lengthMeters": 3.5,
+    "crew": "0",
+    "passengers": 0,
+    "cargoCapacityKg": 0,
+    "consumables": null,
+    "maxAtmospheringSpeed": 1200,
+    "pilots": [],
+    "films": [
+      {
+        "id": "revenge-of-the-sith",
+        "name": "Revenge of the Sith",
+        "type": "film",
+        "href": "/api/v1/films/revenge-of-the-sith"
+      },
+      {
+        "id": "the-phantom-menace",
+        "name": "The Phantom Menace",
+        "type": "film",
+        "href": "/api/v1/films/the-phantom-menace"
+      }
+    ]
+  },
+  {
+    "id": "x-34-landspeeder",
+    "name": "X-34 landspeeder",
+    "description": "",
+    "model": "X-34 landspeeder",
+    "manufacturer": [
+      "SoroSuub Corporation"
+    ],
+    "vehicleClass": "repulsorcraft",
+    "costCredits": 10550,
+    "lengthMeters": 3.4,
+    "crew": "1",
+    "passengers": 1,
+    "cargoCapacityKg": 5,
+    "consumables": null,
+    "maxAtmospheringSpeed": 250,
+    "pilots": [],
+    "films": [
+      {
+        "id": "a-new-hope",
+        "name": "A New Hope",
+        "type": "film",
+        "href": "/api/v1/films/a-new-hope"
+      }
+    ]
+  },
+  {
+    "id": "xj-6-airspeeder",
+    "name": "XJ-6 airspeeder",
+    "description": "",
+    "model": "XJ-6 airspeeder",
+    "manufacturer": [
+      "Narglatch AirTech prefabricated kit"
+    ],
+    "vehicleClass": "airspeeder",
+    "costCredits": null,
+    "lengthMeters": 6.23,
+    "crew": "1",
+    "passengers": 1,
+    "cargoCapacityKg": null,
+    "consumables": null,
+    "maxAtmospheringSpeed": 720,
+    "pilots": [
+      {
+        "id": "anakin-skywalker",
+        "name": "Anakin Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/anakin-skywalker"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  },
+  {
+    "id": "zephyr-g-swoop-bike",
+    "name": "Zephyr-G swoop bike",
+    "description": "",
+    "model": "Zephyr-G swoop bike",
+    "manufacturer": [
+      "Mobquet Swoops and Speeders"
+    ],
+    "vehicleClass": "repulsorcraft",
+    "costCredits": 5750,
+    "lengthMeters": 3.68,
+    "crew": "1",
+    "passengers": 1,
+    "cargoCapacityKg": 200,
+    "consumables": null,
+    "maxAtmospheringSpeed": 350,
+    "pilots": [
+      {
+        "id": "anakin-skywalker",
+        "name": "Anakin Skywalker",
+        "type": "character",
+        "href": "/api/v1/characters/anakin-skywalker"
+      }
+    ],
+    "films": [
+      {
+        "id": "attack-of-the-clones",
+        "name": "Attack of the Clones",
+        "type": "film",
+        "href": "/api/v1/films/attack-of-the-clones"
+      }
+    ]
+  }
+]
