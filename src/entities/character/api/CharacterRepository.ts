@@ -6,6 +6,10 @@ import type { Character } from '../model/types';
 export type CharacterFilters = {
   side?: Side;
   affiliation?: string;
+  homeworld?: string;
+  species?: string;
+  film?: string;
+  gender?: string;
 };
 
 export class CharacterRepository {
@@ -30,9 +34,19 @@ export class CharacterRepository {
 function matchesAllFilters(character: Character, filters: CharacterFilters): boolean {
   if (filters.side !== undefined && character.side !== filters.side) return false;
   if (filters.affiliation !== undefined) {
-    const target = filters.affiliation.toLowerCase();
-    const matched = character.affiliations.some((aff) => slugify(aff) === target);
-    if (!matched) return false;
+    if (!character.affiliations.some((aff) => slugify(aff) === filters.affiliation)) return false;
+  }
+  if (filters.homeworld !== undefined) {
+    if (character.homeworld?.id !== filters.homeworld) return false;
+  }
+  if (filters.species !== undefined) {
+    if (!character.species.some((s) => s.id === filters.species)) return false;
+  }
+  if (filters.film !== undefined) {
+    if (!character.films.some((f) => f.id === filters.film)) return false;
+  }
+  if (filters.gender !== undefined) {
+    if (character.gender !== filters.gender) return false;
   }
   return true;
 }
