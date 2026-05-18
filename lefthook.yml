@@ -1,0 +1,16 @@
+pre-commit:
+  parallel: true
+  commands:
+    biome:
+      glob: "*.{ts,tsx,js,jsx,json,css}"
+      run: bunx biome check --no-errors-on-unmatched {staged_files}
+    typecheck:
+      run: bun run typecheck
+    test:
+      glob: "{scripts/build-data/**,src/shared/api/**,src/shared/lib/**,src/entities/**,src/shared/ui/**,src/features/**}/*.{ts,tsx}"
+      run: bun run test
+
+commit-msg:
+  commands:
+    commitlint:
+      run: bunx commitlint --edit {1}

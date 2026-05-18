@@ -1,0 +1,32 @@
+/**
+ * Sith (dark side) palette.
+ * Applied via [data-theme="sith"] on <html> — also the SSR default.
+ * See docs/TASTE.md for token semantics.
+ */
+
+[data-theme="sith"] {
+  /* surfaces */
+  --bg-canvas: #0b0908;
+  --bg-surface: #171110;
+  --bg-elevated: #221816;
+
+  /* text */
+  --text-primary: #ede8df;
+  --text-secondary: #a59a8b;
+  --text-muted: #766c61;
+
+  /* accents */
+  --accent: #a8262a;
+  --accent-soft: rgba(168, 38, 42, 0.16);
+  --accent-strong: #c4313a;
+  --gold: #c39a4b;
+
+  /* structure */
+  --border: rgba(237, 232, 223, 0.1);
+  --border-strong: rgba(237, 232, 223, 0.2);
+  --shadow-color: rgba(168, 38, 42, 0.2);
+
+  /* state */
+  --focus-ring: var(--accent);
+  --saber-color: var(--accent);
+}

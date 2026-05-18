@@ -1,0 +1,32 @@
+/**
+ * Jedi (light side) palette.
+ * Applied via [data-theme="jedi"] on <html>.
+ * See docs/TASTE.md for token semantics.
+ */
+
+[data-theme="jedi"] {
+  /* surfaces */
+  --bg-canvas: #efe7d6;
+  --bg-surface: #f7f1e3;
+  --bg-elevated: #fbf6ea;
+
+  /* text */
+  --text-primary: #0a1330;
+  --text-secondary: #3b465e;
+  --text-muted: #76808f;
+
+  /* accents */
+  --accent: #3b78c9;
+  --accent-soft: rgba(59, 120, 201, 0.12);
+  --accent-strong: #2a5fa3;
+  --gold: #c39a4b;
+
+  /* structure */
+  --border: rgba(10, 19, 48, 0.12);
+  --border-strong: rgba(10, 19, 48, 0.24);
+  --shadow-color: rgba(10, 19, 48, 0.18);
+
+  /* state */
+  --focus-ring: var(--accent);
+  --saber-color: var(--accent);
+}

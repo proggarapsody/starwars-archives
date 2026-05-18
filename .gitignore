@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+
+# next build artifacts
+.next/
+out/
+
+# bundled output
+dist/
+
+# environment
+.env*.local
+.env
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# test / coverage
+coverage/
+.vitest-cache/
+
+# typescript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel
+.vercel

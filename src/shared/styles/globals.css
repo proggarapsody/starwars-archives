@@ -1,0 +1,170 @@
+/**
+ * Global styles — resets, base typography, theme imports.
+ * Only place where unscoped CSS is allowed.
+ */
+
+@import url("../../../config/theme/jedi.css");
+@import url("../../../config/theme/sith.css");
+
+/* ------------------------------------------------------------------ *
+ * Theme-independent tokens
+ * ------------------------------------------------------------------ */
+
+:root {
+  /* spacing scale */
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+  --space-40: 160px;
+
+  /* type scale */
+  --font-size-display: clamp(3.5rem, 8vw, 7rem);
+  --font-size-h1: clamp(2.5rem, 5vw, 4rem);
+  --font-size-h2: clamp(2rem, 4vw, 3rem);
+  --font-size-h3: 1.5rem;
+  --font-size-body: 1rem;
+  --font-size-small: 0.875rem;
+  --font-size-fine: 0.75rem;
+
+  /* radius */
+  --radius-1: 4px;
+  --radius-2: 8px;
+  --radius-3: 12px;
+  --radius-pill: 999px;
+
+  /* motion */
+  --motion-fast: 180ms;
+  --motion-normal: 240ms;
+  --motion-slow: 420ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* layout */
+  --container-max: 1240px;
+  --container-gutter: var(--space-6);
+
+  /* side-tint (Force-Tinted UI) */
+  --side-tint: transparent;
+}
+
+/* ------------------------------------------------------------------ *
+ * Reset
+ * ------------------------------------------------------------------ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  font-family: var(--font-body), system-ui, -apple-system, sans-serif;
+  font-size: var(--font-size-body);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background-color: var(--bg-canvas);
+  min-height: 100dvh;
+  text-wrap: pretty;
+  transition: background-color var(--motion-normal) var(--motion-ease), color var(--motion-normal)
+    var(--motion-ease);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------------ *
+ * Typography defaults
+ * ------------------------------------------------------------------ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  color: var(--text-primary);
+}
+
+p {
+  max-width: 65ch;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--text-primary);
+}
+
+/* ------------------------------------------------------------------ *
+ * Focus
+ * ------------------------------------------------------------------ */
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-1);
+}
