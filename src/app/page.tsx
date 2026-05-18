@@ -1,13 +1,11 @@
-import styles from './page.module.css';
+import { site } from '@/config/site';
+import { HomeScreen } from '@/screens/home';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  description: site.description,
+};
 
 export default function HomePage() {
-  return (
-    <main className={styles.main}>
-      <p className={styles.eyebrow}>Star Wars Archives</p>
-      <h1 className={styles.title}>An archive, ignited.</h1>
-      <p className={styles.lede}>
-        A premium-feel, read-only encyclopedia of the Star Wars galaxy. Scaffold in place.
-      </p>
-    </main>
-  );
+  return <HomeScreen />;
 }

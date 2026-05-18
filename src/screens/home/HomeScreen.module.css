@@ -1,0 +1,76 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-32);
+  padding-block: var(--space-20) var(--space-24);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  max-width: 36ch;
+  padding-block-start: var(--space-12);
+}
+
+.eyebrow {
+  font-size: var(--font-size-fine);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.title {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: var(--font-size-display);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+  text-wrap: balance;
+}
+
+.lede {
+  font-size: var(--font-size-h3);
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  text-wrap: pretty;
+  max-width: 65ch;
+}
+
+.menu,
+.rail {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+}
+
+.sectionEyebrow {
+  /* Reset the global h2 type to act as a small-caps section marker.
+   * We keep an h2 in the DOM for landmark structure while the visible
+   * presentation is a small-caps label per docs/TASTE.md. */
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: var(--font-size-fine);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.sectionEyebrowText {
+  display: inline-block;
+}
+
+@media (min-width: 720px) {
+  .screen {
+    padding-block: var(--space-24) var(--space-32);
+  }
+
+  .hero {
+    max-width: 22ch;
+    padding-block-start: var(--space-20);
+  }
+}
