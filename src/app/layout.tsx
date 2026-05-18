@@ -1,4 +1,6 @@
 import { site } from '@/config/site';
+import { SiteFooter } from '@/widgets/site-footer';
+import { SiteHeader } from '@/widgets/site-header';
 import type { Metadata, Viewport } from 'next';
 import { Fraunces, Geist, Geist_Mono } from 'next/font/google';
 import '@/shared/styles/globals.css';
@@ -57,7 +59,13 @@ export default function RootLayout({
       className={`${fraunces.variable} ${geistSans.variable} ${geistMono.variable}`}
       suppressHydrationWarning
     >
-      <body>{children}</body>
+      <body>
+        <div className="app-shell">
+          <SiteHeader />
+          <main className="app-main">{children}</main>
+          <SiteFooter />
+        </div>
+      </body>
     </html>
   );
 }
