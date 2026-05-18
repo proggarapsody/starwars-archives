@@ -1,0 +1,9 @@
+.label {
+  display: inline-block;
+  font-size: var(--font-size-fine);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  line-height: 1.2;
+}

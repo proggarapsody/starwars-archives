@@ -1,0 +1,1 @@
+export { SpeciesCard } from './SpeciesCard';

@@ -1,0 +1,1 @@
+export { StarshipsIndexScreen } from './StarshipsIndexScreen';

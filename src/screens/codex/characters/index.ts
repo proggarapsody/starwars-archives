@@ -1,0 +1,1 @@
+export { CharactersIndexScreen } from './CharactersIndexScreen';

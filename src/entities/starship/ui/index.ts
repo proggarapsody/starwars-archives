@@ -1,0 +1,1 @@
+export { StarshipCard } from './StarshipCard';
