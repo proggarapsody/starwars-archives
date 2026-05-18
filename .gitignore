@@ -38,3 +38,6 @@ next-env.d.ts
 
 # vercel
 .vercel
+
+# caveman-compress backups
+*.original.md

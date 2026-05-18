@@ -2,11 +2,11 @@
 
 ## Approach
 
-**Feature-Sliced Design (FSD), lite variant, adapted for Next.js App Router.** See [ADR-0002](adr/0002-fsd-lite-in-next-app-router.md) for the reasoning. We borrow FSD's layered vocabulary (entities, features, widgets, screens, shared) and discard its app-layer folder because Next's `src/app/layout.tsx` does that job natively.
+**Feature-Sliced Design (FSD), lite variant, adapted for Next.js App Router.** See [ADR-0002](adr/0002-fsd-lite-in-next-app-router.md) for reasoning. Borrow FSD's layered vocab (entities, features, widgets, screens, shared); drop app-layer folder — Next's `src/app/layout.tsx` does that natively.
 
 ## Layers
 
-Imports go **down only**. A higher layer may import from any lower layer; same-layer cross-slice imports are forbidden. There is no linter enforcing this — see [ADR-0002](adr/0002-fsd-lite-in-next-app-router.md) for why.
+Imports go **down only**. Higher layer imports any lower; same-layer cross-slice forbidden. No linter enforces — see [ADR-0002](adr/0002-fsd-lite-in-next-app-router.md) for why.
 
 ```
 config/          ← top-level constants, env, route map, theme tokens, site metadata
@@ -143,27 +143,27 @@ starwars-archives/
 
 ## SOLID at the data layer
 
-The data layer is the only place that needs OOP discipline. UI is plain typed records and functions.
+Data layer only place needing OOP discipline. UI = plain typed records + fns.
 
 ### Single Responsibility
 
-Each repository handles one entity type. `CharacterRepository.findBySlug` knows nothing about films. Cross-entity composition happens in screens or in dedicated services like `RelatedEntriesService`.
+One repo per entity type. `CharacterRepository.findBySlug` knows nothing of films. Cross-entity composition -> screens or dedicated services like `RelatedEntriesService`.
 
 ### Open / Closed
 
-New filter? Add a method to the repository or extend a query-spec object. Don't modify existing methods.
+New filter? Add method to repo or extend query-spec obj. Don't modify existing methods.
 
 ### Liskov
 
-`JsonCodexDataSource` implements `CodexDataSource`. Future implementations (Postgres, KV store) must be drop-in replacements — same method signatures, same return types, same error semantics.
+`JsonCodexDataSource` implements `CodexDataSource`. Future impls (Postgres, KV) must be drop-in — same signatures, return types, error semantics.
 
 ### Interface Segregation
 
-`CodexDataSource` exposes one method per entity-collection getter (`getCharacters`, `getFilms`, …). UI consumers depend on the specific repository they need, not the whole data source.
+`CodexDataSource` exposes one method per entity-collection getter (`getCharacters`, `getFilms`, …). UI consumers depend on specific repo, not whole data source.
 
 ### Dependency Inversion
 
-Repositories depend on the `CodexDataSource` interface, not on a concrete JSON loader. Wired up in `shared/api/index.ts` as a single composition root.
+Repos depend on `CodexDataSource` interface, not concrete JSON loader. Wired in `shared/api/index.ts` as single composition root.
 
 ```ts
 // src/shared/api/index.ts (sketch)
@@ -175,10 +175,10 @@ export const films = new FilmRepository(dataSource);
 
 ## Client / server boundary
 
-- **Default to React Server Components.** All UI is RSC unless it specifically needs interactivity.
-- **Client components** have `"use client"` at the top, filename ends in `.client.tsx`, and live in a `ui/` subfolder under their slice. The filename suffix makes the boundary grep-able.
-- **Data fetching** always happens server-side (in RSC or route handlers), never in client components.
-- **GSAP modules** in `shared/lib/motion/` are imported only by client components — they touch the DOM.
+- **Default to RSC.** All UI is RSC unless needs interactivity.
+- **Client components** have `"use client"` top, filename ends `.client.tsx`, live in `ui/` subfolder under their slice. Suffix -> boundary grep-able.
+- **Data fetching** always server-side (RSC or route handlers), never client.
+- **GSAP modules** in `shared/lib/motion/` imported only by client components — touch DOM.
 
 ```
 src/features/theme-toggle/
@@ -191,7 +191,7 @@ src/features/theme-toggle/
 
 ## API surface
 
-The public REST API at `/api/v1` and the internal RSC data reads share the same repository code. No duplication, no separate "client" and "server" APIs. See [`API.md`](API.md) for endpoint details.
+Public REST API at `/api/v1` + internal RSC reads share same repo code. No dup, no separate "client"/"server" APIs. See [`API.md`](API.md) for endpoints.
 
 ```
 GET /api/v1/characters?affiliation=jedi-order   ← App Router route handler
@@ -203,7 +203,7 @@ CharactersListScreen (RSC)                      ← Server Component
 
 ## Tokens
 
-All visual values live in `config/theme/`. Component CSS Modules reference custom properties only. See [`TASTE.md`](TASTE.md) for the actual values.
+All visual values in `config/theme/`. Component CSS Modules ref custom properties only. See [`TASTE.md`](TASTE.md) for values.
 
 ```css
 /* ❌ Bad — hex in component CSS */
@@ -215,7 +215,7 @@ All visual values live in `config/theme/`. Component CSS Modules reference custo
 
 ## Out of scope
 
-- **Steiger** (FSD's linter). Conventions are documented, not enforced. Trade-off accepted in [ADR-0002](adr/0002-fsd-lite-in-next-app-router.md).
+- **Steiger** (FSD linter). Conventions documented, not enforced. Tradeoff accepted in [ADR-0002](adr/0002-fsd-lite-in-next-app-router.md).
 - **Public Slice Index (PSI).** Cross-slice imports use direct paths. Less ceremony, slightly less encapsulation.
 - **Tailwind.** See [ADR-0003](adr/0003-css-modules-over-tailwind.md).
-- **A motion library.** Native CSS handles 70% of motion; GSAP handles bespoke timelines. No framer-motion, no Motion.
+- **Motion library.** Native CSS handles 70% of motion; GSAP for bespoke timelines. No framer-motion, no Motion.

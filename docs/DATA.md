@@ -2,7 +2,7 @@
 
 ## Provenance
 
-The bundled snapshot in `src/shared/data/` is generated from three upstream sources, merged and normalized.
+Bundled snapshot in `src/shared/data/` generated from three upstream sources, merged + normalized.
 
 | Source | License | Used for | URL |
 |---|---|---|---|
@@ -12,16 +12,16 @@ The bundled snapshot in `src/shared/data/` is generated from three upstream sour
 
 **Dropped sources** (considered, rejected):
 
-- `starwars-databank` — broad entity count (964 characters, 326 locations, etc.) but each record only has `{ name, description, image }` — no structured fields for filtering or cross-linking. Breadth without depth.
-- `swapi.dev` — schema-equivalent to swapi.info but with stringly-typed numbers (`"mass": "77"`). swapi.info is the cleaner fork.
+- `starwars-databank` — broad entity count (964 characters, 326 locations, etc.) but each record only `{ name, description, image }` — no structured fields for filter/cross-link. Breadth without depth.
+- `swapi.dev` — schema-equivalent to swapi.info but stringly-typed numbers (`"mass": "77"`). swapi.info cleaner fork.
 - `swapi.tech` — different schema, less consistent.
-- `evelinag/StarWars-social-network` — scene-by-scene character co-appearance. Dropped along with the mentorship/co-appearance feature in the planning pivot.
-- `Wikidata SPARQL` — gold-standard for licensing (CC0) and structure, but adds query overhead. Reserve for a future enrichment pass if needed.
-- Hand-curated additions for Mandalorian/Andor-era entries — out of scope for v1.
+- `evelinag/StarWars-social-network` — scene-by-scene character co-appearance. Dropped with mentorship/co-appearance feature in planning pivot.
+- `Wikidata SPARQL` — gold-standard licensing (CC0) + structure, but adds query overhead. Reserve for future enrichment pass if needed.
+- Hand-curated Mandalorian/Andor-era additions — out of scope v1.
 
 ## Normalized schema
 
-Every entity is a plain typed record (no classes). Quantities carry units in the type, not the value. `null` is the only "unknown" — no sentinel strings like `"n/a"` or `"unknown"`. Cross-entity refs are inline objects with slug, name, and href — never opaque URLs.
+Every entity is plain typed record (no classes). Quantities carry units in type, not value. `null` is only "unknown" — no sentinel strings like `"n/a"` or `"unknown"`. Cross-entity refs are inline objects with slug, name, href — never opaque URLs.
 
 ```ts
 // Shared
@@ -68,7 +68,7 @@ type Character = {
 
 ## Build script
 
-The snapshot is **manual**: `bun run build:data`. Not part of `next build`. The script lives at `scripts/build-data.ts` and is decomposed into per-source loaders and per-entity normalizers in `scripts/build-data/`.
+Snapshot is **manual**: `bun run build:data`. Not part of `next build`. Script at `scripts/build-data.ts`, decomposed into per-source loaders + per-entity normalizers in `scripts/build-data/`.
 
 ```
 scripts/
@@ -94,19 +94,19 @@ scripts/
         └── sides.json       Hand-curated character → side ('light'|'dark'|'none')
 ```
 
-Every transform function is TDD'd. Run `bun run test scripts/build-data` to verify.
+Every transform TDD'd. Run `bun run test scripts/build-data` to verify.
 
 ## When to re-run
 
 - After upstream source updates (rare).
 - After editing `scripts/build-data/tagging/*` (hand-curated overrides).
-- After changing the normalized schema.
+- After changing normalized schema.
 
-Output is committed JSON — re-running on every build is wasteful and breaks deterministic builds.
+Output is committed JSON — re-running every build wasteful, breaks deterministic builds.
 
 ## Image hosting
 
-Character images are hot-linked from the Wikia CDN (`vignette.wikia.nocookie.net` and the older `lumiere-a.akamaihd.net` are NOT used — akabab points to Wikia). Configure `next/image` in `next.config.ts`:
+Character images hot-linked from Wikia CDN (`vignette.wikia.nocookie.net`; older `lumiere-a.akamaihd.net` NOT used — akabab points to Wikia). Configure `next/image` in `next.config.ts`:
 
 ```ts
 images: {
@@ -119,25 +119,25 @@ images: {
 
 **Risks of hot-linking:**
 - Third-party CDN dependency — if Wikia changes URL structure, images break.
-- Reliability and latency depend on Wikia's CDN, not Vercel's.
-- Lucasfilm owns the underlying imagery; hosting locally vs hot-linking does not change the IP position.
+- Reliability + latency depend on Wikia's CDN, not Vercel's.
+- Lucasfilm owns underlying imagery; local hosting vs hot-link no change to IP position.
 
-**Mitigation:** every `next/image` usage has a fallback poster image. The fallback lives at `/public/images/fallback-portrait.png`.
+**Mitigation:** every `next/image` use has fallback poster. Fallback at `/public/images/fallback-portrait.png`.
 
 ## Schema validation
 
-Every normalized record is validated against a Zod (or `valibot`) schema at the end of the build step. If validation fails, the build aborts. This is the only place we use a validation library — repositories trust the typed JSON at runtime.
+Every normalized record validated against Zod (or `valibot`) schema at end of build. If validation fails, build aborts. Only place we use validation lib — repositories trust typed JSON at runtime.
 
 ## What is not in the snapshot
 
 - TV series characters not in films (Andor, Mandalorian, Clone Wars, Rebels).
 - Books, comics, games.
-- Locations finer-grained than Planet (e.g. Mos Eisley as a sub-planet location).
-- Organizations as entities (they live as affiliation strings on characters only).
-- Droids as a distinct entity type — they're characters (C-3PO, R2-D2, BB-8).
+- Locations finer than Planet (e.g. Mos Eisley as sub-planet).
+- Organizations as entities (exist as affiliation strings on characters only).
+- Droids as distinct entity — they're characters (C-3PO, R2-D2, BB-8).
 
-If we ever expand: Wikidata SPARQL is the most legitimate upstream for any of the above.
+If expand: Wikidata SPARQL most legitimate upstream for any above.
 
 ## License + attribution
 
-Listed in `/sources` route in the app. Mirrors this file's "Provenance" table. Lucasfilm Ltd. attribution required for any imagery in the deployed site.
+Listed in `/sources` route in app. Mirrors this file's "Provenance" table. Lucasfilm Ltd. attribution required for any imagery in deployed site.

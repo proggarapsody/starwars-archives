@@ -5,61 +5,61 @@
 
 ## Context
 
-The data the site presents — Star Wars characters, films, planets, etc. — could come from several places:
+Data site shows — Star Wars chars, films, planets — could come from:
 
-1. Live calls to `swapi.dev` or `swapi.info` on every request.
-2. Live calls cached at the edge with `revalidate`.
-3. A snapshot fetched once at `next build` time and embedded in the build.
-4. A snapshot generated *before* the build, committed to the repo as JSON, and read at runtime from disk.
+1. Live calls to `swapi.dev` or `swapi.info` every req.
+2. Live calls cached at edge w/ `revalidate`.
+3. Snapshot fetched once at `next build` time, embedded in build.
+4. Snapshot generated *before* build, committed to repo as JSON, read at runtime from disk.
 
-The original 2022 project used live SWAPI calls. SWAPI's official host (`swapi.co`) has since died; community forks have inconsistent uptime and schema quirks.
+Original 2022 project used live SWAPI. Official host (`swapi.co`) dead; community forks have flaky uptime + schema quirks.
 
-The data is genuinely static for our purposes — Star Wars canon does change, but not on a timescale that matters for a portfolio site. We will also be merging three upstream sources (akabab for characters, swapi.info for the rest, fgeorges for descriptions) into one normalized schema, which is non-trivial work that should happen exactly once per data update — not on every request.
+Data static for our purposes — canon changes, but not on timescale mattering for portfolio. Also merging three upstream sources (akabab for chars, swapi.info for rest, fgeorges for descriptions) into one normalized schema — non-trivial, should happen once per data update, not per req.
 
 ## Decision
 
-Generate a normalized data snapshot via `scripts/build-data.ts`, write it to `src/shared/data/*.json`, and **commit the JSON to the repo**. The site reads from disk via the repository layer. Re-run the snapshot manually when upstream sources update.
+Generate normalized snapshot via `scripts/build-data.ts`, write to `src/shared/data/*.json`, **commit JSON to repo**. Site reads from disk via repo layer. Re-run snapshot manually when upstream updates.
 
 ## Consequences
 
 ### Positive
 
-- **Zero latency** at request time. RSCs can render the page before SWAPI would have finished its TLS handshake. Critical for the "premium feel" brief.
-- **No third-party uptime risk.** The site keeps working in 2027 even if every SWAPI fork goes dark.
-- **No rate limits.** We can hit upstream sources hard during build, never at runtime.
-- **Cross-source merging is done once.** akabab + swapi.info + fgeorges combine into one normalized record. Cheap at build time, expensive on every request.
-- **Cross-entity queries become trivial.** "Every character from Tatooine" is one filter pass, not five round-trips with broken pagination.
-- **Schema is ours, not SWAPI's.** We fix SWAPI's stringly-typed sins (`"mass": "77"`, `"unknown"` sentinels, opaque URL refs) once in the snapshot, not in every component.
-- **Deterministic builds.** Same input → same output. Useful for CI cache hits and reproducible deploys.
-- **The repo is self-contained.** Cloning gives you everything needed to run the site.
+- **Zero latency** at req time. RSCs render before SWAPI TLS handshake done. Critical for "premium feel" brief.
+- **No 3rd-party uptime risk.** Site works in 2027 even if every SWAPI fork dies.
+- **No rate limits.** Hammer upstream at build, never runtime.
+- **Cross-source merge done once.** akabab + swapi.info + fgeorges -> one normalized record. Cheap at build, expensive per req.
+- **Cross-entity queries trivial.** "Every char from Tatooine" = one filter pass, not five round-trips w/ broken pagination.
+- **Schema ours, not SWAPI's.** Fix SWAPI stringly-typed sins (`"mass": "77"`, `"unknown"` sentinels, opaque URL refs) once in snapshot, not in every component.
+- **Deterministic builds.** Same input -> same output. Good for CI cache hits + reproducible deploys.
+- **Repo self-contained.** Clone -> everything to run site.
 
 ### Negative
 
-- **The repo carries ~1–5 MB of JSON.** Acceptable. The character image binaries are still hot-linked, not committed (see ADR-pending on image hosting).
-- **Data updates are manual.** Re-running `bun run build:data` is a human responsibility. There's no automation that picks up upstream changes.
-- **The snapshot can drift from upstream.** If SWAPI adds a new field, we don't get it until we re-run. Acceptable for a portfolio site; would be a real concern for a production data product.
-- **Build script complexity.** We trade runtime fetch logic for build-time normalization logic. The normalization is more code, but it's pure transforms — easy to test (the build script is TDD'd).
+- **Repo carries ~1–5 MB JSON.** OK. Char image binaries still hot-linked, not committed (see ADR-pending on image hosting).
+- **Data updates manual.** Re-run `bun run build:data` = human job. No automation catches upstream changes.
+- **Snapshot drifts from upstream.** SWAPI adds field -> we miss til re-run. OK for portfolio; real concern for prod data product.
+- **Build script complexity.** Trade runtime fetch logic for build-time normalization. More code, but pure transforms — easy to test (build script TDD'd).
 
 ## Alternatives considered
 
 ### Live fetch with revalidate
 
-Next 15's `fetch(url, { next: { revalidate: 86400 } })` caches at the edge for 24 hours. Simpler conceptually.
+Next 15 `fetch(url, { next: { revalidate: 86400 } })` caches at edge 24h. Simpler.
 
-Rejected because: doesn't solve the cross-source merge problem (we'd still merge per-request or per-revalidation), inherits SWAPI's schema warts in components, and breaks if a SWAPI fork goes dark mid-revalidation window.
+Rejected: doesn't solve cross-source merge (still merge per-req or per-revalidate), inherits SWAPI schema warts in components, breaks if fork dies mid-revalidate.
 
 ### Snapshot at `next build` time (uncommitted)
 
-Run the data builder as part of `next build`. Don't commit the JSON.
+Run data builder as part of `next build`. Don't commit JSON.
 
-Rejected because: every CI build hits upstream sources, every deploy is non-deterministic, and offline development requires running the builder before `next dev`. The committed-snapshot approach has none of these downsides.
+Rejected: every CI build hits upstream, every deploy non-deterministic, offline dev needs builder run before `next dev`. Committed-snapshot has none of these.
 
 ### Wikidata SPARQL
 
-Gold-standard licensing (CC0) and structure, but adds a query layer and runtime dependency on Wikidata's endpoints. Reserved as a future enrichment source.
+Gold licensing (CC0) + structure, but adds query layer + runtime dep on Wikidata endpoints. Reserved as future enrichment source.
 
 ## Reversal cost
 
-**Moderate.** Reversing this decision means rewriting the data layer to fetch from a remote source. The repository interface (`CodexDataSource`) is intentionally designed so the JSON-backed implementation could be swapped for a fetch-backed one with no UI changes. So the cost is bounded — a few days of work, no UI churn.
+**Moderate.** Reverse = rewrite data layer to fetch remote. Repo interface (`CodexDataSource`) intentionally designed so JSON-backed impl swappable for fetch-backed w/ no UI changes. Cost bounded — few days work, no UI churn.
 
-But: the schema we've defined assumes pre-merged data. A live fetch implementation would need to preserve the merge semantics, which means doing the merge on every request (slow) or putting it behind a cache (which is just a less-deterministic version of the snapshot we already have). The pull is toward keeping the snapshot.
+But: schema assumes pre-merged data. Live fetch impl must preserve merge semantics -> merge per req (slow) or behind cache (less-deterministic version of snapshot already have). Pull stays toward snapshot.
