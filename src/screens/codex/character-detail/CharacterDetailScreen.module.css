@@ -1,0 +1,513 @@
+/* -------------------------------------------------------------- *
+ * Character detail — editorial dossier.
+ *
+ * Side-tint cascade: the root `data-side` attribute sets `--side-tint`
+ * for the entire screen. All accent hairlines (frame, arrows, eyebrow
+ * rule) draw from this single custom property — so a Jedi reads kyber
+ * blue, a Sith reads crimson, an unaligned figure stays neutral.
+ * -------------------------------------------------------------- */
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-20);
+  padding-block: var(--space-10) var(--space-24);
+  --side-tint: var(--border-strong);
+}
+
+.screen[data-side="light"] {
+  --side-tint: var(--side-tint-light);
+}
+
+.screen[data-side="dark"] {
+  --side-tint: var(--side-tint-dark);
+}
+
+/* -------------------------------------------------------------- *
+ * Back link (top)
+ * -------------------------------------------------------------- */
+
+.back {
+  /* Sits above the hero with deliberate breathing room. */
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-small);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary);
+  transition: color var(--motion-fast) var(--motion-ease);
+}
+
+.backLink:hover {
+  color: var(--text-primary);
+}
+
+.backArrow {
+  transition: transform var(--motion-fast) var(--motion-ease);
+}
+
+.backLink:hover .backArrow {
+  transform: translateX(calc(var(--space-1) * -1));
+}
+
+/* -------------------------------------------------------------- *
+ * Hero — split editorial layout (text + portrait)
+ * -------------------------------------------------------------- */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-12);
+  align-items: start;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  max-width: 32ch;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--text-muted);
+}
+
+.eyebrowDot {
+  color: var(--side-tint, var(--text-muted));
+}
+
+.name {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: var(--font-size-display);
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+  color: var(--text-primary);
+  text-wrap: balance;
+}
+
+.lede {
+  font-size: var(--font-size-h3);
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  text-wrap: pretty;
+  max-width: 48ch;
+}
+
+.affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-5);
+  margin-block-start: var(--space-2);
+  list-style: none;
+}
+
+.affiliationsItem {
+  position: relative;
+  font-size: var(--font-size-fine);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.affiliationsItem::before {
+  content: "";
+  display: inline-block;
+  width: var(--space-4);
+  height: 1px;
+  background: var(--side-tint, var(--border-strong));
+  vertical-align: middle;
+  margin-inline-end: var(--space-2);
+  transform: translateY(-1px);
+}
+
+/* -------------------------------------------------------------- *
+ * Hero portrait — vignette frame with side-tint hairline
+ * -------------------------------------------------------------- */
+
+.heroFigure {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  background: var(--bg-surface);
+  overflow: hidden;
+  border-radius: var(--radius-2);
+  box-shadow: 0 var(--space-3) var(--space-12) calc(var(--space-2) * -1) var(--shadow-color);
+}
+
+.heroImage {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.heroImagePlaceholder {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    140deg,
+    var(--bg-surface) 0%,
+    var(--bg-elevated) 60%,
+    var(--bg-surface) 100%
+  );
+}
+
+.heroFrame {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px var(--side-tint, var(--border-strong)), inset 0 0 var(--space-16)
+    var(--space-2) color-mix(in srgb, var(--bg-canvas) 60%, transparent);
+}
+
+/* -------------------------------------------------------------- *
+ * Dossier — horizontal divided meta strip
+ * -------------------------------------------------------------- */
+
+.dossier {
+  border-block: 1px solid var(--border);
+  padding-block: var(--space-6);
+}
+
+.dossierGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: var(--space-6) var(--space-10);
+  margin: 0;
+}
+
+.dossierCell {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.dossierTerm {
+  font-size: var(--font-size-fine);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  line-height: 1.2;
+}
+
+.dossierValue {
+  font-size: var(--font-size-body);
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.35;
+  margin: 0;
+}
+
+.dossierValueNumeric {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.005em;
+}
+
+.dossierLink {
+  color: var(--text-primary);
+  border-block-end: 1px solid var(--side-tint, var(--border));
+  padding-block-end: 1px;
+  transition: color var(--motion-fast) var(--motion-ease), border-color var(--motion-fast)
+    var(--motion-ease);
+}
+
+.dossierLink:hover {
+  color: var(--side-tint, var(--text-primary));
+  border-color: var(--side-tint, var(--border-strong));
+}
+
+/* -------------------------------------------------------------- *
+ * Subheading marker (small-caps section labels)
+ * -------------------------------------------------------------- */
+
+.subhead {
+  position: relative;
+  color: var(--text-muted);
+  padding-inline-start: var(--space-6);
+}
+
+.subhead::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  inset-block-start: 50%;
+  width: var(--space-4);
+  height: 1px;
+  background: var(--side-tint, var(--border-strong));
+  transform: translateY(-50%);
+}
+
+/* -------------------------------------------------------------- *
+ * Appearance
+ * -------------------------------------------------------------- */
+
+.appearance {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.appearanceBody {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+
+.appearanceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  gap: var(--space-4) var(--space-10);
+}
+
+.cybernetics {
+  font-size: var(--font-size-body);
+  line-height: 1.55;
+  color: var(--text-secondary);
+  max-width: 60ch;
+}
+
+.cyberneticsLabel {
+  display: block;
+  font-size: var(--font-size-fine);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-block-end: var(--space-1);
+}
+
+/* -------------------------------------------------------------- *
+ * Lineage
+ * -------------------------------------------------------------- */
+
+.lineage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.lineageGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+}
+
+.lineageColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.lineageRole {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: var(--font-size-h3);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.lineageList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-size: var(--font-size-body);
+  color: var(--text-secondary);
+}
+
+/* -------------------------------------------------------------- *
+ * Affiliations (full)
+ * -------------------------------------------------------------- */
+
+.affiliationsFull {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.affiliationsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  list-style: none;
+}
+
+.affiliationsListItem {
+  font-size: var(--font-size-small);
+  color: var(--text-secondary);
+}
+
+.affiliationsListItem:not(:last-child)::after {
+  content: "·";
+  margin-inline-start: var(--space-4);
+  color: var(--text-muted);
+}
+
+/* -------------------------------------------------------------- *
+ * Relations — connections to other entities
+ * -------------------------------------------------------------- */
+
+.relations {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.relationsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-10);
+}
+
+.relationsCol {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.relationsColLabel {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: var(--font-size-h3);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.relationsList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.relationsItem {
+  border-block-start: 1px solid var(--border);
+}
+
+.relationsItem:last-child {
+  border-block-end: 1px solid var(--border);
+}
+
+.relationsLink {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding-block: var(--space-4);
+  color: var(--text-primary);
+  transition: color var(--motion-fast) var(--motion-ease);
+}
+
+.relationsName {
+  font-size: var(--font-size-body);
+  font-weight: 500;
+}
+
+.relationsArrow {
+  font-size: var(--font-size-small);
+  color: var(--text-muted);
+  transition: transform var(--motion-fast) var(--motion-ease), color var(--motion-fast)
+    var(--motion-ease);
+}
+
+.relationsLink:hover {
+  color: var(--side-tint, var(--text-primary));
+}
+
+.relationsLink:hover .relationsArrow {
+  transform: translateX(var(--space-1));
+  color: var(--side-tint, var(--text-secondary));
+}
+
+/* -------------------------------------------------------------- *
+ * Footer
+ * -------------------------------------------------------------- */
+
+.footer {
+  margin-block-start: var(--space-8);
+  padding-block-start: var(--space-8);
+  border-block-start: 1px solid var(--border);
+}
+
+.footerLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-small);
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color var(--motion-fast) var(--motion-ease);
+}
+
+.footerLink:hover {
+  color: var(--text-primary);
+}
+
+.footerLink:hover span:last-child {
+  transform: translateX(var(--space-1));
+}
+
+.footerLink span:last-child {
+  transition: transform var(--motion-fast) var(--motion-ease);
+}
+
+/* -------------------------------------------------------------- *
+ * Breakpoints — asymmetric grid above tablet
+ * -------------------------------------------------------------- */
+
+@media (min-width: 720px) {
+  .screen {
+    gap: var(--space-24);
+    padding-block: var(--space-12) var(--space-32);
+  }
+
+  .appearanceBody {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    align-items: start;
+    gap: var(--space-12);
+  }
+
+  .lineageGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-12);
+  }
+
+  .relationsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+}
+
+@media (min-width: 960px) {
+  .hero {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 3fr);
+    gap: var(--space-16);
+    padding-block-start: var(--space-6);
+  }
+
+  .heroText {
+    max-width: 28ch;
+    padding-block-start: var(--space-4);
+  }
+
+  .heroFigure {
+    aspect-ratio: 3 / 4;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backArrow,
+  .relationsArrow,
+  .footerLink span:last-child {
+    transition: none;
+  }
+}
