@@ -29,10 +29,10 @@
   --space-40: 160px;
 
   /* type scale */
-  --font-size-display: clamp(3.5rem, 8vw, 7rem);
-  --font-size-h1: clamp(2.5rem, 5vw, 4rem);
-  --font-size-h2: clamp(2rem, 4vw, 3rem);
-  --font-size-h3: 1.5rem;
+  --font-size-display: clamp(3rem, 7vw, 5.5rem);
+  --font-size-h1: clamp(2.25rem, 4.5vw, 3.5rem);
+  --font-size-h2: clamp(1.75rem, 3.2vw, 2.25rem);
+  --font-size-h3: 1.25rem;
   --font-size-body: 1rem;
   --font-size-small: 0.875rem;
   --font-size-fine: 0.75rem;
@@ -144,10 +144,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-display), Georgia, serif;
-  font-weight: 500;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display), "Open Sans", system-ui, sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
   text-wrap: balance;
   color: var(--text-primary);
 }

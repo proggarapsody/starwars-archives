@@ -2,30 +2,37 @@ import { routes } from '@/config/routes';
 import type { Film } from '@/entities/film/model/types';
 import { isoYear } from '@/shared/lib/format/number';
 import { toRoman } from '@/shared/lib/format/roman';
-import { MetaList, type MetaListItem, Surface } from '@/shared/ui';
+import styles from '@/shared/ui/EntityTile.module.css';
 import Link from 'next/link';
-import styles from './FilmCard.module.css';
 
 type FilmCardProps = {
   film: Film;
 };
 
-/**
- * Editorial-archive card for the films index. Whole card is the link target.
- */
 export function FilmCard({ film }: FilmCardProps) {
-  const meta: MetaListItem[] = [
-    { label: 'Episode', value: toRoman(film.episode) },
-    { label: 'Released', value: isoYear(film.releaseDate), numeric: true },
-    { label: 'Director', value: film.director },
-  ];
-
   return (
     <Link href={routes.film(film.id)} className={styles.card}>
-      <Surface className={styles.surface}>
+      <div className={styles.crest}>
+        <span className={styles.crestPattern} aria-hidden="true" />
+        <span className={styles.crestBadge}>Film</span>
+        <span className={styles.crestEpisode}>Episode {toRoman(film.episode)}</span>
+        <span className={styles.initial} aria-hidden="true">
+          {toRoman(film.episode)}
+        </span>
+      </div>
+      <div className={styles.body}>
         <h3 className={styles.title}>{film.title}</h3>
-        <MetaList items={meta} aria-label={`${film.title} details`} />
-      </Surface>
+        <dl className={styles.meta}>
+          <div className={styles.metaRow}>
+            <dt>Released</dt>
+            <dd>{isoYear(film.releaseDate)}</dd>
+          </div>
+          <div className={styles.metaRow}>
+            <dt>Director</dt>
+            <dd>{film.director}</dd>
+          </div>
+        </dl>
+      </div>
     </Link>
   );
 }

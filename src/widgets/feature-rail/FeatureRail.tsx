@@ -1,16 +1,17 @@
 import { routes } from '@/config/routes';
 import { site } from '@/config/site';
 import { characters, films, planets, starships } from '@/shared/api';
-import { SmallCapsLabel } from '@/shared/ui';
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './FeatureRail.module.css';
 
 type RailItem = {
-  key: 'character' | 'film' | 'planet' | 'starship';
+  key: string;
   kind: string;
   name: string;
   meta: string;
   href: string;
+  image: string | null;
 };
 
 function formatYear(isoDate: string): string {
@@ -22,10 +23,9 @@ function joinMeta(parts: ReadonlyArray<string | null | undefined>): string {
 }
 
 /**
- * Curated sample rail surfacing one entry from four entity sections.
- * Server component: picks are explicit slugs from `site.featuredSlugs` and
- * resolved through the matching repositories. Detail routes do not exist
- * yet — links will 404 until the detail-page slice lands.
+ * Curated four-card rail surfacing one featured entry from four sections.
+ * Characters carry their wikia portrait; non-character entries fall back to
+ * a representative character portrait so the rail reads as image-led.
  */
 export async function FeatureRail() {
   const {
@@ -35,57 +35,59 @@ export async function FeatureRail() {
     starship: shipSlug,
   } = site.featuredSlugs;
 
-  const [character, film, planet, starship] = await Promise.all([
+  const [character, film, planet, starship, vader, leia, han] = await Promise.all([
     characters.findBySlug(charSlug),
     films.findBySlug(filmSlug),
     planets.findBySlug(planetSlug),
     starships.findBySlug(shipSlug),
+    characters.findBySlug('darth-vader'),
+    characters.findBySlug('leia-organa'),
+    characters.findBySlug('han-solo'),
   ]);
 
   const items: RailItem[] = [];
 
   if (character) {
-    const speciesName = character.species[0]?.name ?? null;
-    const homeworldName = character.homeworld?.name ?? null;
     items.push({
-      key: 'character',
+      key: `c-${character.id}`,
       kind: 'Character',
       name: character.name,
-      meta: joinMeta([speciesName, homeworldName]) || 'Galactic figure',
+      meta: joinMeta([character.species[0]?.name, character.homeworld?.name]) || 'Galactic figure',
       href: routes.character(character.id),
+      image: character.image,
     });
   }
 
   if (film) {
     items.push({
-      key: 'film',
+      key: `f-${film.id}`,
       kind: 'Film',
       name: film.title,
       meta: joinMeta([`Episode ${film.episode}`, formatYear(film.releaseDate), film.director]),
       href: routes.film(film.id),
+      image: vader?.image ?? null,
     });
   }
 
   if (planet) {
-    const climate = planet.climate[0] ?? null;
-    const terrain = planet.terrain[0] ?? null;
     items.push({
-      key: 'planet',
+      key: `p-${planet.id}`,
       kind: 'Planet',
       name: planet.name,
-      meta: joinMeta([climate, terrain]) || 'World on record',
+      meta: joinMeta([planet.climate[0], planet.terrain[0]]) || 'World on record',
       href: routes.planet(planet.id),
+      image: leia?.image ?? null,
     });
   }
 
   if (starship) {
-    const manufacturer = starship.manufacturer[0] ?? null;
     items.push({
-      key: 'starship',
+      key: `s-${starship.id}`,
       kind: 'Starship',
       name: starship.name,
-      meta: joinMeta([starship.starshipClass, manufacturer]) || 'Vessel on record',
+      meta: joinMeta([starship.starshipClass, starship.manufacturer[0]]) || 'Vessel on record',
       href: routes.starship(starship.id),
+      image: han?.image ?? null,
     });
   }
 
@@ -94,18 +96,31 @@ export async function FeatureRail() {
   }
 
   return (
-    <section className={styles.rail} aria-label="Featured entries">
-      <ul className={styles.list}>
-        {items.map((item, index) => (
-          <li key={item.key} className={styles.item} data-offset={index % 4}>
-            <Link href={item.href} className={styles.link}>
-              <SmallCapsLabel className={styles.kind}>{item.kind}</SmallCapsLabel>
+    <ul className={styles.rail}>
+      {items.map((item) => (
+        <li key={item.key} className={styles.item}>
+          <Link href={item.href} className={styles.card}>
+            <div className={styles.media} aria-hidden="true">
+              {item.image ? (
+                <Image
+                  src={item.image}
+                  alt=""
+                  fill
+                  sizes="(min-width: 1024px) 22vw, (min-width: 720px) 45vw, 90vw"
+                  className={styles.mediaImage}
+                  loading="lazy"
+                />
+              ) : null}
+              <span className={styles.mediaScrim} />
+              <span className={styles.kind}>{item.kind}</span>
+            </div>
+            <div className={styles.body}>
               <h3 className={styles.name}>{item.name}</h3>
               <p className={styles.meta}>{item.meta}</p>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </section>
+            </div>
+          </Link>
+        </li>
+      ))}
+    </ul>
   );
 }

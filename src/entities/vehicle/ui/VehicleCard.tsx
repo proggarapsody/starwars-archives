@@ -1,37 +1,42 @@
 import { routes } from '@/config/routes';
 import type { Vehicle } from '@/entities/vehicle/model/types';
 import { formatNumberOrUnknown } from '@/shared/lib/format/number';
-import { MetaList, type MetaListItem, Surface } from '@/shared/ui';
+import styles from '@/shared/ui/EntityTile.module.css';
 import Link from 'next/link';
-import styles from './VehicleCard.module.css';
 
 type VehicleCardProps = {
   vehicle: Vehicle;
 };
 
-/**
- * Editorial-archive card for the vehicles index. Whole card is the link target.
- */
 export function VehicleCard({ vehicle }: VehicleCardProps) {
-  const manufacturer =
-    vehicle.manufacturer.length > 0 ? vehicle.manufacturer.join(', ') : 'unknown';
-
-  const meta: MetaListItem[] = [
-    { label: 'Class', value: vehicle.vehicleClass ?? 'unknown' },
-    { label: 'Manufacturer', value: manufacturer },
-    {
-      label: 'Max speed',
-      value: speedLabel(vehicle.maxAtmospheringSpeed),
-      numeric: true,
-    },
-  ];
+  const manufacturer = vehicle.manufacturer[0] ?? 'unknown';
 
   return (
     <Link href={routes.vehicle(vehicle.id)} className={styles.card}>
-      <Surface className={styles.surface}>
-        <h3 className={styles.name}>{vehicle.name}</h3>
-        <MetaList items={meta} aria-label={`${vehicle.name} details`} />
-      </Surface>
+      <div className={styles.crest}>
+        <span className={styles.crestPattern} aria-hidden="true" />
+        <span className={styles.crestBadge}>Vehicle</span>
+        <span className={styles.initial} aria-hidden="true">
+          {vehicle.name.charAt(0)}
+        </span>
+      </div>
+      <div className={styles.body}>
+        <h3 className={styles.title}>{vehicle.name}</h3>
+        <dl className={styles.meta}>
+          <div className={styles.metaRow}>
+            <dt>Class</dt>
+            <dd>{vehicle.vehicleClass ?? 'unknown'}</dd>
+          </div>
+          <div className={styles.metaRow}>
+            <dt>Maker</dt>
+            <dd>{manufacturer}</dd>
+          </div>
+          <div className={styles.metaRow}>
+            <dt>Max speed</dt>
+            <dd>{speedLabel(vehicle.maxAtmospheringSpeed)}</dd>
+          </div>
+        </dl>
+      </div>
     </Link>
   );
 }

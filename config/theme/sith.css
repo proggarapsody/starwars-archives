@@ -1,30 +1,35 @@
 /**
- * Sith (dark side) palette.
+ * Sith (dark) palette — wikia register.
  * Applied via [data-theme="sith"] on <html> — also the SSR default.
- * See docs/TASTE.md for token semantics.
  */
 
 [data-theme="sith"] {
   /* surfaces */
-  --bg-canvas: #0b0908;
-  --bg-surface: #171110;
-  --bg-elevated: #221816;
+  --bg-canvas: #000000;
+  --bg-surface: #101010;
+  --bg-elevated: #181818;
+  --bg-overlay: rgba(0, 0, 0, 0.7);
 
   /* text */
-  --text-primary: #ede8df;
-  --text-secondary: #a59a8b;
-  --text-muted: #766c61;
+  --text-primary: #ffffff;
+  --text-secondary: #c8c8c8;
+  --text-muted: #8a8a8a;
 
-  /* accents */
-  --accent: #a8262a;
-  --accent-soft: rgba(168, 38, 42, 0.16);
-  --accent-strong: #c4313a;
-  --gold: #c39a4b;
+  /* accents — wikia red + imperial yellow */
+  --accent: #ca0000;
+  --accent-soft: rgba(202, 0, 0, 0.18);
+  --accent-strong: #e30000;
+  --accent-glow: rgba(255, 0, 0, 0.25);
+  --gold: #ffc107;
+  --gold-soft: rgba(255, 193, 7, 0.18);
+
+  /* entity highlight (per wikia tokens: --entity-text-color) */
+  --entity-text: #ffc107;
 
   /* structure */
-  --border: rgba(237, 232, 223, 0.1);
-  --border-strong: rgba(237, 232, 223, 0.2);
-  --shadow-color: rgba(168, 38, 42, 0.2);
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.18);
+  --shadow-color: rgba(0, 0, 0, 0.6);
 
   /* state */
   --focus-ring: var(--accent);
