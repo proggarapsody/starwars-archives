@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/proggarapsody/starwars-archives/compare/v1.0.0...v1.1.0) (2026-05-20)
+
+### Features
+
+* **ui:** rebrand to wikia register with image-led layout ([3eaaed6](https://github.com/proggarapsody/starwars-archives/commit/3eaaed697a62d5024e1539a805534180cbc59192)), closes [#ca0000](https://github.com/proggarapsody/starwars-archives/issues/ca0000) [#ffc107](https://github.com/proggarapsody/starwars-archives/issues/ffc107)
+
 ## 1.0.0 (2026-05-20)
 
 ### Features
