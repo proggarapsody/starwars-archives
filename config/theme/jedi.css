@@ -1,30 +1,35 @@
 /**
- * Jedi (light side) palette.
+ * Jedi (light) palette — wikia register.
  * Applied via [data-theme="jedi"] on <html>.
- * See docs/TASTE.md for token semantics.
  */
 
 [data-theme="jedi"] {
   /* surfaces */
-  --bg-canvas: #efe7d6;
-  --bg-surface: #f7f1e3;
-  --bg-elevated: #fbf6ea;
+  --bg-canvas: #ffffff;
+  --bg-surface: #f5f5f5;
+  --bg-elevated: #ffffff;
+  --bg-overlay: rgba(46, 82, 125, 0.78);
 
   /* text */
-  --text-primary: #0a1330;
-  --text-secondary: #3b465e;
-  --text-muted: #76808f;
+  --text-primary: #000000;
+  --text-secondary: #2e527d;
+  --text-muted: #6b7383;
 
-  /* accents */
-  --accent: #3b78c9;
-  --accent-soft: rgba(59, 120, 201, 0.12);
-  --accent-strong: #2a5fa3;
-  --gold: #c39a4b;
+  /* accents — wikia green + navy + imperial yellow */
+  --accent: #36b517;
+  --accent-soft: rgba(54, 181, 23, 0.15);
+  --accent-strong: #2e9a13;
+  --accent-glow: rgba(21, 162, 223, 0.25);
+  --gold: #ffc107;
+  --gold-soft: rgba(255, 193, 7, 0.18);
+
+  /* entity highlight */
+  --entity-text: #000000;
 
   /* structure */
-  --border: rgba(10, 19, 48, 0.12);
-  --border-strong: rgba(10, 19, 48, 0.24);
-  --shadow-color: rgba(10, 19, 48, 0.18);
+  --border: rgba(0, 0, 0, 0.1);
+  --border-strong: rgba(0, 0, 0, 0.22);
+  --shadow-color: rgba(46, 82, 125, 0.18);
 
   /* state */
   --focus-ring: var(--accent);

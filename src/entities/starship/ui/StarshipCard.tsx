@@ -1,36 +1,43 @@
 import { routes } from '@/config/routes';
 import type { Starship } from '@/entities/starship/model/types';
-import { MetaList, type MetaListItem, Surface } from '@/shared/ui';
+import styles from '@/shared/ui/EntityTile.module.css';
 import Link from 'next/link';
-import styles from './StarshipCard.module.css';
 
 type StarshipCardProps = {
   starship: Starship;
 };
 
-/**
- * Editorial-archive card for the starships index. Whole card is the link target.
- */
 export function StarshipCard({ starship }: StarshipCardProps) {
-  const manufacturer =
-    starship.manufacturer.length > 0 ? starship.manufacturer.join(', ') : 'unknown';
-
-  const meta: MetaListItem[] = [
-    { label: 'Class', value: starship.starshipClass ?? 'unknown' },
-    { label: 'Manufacturer', value: manufacturer },
-    {
-      label: 'Hyperdrive',
-      value: starship.hyperdriveRating !== null ? starship.hyperdriveRating.toFixed(1) : 'unknown',
-      numeric: true,
-    },
-  ];
+  const manufacturer = starship.manufacturer[0] ?? 'unknown';
 
   return (
     <Link href={routes.starship(starship.id)} className={styles.card}>
-      <Surface className={styles.surface}>
-        <h3 className={styles.name}>{starship.name}</h3>
-        <MetaList items={meta} aria-label={`${starship.name} details`} />
-      </Surface>
+      <div className={styles.crest}>
+        <span className={styles.crestPattern} aria-hidden="true" />
+        <span className={styles.crestBadge}>Starship</span>
+        <span className={styles.initial} aria-hidden="true">
+          {starship.name.charAt(0)}
+        </span>
+      </div>
+      <div className={styles.body}>
+        <h3 className={styles.title}>{starship.name}</h3>
+        <dl className={styles.meta}>
+          <div className={styles.metaRow}>
+            <dt>Class</dt>
+            <dd>{starship.starshipClass ?? 'unknown'}</dd>
+          </div>
+          <div className={styles.metaRow}>
+            <dt>Maker</dt>
+            <dd>{manufacturer}</dd>
+          </div>
+          <div className={styles.metaRow}>
+            <dt>Hyperdrive</dt>
+            <dd>
+              {starship.hyperdriveRating !== null ? starship.hyperdriveRating.toFixed(1) : '—'}
+            </dd>
+          </div>
+        </dl>
+      </div>
     </Link>
   );
 }

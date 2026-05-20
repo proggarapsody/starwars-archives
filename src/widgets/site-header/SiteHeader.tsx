@@ -14,8 +14,11 @@ export function SiteHeader() {
   return (
     <header className={styles.header}>
       <Container as="div" className={styles.inner}>
-        <Link href={routes.home} className={styles.brand}>
-          {site.name}
+        <Link href={routes.home} className={styles.brand} aria-label={site.name}>
+          <span className={styles.brandMark} aria-hidden="true">
+            SW
+          </span>
+          <span>{site.name}</span>
         </Link>
 
         <nav className={styles.nav} aria-label="Primary">

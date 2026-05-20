@@ -2,20 +2,21 @@ import { site } from '@/config/site';
 import { SiteFooter } from '@/widgets/site-footer';
 import { SiteHeader } from '@/widgets/site-header';
 import type { Metadata, Viewport } from 'next';
-import { Fraunces, Geist, Geist_Mono } from 'next/font/google';
+import { Geist_Mono, Open_Sans } from 'next/font/google';
 import '@/shared/styles/globals.css';
 
-const fraunces = Fraunces({
-  subsets: ['latin'],
-  variable: '--font-display',
-  display: 'swap',
-  axes: ['opsz', 'SOFT'],
-});
-
-const geistSans = Geist({
+const openSans = Open_Sans({
   subsets: ['latin'],
   variable: '--font-body',
   display: 'swap',
+  weight: ['400', '600', '700', '800'],
+});
+
+const displayFont = Open_Sans({
+  subsets: ['latin'],
+  variable: '--font-display',
+  display: 'swap',
+  weight: ['700', '800'],
 });
 
 const geistMono = Geist_Mono({
@@ -42,8 +43,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#efe7d6' },
-    { media: '(prefers-color-scheme: dark)', color: '#0b0908' },
+    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+    { media: '(prefers-color-scheme: dark)', color: '#000000' },
   ],
 };
 
@@ -56,7 +57,7 @@ export default function RootLayout({
     <html
       lang="en"
       data-theme={site.defaultTheme}
-      className={`${fraunces.variable} ${geistSans.variable} ${geistMono.variable}`}
+      className={`${openSans.variable} ${displayFont.variable} ${geistMono.variable}`}
       suppressHydrationWarning
     >
       <body>
